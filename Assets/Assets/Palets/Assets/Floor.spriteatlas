@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Floor
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -255569227, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -1527719948, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -679858156, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -1800485366, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -1090927776, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: 1904596321, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -255081983, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -962724250, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: 395644251, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -429131653, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 050984d31952dd64b88e96f0e226a367: -429131653
+    - 050984d31952dd64b88e96f0e226a367: 395644251
+    - 050984d31952dd64b88e96f0e226a367: -962724250
+    - 050984d31952dd64b88e96f0e226a367: -255081983
+    - 050984d31952dd64b88e96f0e226a367: 1904596321
+    - 050984d31952dd64b88e96f0e226a367: -1090927776
+    - 050984d31952dd64b88e96f0e226a367: -1800485366
+    - 050984d31952dd64b88e96f0e226a367: -679858156
+    - 050984d31952dd64b88e96f0e226a367: -1527719948
+    - 050984d31952dd64b88e96f0e226a367: -255569227
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -429131653, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: 395644251, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -962724250, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -255081983, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: 1904596321, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -1090927776, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -1800485366, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -679858156, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -1527719948, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -255569227, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Tileset-Terrain3_249
+  - Tileset-Terrain3_248
+  - Tileset-Terrain3_247
+  - Tileset-Terrain3_246
+  - Tileset-Terrain3_245
+  - Tileset-Terrain3_244
+  - Tileset-Terrain3_243
+  - Tileset-Terrain3_242
+  - Tileset-Terrain3_241
+  - Tileset-Terrain3_240
+  m_RenderDataMap: {}
+  m_Tag: Floor
+  m_IsVariant: 0
