@@ -4,13 +4,26 @@ using UnityEngine;
 
 public class DialogueManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static DialogueManager instance { get; private set; }
+
+    private void Awake()
     {
-        
+        // Singleton pattern
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+            return;
+        }
+
+        Destroy(gameObject);
     }
 
-    // Update is called once per frame
+    void Start()
+    {
+            
+    }
+
     void Update()
     {
         
