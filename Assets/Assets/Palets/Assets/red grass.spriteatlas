@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: red grass
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 438894760, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: 1841863019, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -157105343, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -934550998, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -470438000, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -1325393603, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -2004782304, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: 407474770, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -1525337561, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -497015686, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -60228670, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: 1789916208, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -1574807290, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: 667500674, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: -1081080797, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: 1257754549, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    - {fileID: 1856933949, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 050984d31952dd64b88e96f0e226a367: 1841863019
+    - 050984d31952dd64b88e96f0e226a367: -1325393603
+    - 050984d31952dd64b88e96f0e226a367: 1257754549
+    - 050984d31952dd64b88e96f0e226a367: -1574807290
+    - 050984d31952dd64b88e96f0e226a367: -2004782304
+    - 050984d31952dd64b88e96f0e226a367: 1856933949
+    - 050984d31952dd64b88e96f0e226a367: 1789916208
+    - 050984d31952dd64b88e96f0e226a367: 667500674
+    - 050984d31952dd64b88e96f0e226a367: -1081080797
+    - 050984d31952dd64b88e96f0e226a367: -157105343
+    - 050984d31952dd64b88e96f0e226a367: 438894760
+    - 050984d31952dd64b88e96f0e226a367: 407474770
+    - 050984d31952dd64b88e96f0e226a367: -1525337561
+    - 050984d31952dd64b88e96f0e226a367: -497015686
+    - 050984d31952dd64b88e96f0e226a367: -60228670
+    - 050984d31952dd64b88e96f0e226a367: -470438000
+    - 050984d31952dd64b88e96f0e226a367: -934550998
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 1841863019, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -1325393603, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: 1257754549, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -1574807290, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -2004782304, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: 1856933949, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: 1789916208, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: 667500674, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -1081080797, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -157105343, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: 438894760, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: 407474770, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -1525337561, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -497015686, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -60228670, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -470438000, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  - {fileID: -934550998, guid: 050984d31952dd64b88e96f0e226a367, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Tileset-Terrain3_5
+  - Tileset-Terrain3_25
+  - Tileset-Terrain3_196
+  - Tileset-Terrain3_195
+  - Tileset-Terrain3_57
+  - Tileset-Terrain3_173
+  - Tileset-Terrain3_172
+  - Tileset-Terrain3_223
+  - Tileset-Terrain3_222
+  - Tileset-Terrain3_11
+  - Tileset-Terrain3_69
+  - Tileset-Terrain3_72
+  - Tileset-Terrain3_73
+  - Tileset-Terrain3_117
+  - Tileset-Terrain3_116
+  - Tileset-Terrain3_120
+  - Tileset-Terrain3_30
+  m_RenderDataMap: {}
+  m_Tag: red grass
+  m_IsVariant: 0
