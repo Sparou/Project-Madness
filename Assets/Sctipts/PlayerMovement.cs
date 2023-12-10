@@ -43,7 +43,14 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void FixedUpdate()
-    {
+    {   
+        // Freeze player in dialogue
+        if (DialogueManager.instance.dialogueIsPlaying)
+        {
+            rb.velocity = Vector2.zero;
+            return;
+        }
+
         rb.velocity = moveInput * activeMoveSpeed;
 
         if(isDashing)

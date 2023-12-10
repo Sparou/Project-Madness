@@ -4,15 +4,39 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private TextAsset _inkJSON;
+    DialogueManager dialogueManager;
+
+    private bool isTriggered;
+    private NPC currentNpc;
+
+    private void Awake()
     {
-        
+        dialogueManager = DialogueManager.instance;
+        isTriggered = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        currentNpc = GetComponent<NPC>();
     }
+
+    private void Update()
+    {
+        if (isTriggered && !dialogueManager.dialogueIsPlaying)
+        {
+            
+            dialogueManager.EnterDialogue(_inkJSON,currentNpc.characterName);
+            isTriggered = false;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            isTriggered = true;
+        }    
+    }
+
 }
