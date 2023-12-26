@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
@@ -20,23 +21,49 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isDashing = false;
 
+
+    private Vector2 moveDirection;
+    Animator animator;
+    private bool stopped;
+
     void Start()
     {
         activeMoveSpeed = moveSpeed;
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        
+
     }
 
-    private void OnMove(InputValue value)
+    //private void OnMove(InputValue value)
+    //{
+    //    moveInput = value.Get<Vector2>();
+
+    //}
+
+    public void OnMove(InputValue value)
     {
-        moveInput = value.Get<Vector2>();
+        moveDirection = value.Get<Vector2>();
+
+        //TODO: сделать плавно
+        if(moveDirection.x > 0)
+        {
+            transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+        }
+        else if (moveDirection.x < 0)
+        {
+            transform.rotation = Quaternion.Euler(0f, 0, 0f);
+        }
+
+        stopped = false;
+        animator.ResetTrigger("IdleTrigger");
+        animator.SetTrigger("MoveTrigger");
     }
 
-    private void OnDash()
+    public void OnDash(InputValue value)
     {
         Debug.Log("DASH!");
         isDashing = true;
@@ -44,9 +71,18 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = moveInput * activeMoveSpeed;
+        //rb.velocity = moveInput * activeMoveSpeed;
+        rb.velocity = moveDirection * activeMoveSpeed;
 
-        if(isDashing)
+        //остановился
+        if (rb.velocity.magnitude == 0f && !stopped)
+        {
+            stopped = true;
+            animator.ResetTrigger("MoveTrigger");
+            animator.SetTrigger("IdleTrigger");
+        }
+
+        if (isDashing)
         {
 
             if (dashCooldownCounter <= 0 && dashCounter <= 0)
