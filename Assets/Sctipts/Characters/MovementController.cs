@@ -1,55 +1,49 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Rendering;
 using UnityEngine;
-using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+[RequireComponent(typeof(Character))]
+[RequireComponent (typeof(Rigidbody2D))]
+[RequireComponent(typeof(AnimationController))]
+public class MovementController : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 5;
-
-    [SerializeField] float dashSpeed = 3;
-    [SerializeField] float dashLength = .5f;
-    [SerializeField] float dashCooldown = .1f;
+    private Character character;
+    private Rigidbody2D characterRigidbody;
+    private AnimationController animationController;
 
     private float dashCounter;
     private float dashCooldownCounter;
     private float activeMoveSpeed;
     private Vector2 moveInput;
-    private Rigidbody2D rb;
 
     private bool isDashing = false;
 
-
     private Vector2 moveDirection;
-    Animator animator;
     private bool stopped;
 
+    // Start is called before the first frame update
     void Start()
     {
-        activeMoveSpeed = moveSpeed;
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        character = GetComponent<Character>();
+        characterRigidbody = GetComponent<Rigidbody2D>();
+        animationController = GetComponent<AnimationController>();
+
+        activeMoveSpeed = character.GetMoveSpeed();
     }
 
+    // Update is called once per frame
     void Update()
     {
-
     }
-
-    //private void OnMove(InputValue value)
-    //{
-    //    moveInput = value.Get<Vector2>();
-
-    //}
 
     public void OnMove(InputValue value)
     {
         moveDirection = value.Get<Vector2>();
 
         //TODO: сделать плавно
-        if(moveDirection.x > 0)
+        if (moveDirection.x > 0)
         {
             transform.rotation = Quaternion.Euler(0f, 180f, 0f);
         }
@@ -59,27 +53,24 @@ public class PlayerMovement : MonoBehaviour
         }
 
         stopped = false;
-        animator.ResetTrigger("IdleTrigger");
-        animator.SetTrigger("MoveTrigger");
     }
 
     public void OnDash(InputValue value)
     {
-        Debug.Log("DASH!");
         isDashing = true;
     }
 
     private void FixedUpdate()
     {
         //rb.velocity = moveInput * activeMoveSpeed;
-        rb.velocity = moveDirection * activeMoveSpeed;
+        //Debug.Log(moveDirection + " " + activeMoveSpeed);
+        characterRigidbody.velocity = moveDirection * activeMoveSpeed;
 
         //остановился
-        if (rb.velocity.magnitude == 0f && !stopped)
+        if (characterRigidbody.velocity.magnitude == 0f && !stopped)
         {
             stopped = true;
-            animator.ResetTrigger("MoveTrigger");
-            animator.SetTrigger("IdleTrigger");
+            animationController.OnMoveEnd();
         }
 
         if (isDashing)
@@ -87,8 +78,8 @@ public class PlayerMovement : MonoBehaviour
 
             if (dashCooldownCounter <= 0 && dashCounter <= 0)
             {
-                activeMoveSpeed = dashSpeed;
-                dashCounter = dashLength;
+                activeMoveSpeed = character.GetDashSpeed();
+                dashCounter = character.GetDashLength();
             }
 
             if (dashCounter > 0)
@@ -98,8 +89,8 @@ public class PlayerMovement : MonoBehaviour
                 if (dashCounter <= 0)
                 {
                     Debug.Log("Dash is finished!");
-                    activeMoveSpeed = moveSpeed;
-                    dashCooldownCounter = dashCooldown;
+                    activeMoveSpeed = character.GetMoveSpeed();
+                    dashCooldownCounter = character.GetDashCooldown();
                 }
             }
 
