@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: 96761354b57941843bf3fcae8026e3ae
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: SkeletonWithSwordRightDeath_Frame_5
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.22222224}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 77
+      width: 19
+      height: 18
+    spriteID: 6a463fa15f08de642a4dd3c4510b657c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 77}
+  - name: SkeletonWithSwordRightDeath_Frame_6
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.22222224}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 103
+      width: 19
+      height: 18
+    spriteID: 3c27e4bcd1730d94ca1bcbc4f26261cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 103}
+  - name: SkeletonWithSwordRightDeath_Frame_7
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.22222224}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 4
+      width: 19
+      height: 18
+    spriteID: f16f0c19e63263d4980e79e45631f9e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 4}
+  - name: SkeletonWithSwordRightDeath_Frame_0
+    originalName: 
+    pivot: {x: 0.4705882, y: -0.2413793}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 40
+      width: 17
+      height: 29
+    spriteID: 07436e454bbb23541a5920f50a12377e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 40}
+  - name: SkeletonWithSwordRightDeath_Frame_1
+    originalName: 
+    pivot: {x: 0.48, y: -0.35714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 4
+      width: 25
+      height: 28
+    spriteID: df412da09a7ba88448787729e89c19d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 4}
+  - name: SkeletonWithSwordRightDeath_Frame_2
+    originalName: 
+    pivot: {x: 0.48148146, y: -0.31428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 54
+      width: 27
+      height: 35
+    spriteID: a53a1cdf7695abc479c625bf7eb92ed9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 54}
+  - name: SkeletonWithSwordRightDeath_Frame_3
+    originalName: 
+    pivot: {x: 0.48275867, y: -0.11904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 29
+      height: 42
+    spriteID: 434b00dbccccf3d449094124e8e4ca2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: SkeletonWithSwordRightDeath_Frame_4
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.14814815}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 97
+      width: 19
+      height: 27
+    spriteID: 997a8dfd3dfe45a43baada7d38008529
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 97}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 818400706
+    name: SkeletonWithSwordRightDeath
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: SkeletonWithSwordRightDeath_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 14
+        y: 4
+        width: 19
+        height: 18
+      spriteId: 6a463fa15f08de642a4dd3c4510b657c
+    - name: SkeletonWithSwordRightDeath_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 14
+        y: 4
+        width: 19
+        height: 18
+      spriteId: 3c27e4bcd1730d94ca1bcbc4f26261cd
+    - name: SkeletonWithSwordRightDeath_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 14
+        y: 4
+        width: 19
+        height: 18
+      spriteId: f16f0c19e63263d4980e79e45631f9e2
+    - name: SkeletonWithSwordRightDeath_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 16
+        y: 7
+        width: 17
+        height: 29
+      spriteId: 07436e454bbb23541a5920f50a12377e
+    - name: SkeletonWithSwordRightDeath_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 12
+        y: 10
+        width: 25
+        height: 28
+      spriteId: df412da09a7ba88448787729e89c19d7
+    - name: SkeletonWithSwordRightDeath_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 11
+        y: 11
+        width: 27
+        height: 35
+      spriteId: a53a1cdf7695abc479c625bf7eb92ed9
+    - name: SkeletonWithSwordRightDeath_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 10
+        y: 5
+        width: 29
+        height: 42
+      spriteId: 434b00dbccccf3d449094124e8e4ca2b
+    - name: SkeletonWithSwordRightDeath_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 14
+        y: 4
+        width: 19
+        height: 27
+      spriteId: 997a8dfd3dfe45a43baada7d38008529
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 48, y: 48}

@@ -1,0 +1,2404 @@
+fileFormatVersion: 2
+guid: 84ab3f036ae209043ac719e459e2f38f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Possesed Animation Showreel_Frame_0
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 426
+      width: 82
+      height: 94
+    spriteID: c4779b9454fa7524fb3f1c436b8c9046
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 426}
+  - name: Possesed Animation Showreel_Frame_1
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 426
+      width: 82
+      height: 94
+    spriteID: 6f7d32ba5be56fb44895e631e1b940ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 426}
+  - name: Possesed Animation Showreel_Frame_2
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 732
+      width: 82
+      height: 93
+    spriteID: 91b8a4c200373fa43b4baa2682b8464d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 732}
+  - name: Possesed Animation Showreel_Frame_3
+    originalName: 
+    pivot: {x: 0.53571427, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 766
+      y: 120
+      width: 84
+      height: 93
+    spriteID: 7775a3b17ce98d14098b5b157cd0dc1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 766, y: 120}
+  - name: Possesed Animation Showreel_Frame_4
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 450
+      y: 732
+      width: 82
+      height: 93
+    spriteID: 277c0eb74c4d66d4dbe20fd2dbc02cde
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 450, y: 732}
+  - name: Possesed Animation Showreel_Frame_5
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 426
+      width: 82
+      height: 94
+    spriteID: 749b43e78a57cb741955834c84cb9a77
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 426}
+  - name: Possesed Animation Showreel_Frame_6
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 274
+      y: 426
+      width: 82
+      height: 94
+    spriteID: 8646ab1056587c34381921bffb7e300b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 274, y: 426}
+  - name: Possesed Animation Showreel_Frame_7
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 540
+      y: 732
+      width: 82
+      height: 93
+    spriteID: 7a707cd07102d494da5758161f39e59b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 540, y: 732}
+  - name: Possesed Animation Showreel_Frame_8
+    originalName: 
+    pivot: {x: 0.53571427, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 858
+      y: 120
+      width: 84
+      height: 93
+    spriteID: 9e27be7c5279fa247aa8e3b1b829d099
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 858, y: 120}
+  - name: Possesed Animation Showreel_Frame_9
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 630
+      y: 732
+      width: 82
+      height: 93
+    spriteID: daf0a8619c2416b468b1a6385d1d05f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 630, y: 732}
+  - name: Possesed Animation Showreel_Frame_10
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 426
+      width: 82
+      height: 94
+    spriteID: 63cefbdc372ede94e849ad8b6e324c25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 426}
+  - name: Possesed Animation Showreel_Frame_11
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 454
+      y: 426
+      width: 82
+      height: 94
+    spriteID: 53ee8f8d02612454690e87f87cca7269
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 454, y: 426}
+  - name: Possesed Animation Showreel_Frame_12
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 732
+      width: 82
+      height: 93
+    spriteID: 1b9ddb5b8b130e24da9ad93f4d2f9217
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 720, y: 732}
+  - name: Possesed Animation Showreel_Frame_13
+    originalName: 
+    pivot: {x: 0.53571427, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 325
+      width: 84
+      height: 93
+    spriteID: 71934b998e9fc04438c4a5a9cd6215ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 325}
+  - name: Possesed Animation Showreel_Frame_14
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 810
+      y: 732
+      width: 82
+      height: 93
+    spriteID: db8e7dfbcede8224a86ecc6190d1691e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 810, y: 732}
+  - name: Possesed Animation Showreel_Frame_15
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 544
+      y: 426
+      width: 82
+      height: 94
+    spriteID: 6cdc87897f61662408a3cb605be882c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 544, y: 426}
+  - name: Possesed Animation Showreel_Frame_16
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.18085106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 630
+      width: 81
+      height: 94
+    spriteID: 9ee22cd55d8d97c4ea26226db6735d53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 630}
+  - name: Possesed Animation Showreel_Frame_17
+    originalName: 
+    pivot: {x: 0.50617284, y: -0.16842106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 732
+      width: 81
+      height: 95
+    spriteID: 4f8451ab7ae4c9f40a6eea8efff69a39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 732}
+  - name: Possesed Animation Showreel_Frame_18
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 426
+      width: 82
+      height: 94
+    spriteID: 79509420331a7f24788d1d613682d85e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 634, y: 426}
+  - name: Possesed Animation Showreel_Frame_19
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.18085106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 394
+      y: 120
+      width: 85
+      height: 94
+    spriteID: 9041dd43cec85c64bbf898318b16531c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 394, y: 120}
+  - name: Possesed Animation Showreel_Frame_20
+    originalName: 
+    pivot: {x: 0.52873564, y: -0.16842106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 222
+      width: 87
+      height: 95
+    spriteID: 56d059b8863a48c46acd71283ec427c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 222}
+  - name: Possesed Animation Showreel_Frame_21
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 724
+      y: 426
+      width: 82
+      height: 94
+    spriteID: be419769d955c9143845ed8d88dff053
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 724, y: 426}
+  - name: Possesed Animation Showreel_Frame_22
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.18085106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 630
+      width: 81
+      height: 94
+    spriteID: 98c20375e0a08904ca46e282660a92d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 630}
+  - name: Possesed Animation Showreel_Frame_23
+    originalName: 
+    pivot: {x: 0.50617284, y: -0.16842106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 732
+      width: 81
+      height: 95
+    spriteID: b465088f977b2d747bb51d3a9c977801
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 732}
+  - name: Possesed Animation Showreel_Frame_24
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 814
+      y: 426
+      width: 82
+      height: 94
+    spriteID: 843dd8ab5ce479441956a5372e2a39b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 814, y: 426}
+  - name: Possesed Animation Showreel_Frame_25
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.18085106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 487
+      y: 120
+      width: 85
+      height: 94
+    spriteID: 11e9cbc9e5dac7d429e4fa1e3af86f76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 487, y: 120}
+  - name: Possesed Animation Showreel_Frame_26
+    originalName: 
+    pivot: {x: 0.52873564, y: -0.16842106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 222
+      width: 87
+      height: 95
+    spriteID: e422b2be19f91b045a9a6b402fcafbe8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 222}
+  - name: Possesed Animation Showreel_Frame_27
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 904
+      y: 426
+      width: 82
+      height: 94
+    spriteID: 70a1ace5c35a30343a71117123a29f52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 904, y: 426}
+  - name: Possesed Animation Showreel_Frame_28
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.18085106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 362
+      y: 630
+      width: 81
+      height: 94
+    spriteID: 99066dcb0f88b7b4a95ee3d5783bcb50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 362, y: 630}
+  - name: Possesed Animation Showreel_Frame_29
+    originalName: 
+    pivot: {x: 0.50617284, y: -0.16842106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 732
+      width: 81
+      height: 95
+    spriteID: 4cd153ed28bdc6a44a5826ef8e1a4e09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 732}
+  - name: Possesed Animation Showreel_Frame_30
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 528
+      width: 82
+      height: 94
+    spriteID: 453daf66405fa23458416927e8d05614
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 528}
+  - name: Possesed Animation Showreel_Frame_31
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.18085106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 580
+      y: 120
+      width: 85
+      height: 94
+    spriteID: e6a2151bf7fba954d87ba93347cd99df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 580, y: 120}
+  - name: Possesed Animation Showreel_Frame_32
+    originalName: 
+    pivot: {x: 0.52873564, y: -0.16842106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 222
+      width: 87
+      height: 95
+    spriteID: 98721a3a20d03a949aa34ee6c2569078
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 222}
+  - name: Possesed Animation Showreel_Frame_33
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 528
+      width: 82
+      height: 94
+    spriteID: 2c3e1c07e942e6f478df8fbd21569bfb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 528}
+  - name: Possesed Animation Showreel_Frame_34
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.18085106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 451
+      y: 630
+      width: 81
+      height: 94
+    spriteID: fb25491ad17edda4b82e26db3fe611de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 451, y: 630}
+  - name: Possesed Animation Showreel_Frame_35
+    originalName: 
+    pivot: {x: 0.50617284, y: -0.16842106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 732
+      width: 81
+      height: 95
+    spriteID: 24a1385de9c67ba42946f6257b6d1121
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 271, y: 732}
+  - name: Possesed Animation Showreel_Frame_36
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 528
+      width: 82
+      height: 94
+    spriteID: 66ba85f81d4181741afe5a43c23245fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 184, y: 528}
+  - name: Possesed Animation Showreel_Frame_37
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.18085106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 673
+      y: 120
+      width: 85
+      height: 94
+    spriteID: 879060138fff50b4b94cdb32b618f283
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 673, y: 120}
+  - name: Possesed Animation Showreel_Frame_38
+    originalName: 
+    pivot: {x: 0.52873564, y: -0.16842106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 289
+      y: 222
+      width: 87
+      height: 95
+    spriteID: 822f911f8cefd6e4691e29df5ed8665b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 289, y: 222}
+  - name: Possesed Animation Showreel_Frame_39
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 274
+      y: 528
+      width: 82
+      height: 94
+    spriteID: 47be543fb75ec8f4a86f0285b63d2924
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 274, y: 528}
+  - name: Possesed Animation Showreel_Frame_40
+    originalName: 
+    pivot: {x: 0.5319149, y: -0.19387755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 4
+      width: 94
+      height: 98
+    spriteID: df9641fdab37e2e458a76541df36ac38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 242, y: 4}
+  - name: Possesed Animation Showreel_Frame_41
+    originalName: 
+    pivot: {x: 0.5319149, y: -0.20408162}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 344
+      y: 4
+      width: 94
+      height: 98
+    spriteID: 6da320494e4ff8d4ebfac68214aeb4df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 344, y: 4}
+  - name: Possesed Animation Showreel_Frame_42
+    originalName: 
+    pivot: {x: 0.5319149, y: -0.20408162}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 446
+      y: 4
+      width: 94
+      height: 98
+    spriteID: 1248fd733ce756d439eceda394ae611e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 446, y: 4}
+  - name: Possesed Animation Showreel_Frame_43
+    originalName: 
+    pivot: {x: 0.5319149, y: -0.20408162}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 4
+      width: 94
+      height: 98
+    spriteID: 7ce31b2982a206d489786a6ec20dd5e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 4}
+  - name: Possesed Animation Showreel_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: -0.17777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 540
+      y: 630
+      width: 84
+      height: 90
+    spriteID: b4f42c38c7ca5314bb0c1e7b2f6e3965
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 540, y: 630}
+  - name: Possesed Animation Showreel_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: -0.17777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 632
+      y: 630
+      width: 84
+      height: 90
+    spriteID: 8958c080e4003c94fa1e9be00d22e845
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 632, y: 630}
+  - name: Possesed Animation Showreel_Frame_46
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 528
+      width: 82
+      height: 94
+    spriteID: 494f38a1e908db24eb9b62cfb217ddff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 528}
+  - name: Possesed Animation Showreel_Frame_47
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 454
+      y: 528
+      width: 82
+      height: 94
+    spriteID: 81e29f29ef675434d8a887542643e6e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 454, y: 528}
+  - name: Possesed Animation Showreel_Frame_48
+    originalName: 
+    pivot: {x: 0.5064935, y: -0.17777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 724
+      y: 630
+      width: 77
+      height: 90
+    spriteID: 717b0de046a571f4f8f582544d86c2ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 724, y: 630}
+  - name: Possesed Animation Showreel_Frame_49
+    originalName: 
+    pivot: {x: 0.5064935, y: -0.17977528}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 894
+      y: 630
+      width: 77
+      height: 89
+    spriteID: 9ba1b0f27fe73d0419d2c9c184c868ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 894, y: 630}
+  - name: Possesed Animation Showreel_Frame_50
+    originalName: 
+    pivot: {x: 0.5064935, y: -0.17977528}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 278
+      y: 325
+      width: 77
+      height: 89
+    spriteID: d6f715016620ffb4ab4b5c33ba2fe354
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 278, y: 325}
+  - name: Possesed Animation Showreel_Frame_51
+    originalName: 
+    pivot: {x: 0.5064935, y: -0.17977528}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 325
+      width: 77
+      height: 89
+    spriteID: 006724d6d673ed04893ba3e369ade8ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 325}
+  - name: Possesed Animation Showreel_Frame_52
+    originalName: 
+    pivot: {x: 0.5064935, y: -0.17777778}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 809
+      y: 630
+      width: 77
+      height: 90
+    spriteID: 6961fe471cd6c264bb47fe58dee2f0f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 809, y: 630}
+  - name: Possesed Animation Showreel_Frame_53
+    originalName: 
+    pivot: {x: 0.5064935, y: -0.17977528}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 325
+      width: 77
+      height: 89
+    spriteID: 55daa27dc9c4a3a4088597b89fbb0e0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 448, y: 325}
+  - name: Possesed Animation Showreel_Frame_54
+    originalName: 
+    pivot: {x: 0.5064935, y: -0.17977528}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 533
+      y: 325
+      width: 77
+      height: 89
+    spriteID: 5b8a70e54670f6748bd26e76eefba461
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 533, y: 325}
+  - name: Possesed Animation Showreel_Frame_55
+    originalName: 
+    pivot: {x: 0.5064935, y: -0.17977528}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 618
+      y: 325
+      width: 77
+      height: 89
+    spriteID: 8b7709e7d5f38ad41a253c152b3f7e4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 618, y: 325}
+  - name: Possesed Animation Showreel_Frame_56
+    originalName: 
+    pivot: {x: 0.4954955, y: -0.12037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 111
+      height: 108
+    spriteID: bbdc8b009510add4a897cd3eea19062d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Possesed Animation Showreel_Frame_57
+    originalName: 
+    pivot: {x: 0.4954955, y: -0.12037037}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 4
+      width: 111
+      height: 108
+    spriteID: e28c1318e710a3c42917e97e0b51fe7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 4}
+  - name: Possesed Animation Showreel_Frame_58
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 544
+      y: 528
+      width: 82
+      height: 94
+    spriteID: 4ed570f66f3ea1a4080bc59dac8bc195
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 544, y: 528}
+  - name: Possesed Animation Showreel_Frame_59
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 634
+      y: 528
+      width: 82
+      height: 94
+    spriteID: dcc2032a1d14a5d4e9ca1c8eaac2cd7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 634, y: 528}
+  - name: Possesed Animation Showreel_Frame_60
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 900
+      y: 732
+      width: 82
+      height: 93
+    spriteID: 61e1b4b30d60aa74e9f50dd25da38767
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 900, y: 732}
+  - name: Possesed Animation Showreel_Frame_61
+    originalName: 
+    pivot: {x: 0.53571427, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 325
+      width: 84
+      height: 93
+    spriteID: 96912c4dd0a449d42a206158e6de529c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 325}
+  - name: Possesed Animation Showreel_Frame_62
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 188
+      y: 325
+      width: 82
+      height: 93
+    spriteID: d554ac197c975d341a82fa22a388175b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 188, y: 325}
+  - name: Possesed Animation Showreel_Frame_63
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 724
+      y: 528
+      width: 82
+      height: 94
+    spriteID: bc9fc0e74aa0e3f43b12f5c173e73604
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 724, y: 528}
+  - name: Possesed Animation Showreel_Frame_64
+    originalName: 
+    pivot: {x: 0.53488374, y: -0.18085106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 120
+      width: 86
+      height: 94
+    spriteID: 95824f6eebfcce54990b11988642edf2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 120}
+  - name: Possesed Animation Showreel_Frame_65
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.19148935}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 814
+      y: 528
+      width: 82
+      height: 94
+    spriteID: b0d0050d1efc7b74b856885cabc71708
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 814, y: 528}
+  - name: Possesed Animation Showreel_Frame_66
+    originalName: 
+    pivot: {x: 0.53488374, y: -0.18947369}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 800
+      y: 222
+      width: 86
+      height: 95
+    spriteID: b8703c2e6ed04a142af488d75aa7f87d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 800, y: 222}
+  - name: Possesed Animation Showreel_Frame_67
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 904
+      y: 528
+      width: 82
+      height: 94
+    spriteID: d8d892fccc880fd4083c78dd6349513d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 904, y: 528}
+  - name: Possesed Animation Showreel_Frame_68
+    originalName: 
+    pivot: {x: 0.53488374, y: -0.18085106}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 120
+      width: 86
+      height: 94
+    spriteID: 21ba120079ea0e248bcb76ca5b96d4fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 120}
+  - name: Possesed Animation Showreel_Frame_69
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.19148935}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 630
+      width: 82
+      height: 94
+    spriteID: ccea98f735033004e9df44a1486ee2be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 630}
+  - name: Possesed Animation Showreel_Frame_70
+    originalName: 
+    pivot: {x: 0.53488374, y: -0.18947369}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 894
+      y: 222
+      width: 86
+      height: 95
+    spriteID: 7eb581f0384322048a01adcdc3901632
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 894, y: 222}
+  - name: Possesed Animation Showreel_Frame_71
+    originalName: 
+    pivot: {x: 0.53658533, y: -0.17021276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 630
+      width: 82
+      height: 94
+    spriteID: 1bd98533642514b40aafd6cd6d9f0bd7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 630}
+  - name: Possesed Animation Showreel_Frame_72
+    originalName: 
+    pivot: {x: 0.5168539, y: -0.099999994}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 758
+      y: 4
+      width: 89
+      height: 100
+    spriteID: 0d93cc80a2adc184390ed4773f3940f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 758, y: 4}
+  - name: Possesed Animation Showreel_Frame_73
+    originalName: 
+    pivot: {x: 0.5222222, y: -0.11702127}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 120
+      width: 90
+      height: 94
+    spriteID: eef3b1ee7301fb84292145a05aa5fe89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 120}
+  - name: Possesed Animation Showreel_Frame_74
+    originalName: 
+    pivot: {x: 0.5326087, y: -0.10526316}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 855
+      y: 4
+      width: 92
+      height: 95
+    spriteID: 5fe91ded5fd3c1a458af72025c4feeb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 855, y: 4}
+  - name: Possesed Animation Showreel_Frame_75
+    originalName: 
+    pivot: {x: 0.5, y: -0.116279066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 222
+      width: 96
+      height: 86
+    spriteID: 9e7d2f4323fbe5e4aacdcf7130db816a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 222}
+  - name: Possesed Animation Showreel_Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: -0.11363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 120
+      width: 96
+      height: 88
+    spriteID: add9a06219f38054fab4995a15f950b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 102, y: 120}
+  - name: Possesed Animation Showreel_Frame_77
+    originalName: 
+    pivot: {x: 0.5, y: -0.10989011}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 650
+      y: 4
+      width: 100
+      height: 91
+    spriteID: 7f5cc8028fd8ca149b71a30db24498fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 650, y: 4}
+  - name: Possesed Animation Showreel_Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: -0.116279066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 488
+      y: 222
+      width: 96
+      height: 86
+    spriteID: db26af5a8ee075e428e1861666bc69cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 488, y: 222}
+  - name: Possesed Animation Showreel_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: -0.116279066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 592
+      y: 222
+      width: 96
+      height: 86
+    spriteID: 96a396233b0f56842a2943f68e29e8b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 592, y: 222}
+  - name: Possesed Animation Showreel_Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: -0.116279066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 696
+      y: 222
+      width: 96
+      height: 86
+    spriteID: b4f59f84e87548d41b91da54006e16a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 696, y: 222}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1471486323
+    name: Possesed Animation Showreel
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Possesed Animation Showreel_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: c4779b9454fa7524fb3f1c436b8c9046
+    - name: Possesed Animation Showreel_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 6f7d32ba5be56fb44895e631e1b940ad
+    - name: Possesed Animation Showreel_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 93
+      spriteId: 91b8a4c200373fa43b4baa2682b8464d
+    - name: Possesed Animation Showreel_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 19
+        y: 16
+        width: 84
+        height: 93
+      spriteId: 7775a3b17ce98d14098b5b157cd0dc1f
+    - name: Possesed Animation Showreel_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 93
+      spriteId: 277c0eb74c4d66d4dbe20fd2dbc02cde
+    - name: Possesed Animation Showreel_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 749b43e78a57cb741955834c84cb9a77
+    - name: Possesed Animation Showreel_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 8646ab1056587c34381921bffb7e300b
+    - name: Possesed Animation Showreel_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 93
+      spriteId: 7a707cd07102d494da5758161f39e59b
+    - name: Possesed Animation Showreel_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 19
+        y: 16
+        width: 84
+        height: 93
+      spriteId: 9e27be7c5279fa247aa8e3b1b829d099
+    - name: Possesed Animation Showreel_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 93
+      spriteId: daf0a8619c2416b468b1a6385d1d05f9
+    - name: Possesed Animation Showreel_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 63cefbdc372ede94e849ad8b6e324c25
+    - name: Possesed Animation Showreel_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 53ee8f8d02612454690e87f87cca7269
+    - name: Possesed Animation Showreel_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 93
+      spriteId: 1b9ddb5b8b130e24da9ad93f4d2f9217
+    - name: Possesed Animation Showreel_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 19
+        y: 16
+        width: 84
+        height: 93
+      spriteId: 71934b998e9fc04438c4a5a9cd6215ba
+    - name: Possesed Animation Showreel_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 93
+      spriteId: db8e7dfbcede8224a86ecc6190d1691e
+    - name: Possesed Animation Showreel_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 6cdc87897f61662408a3cb605be882c6
+    - name: Possesed Animation Showreel_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 22
+        y: 17
+        width: 81
+        height: 94
+      spriteId: 9ee22cd55d8d97c4ea26226db6735d53
+    - name: Possesed Animation Showreel_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 23
+        y: 16
+        width: 81
+        height: 95
+      spriteId: 4f8451ab7ae4c9f40a6eea8efff69a39
+    - name: Possesed Animation Showreel_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 79509420331a7f24788d1d613682d85e
+    - name: Possesed Animation Showreel_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 19
+        y: 17
+        width: 85
+        height: 94
+      spriteId: 9041dd43cec85c64bbf898318b16531c
+    - name: Possesed Animation Showreel_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 18
+        y: 16
+        width: 87
+        height: 95
+      spriteId: 56d059b8863a48c46acd71283ec427c7
+    - name: Possesed Animation Showreel_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: be419769d955c9143845ed8d88dff053
+    - name: Possesed Animation Showreel_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 22
+        y: 17
+        width: 81
+        height: 94
+      spriteId: 98c20375e0a08904ca46e282660a92d6
+    - name: Possesed Animation Showreel_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 23
+        y: 16
+        width: 81
+        height: 95
+      spriteId: b465088f977b2d747bb51d3a9c977801
+    - name: Possesed Animation Showreel_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 843dd8ab5ce479441956a5372e2a39b0
+    - name: Possesed Animation Showreel_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 19
+        y: 17
+        width: 85
+        height: 94
+      spriteId: 11e9cbc9e5dac7d429e4fa1e3af86f76
+    - name: Possesed Animation Showreel_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 18
+        y: 16
+        width: 87
+        height: 95
+      spriteId: e422b2be19f91b045a9a6b402fcafbe8
+    - name: Possesed Animation Showreel_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 70a1ace5c35a30343a71117123a29f52
+    - name: Possesed Animation Showreel_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 22
+        y: 17
+        width: 81
+        height: 94
+      spriteId: 99066dcb0f88b7b4a95ee3d5783bcb50
+    - name: Possesed Animation Showreel_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 23
+        y: 16
+        width: 81
+        height: 95
+      spriteId: 4cd153ed28bdc6a44a5826ef8e1a4e09
+    - name: Possesed Animation Showreel_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 453daf66405fa23458416927e8d05614
+    - name: Possesed Animation Showreel_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 19
+        y: 17
+        width: 85
+        height: 94
+      spriteId: e6a2151bf7fba954d87ba93347cd99df
+    - name: Possesed Animation Showreel_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 18
+        y: 16
+        width: 87
+        height: 95
+      spriteId: 98721a3a20d03a949aa34ee6c2569078
+    - name: Possesed Animation Showreel_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 2c3e1c07e942e6f478df8fbd21569bfb
+    - name: Possesed Animation Showreel_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 22
+        y: 17
+        width: 81
+        height: 94
+      spriteId: fb25491ad17edda4b82e26db3fe611de
+    - name: Possesed Animation Showreel_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 23
+        y: 16
+        width: 81
+        height: 95
+      spriteId: 24a1385de9c67ba42946f6257b6d1121
+    - name: Possesed Animation Showreel_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 66ba85f81d4181741afe5a43c23245fd
+    - name: Possesed Animation Showreel_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 19
+        y: 17
+        width: 85
+        height: 94
+      spriteId: 879060138fff50b4b94cdb32b618f283
+    - name: Possesed Animation Showreel_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 18
+        y: 16
+        width: 87
+        height: 95
+      spriteId: 822f911f8cefd6e4691e29df5ed8665b
+    - name: Possesed Animation Showreel_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 47be543fb75ec8f4a86f0285b63d2924
+    - name: Possesed Animation Showreel_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 14
+        y: 19
+        width: 94
+        height: 98
+      spriteId: df9641fdab37e2e458a76541df36ac38
+    - name: Possesed Animation Showreel_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 14
+        y: 20
+        width: 94
+        height: 98
+      spriteId: 6da320494e4ff8d4ebfac68214aeb4df
+    - name: Possesed Animation Showreel_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 14
+        y: 20
+        width: 94
+        height: 98
+      spriteId: 1248fd733ce756d439eceda394ae611e
+    - name: Possesed Animation Showreel_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 14
+        y: 20
+        width: 94
+        height: 98
+      spriteId: 7ce31b2982a206d489786a6ec20dd5e7
+    - name: Possesed Animation Showreel_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 22
+        y: 16
+        width: 84
+        height: 90
+      spriteId: b4f42c38c7ca5314bb0c1e7b2f6e3965
+    - name: Possesed Animation Showreel_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 22
+        y: 16
+        width: 84
+        height: 90
+      spriteId: 8958c080e4003c94fa1e9be00d22e845
+    - name: Possesed Animation Showreel_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 494f38a1e908db24eb9b62cfb217ddff
+    - name: Possesed Animation Showreel_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 81e29f29ef675434d8a887542643e6e1
+    - name: Possesed Animation Showreel_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 25
+        y: 16
+        width: 77
+        height: 90
+      spriteId: 717b0de046a571f4f8f582544d86c2ef
+    - name: Possesed Animation Showreel_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 25
+        y: 16
+        width: 77
+        height: 89
+      spriteId: 9ba1b0f27fe73d0419d2c9c184c868ff
+    - name: Possesed Animation Showreel_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 25
+        y: 16
+        width: 77
+        height: 89
+      spriteId: d6f715016620ffb4ab4b5c33ba2fe354
+    - name: Possesed Animation Showreel_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 25
+        y: 16
+        width: 77
+        height: 89
+      spriteId: 006724d6d673ed04893ba3e369ade8ad
+    - name: Possesed Animation Showreel_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 25
+        y: 16
+        width: 77
+        height: 90
+      spriteId: 6961fe471cd6c264bb47fe58dee2f0f9
+    - name: Possesed Animation Showreel_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 25
+        y: 16
+        width: 77
+        height: 89
+      spriteId: 55daa27dc9c4a3a4088597b89fbb0e0a
+    - name: Possesed Animation Showreel_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 25
+        y: 16
+        width: 77
+        height: 89
+      spriteId: 5b8a70e54670f6748bd26e76eefba461
+    - name: Possesed Animation Showreel_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 25
+        y: 16
+        width: 77
+        height: 89
+      spriteId: 8b7709e7d5f38ad41a253c152b3f7e4b
+    - name: Possesed Animation Showreel_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 9
+        y: 13
+        width: 111
+        height: 108
+      spriteId: bbdc8b009510add4a897cd3eea19062d
+    - name: Possesed Animation Showreel_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 9
+        y: 13
+        width: 111
+        height: 108
+      spriteId: e28c1318e710a3c42917e97e0b51fe7d
+    - name: Possesed Animation Showreel_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 4ed570f66f3ea1a4080bc59dac8bc195
+    - name: Possesed Animation Showreel_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: dcc2032a1d14a5d4e9ca1c8eaac2cd7e
+    - name: Possesed Animation Showreel_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 93
+      spriteId: 61e1b4b30d60aa74e9f50dd25da38767
+    - name: Possesed Animation Showreel_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 19
+        y: 16
+        width: 84
+        height: 93
+      spriteId: 96912c4dd0a449d42a206158e6de529c
+    - name: Possesed Animation Showreel_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 93
+      spriteId: d554ac197c975d341a82fa22a388175b
+    - name: Possesed Animation Showreel_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: bc9fc0e74aa0e3f43b12f5c173e73604
+    - name: Possesed Animation Showreel_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 18
+        y: 17
+        width: 86
+        height: 94
+      spriteId: 95824f6eebfcce54990b11988642edf2
+    - name: Possesed Animation Showreel_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 20
+        y: 18
+        width: 82
+        height: 94
+      spriteId: b0d0050d1efc7b74b856885cabc71708
+    - name: Possesed Animation Showreel_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 18
+        y: 18
+        width: 86
+        height: 95
+      spriteId: b8703c2e6ed04a142af488d75aa7f87d
+    - name: Possesed Animation Showreel_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: d8d892fccc880fd4083c78dd6349513d
+    - name: Possesed Animation Showreel_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 18
+        y: 17
+        width: 86
+        height: 94
+      spriteId: 21ba120079ea0e248bcb76ca5b96d4fa
+    - name: Possesed Animation Showreel_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 20
+        y: 18
+        width: 82
+        height: 94
+      spriteId: ccea98f735033004e9df44a1486ee2be
+    - name: Possesed Animation Showreel_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 18
+        y: 18
+        width: 86
+        height: 95
+      spriteId: 7eb581f0384322048a01adcdc3901632
+    - name: Possesed Animation Showreel_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 20
+        y: 16
+        width: 82
+        height: 94
+      spriteId: 1bd98533642514b40aafd6cd6d9f0bd7
+    - name: Possesed Animation Showreel_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 18
+        y: 10
+        width: 89
+        height: 100
+      spriteId: 0d93cc80a2adc184390ed4773f3940f2
+    - name: Possesed Animation Showreel_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 17
+        y: 11
+        width: 90
+        height: 94
+      spriteId: eef3b1ee7301fb84292145a05aa5fe89
+    - name: Possesed Animation Showreel_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 15
+        y: 10
+        width: 92
+        height: 95
+      spriteId: 5fe91ded5fd3c1a458af72025c4feeb0
+    - name: Possesed Animation Showreel_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 16
+        y: 10
+        width: 96
+        height: 86
+      spriteId: 9e7d2f4323fbe5e4aacdcf7130db816a
+    - name: Possesed Animation Showreel_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 16
+        y: 10
+        width: 96
+        height: 88
+      spriteId: add9a06219f38054fab4995a15f950b7
+    - name: Possesed Animation Showreel_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 14
+        y: 10
+        width: 100
+        height: 91
+      spriteId: 7f5cc8028fd8ca149b71a30db24498fe
+    - name: Possesed Animation Showreel_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 16
+        y: 10
+        width: 96
+        height: 86
+      spriteId: db26af5a8ee075e428e1861666bc69cb
+    - name: Possesed Animation Showreel_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 16
+        y: 10
+        width: 96
+        height: 86
+      spriteId: 96a396233b0f56842a2943f68e29e8b1
+    - name: Possesed Animation Showreel_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 16
+        y: 10
+        width: 96
+        height: 86
+      spriteId: b4f59f84e87548d41b91da54006e16a4
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}

@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: 54952dde3df07444094e8003d238ade2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: NecromancerUpAttack03_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.08571429}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 48
+      width: 30
+      height: 35
+    spriteID: 0ff7d2e1d9c160c40a53356bbf05cb27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 48}
+  - name: NecromancerUpAttack03_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.05555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 40
+      height: 36
+    spriteID: ced2b1654cbcf504892861817ce67ace
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: NecromancerUpAttack03_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.22580643}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 4
+      width: 18
+      height: 31
+    spriteID: 558c286cfabce684999dd27233466616
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 4}
+  - name: NecromancerUpAttack03_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.22580643}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 136
+      width: 22
+      height: 31
+    spriteID: 99d0d580530401643b0fc53681d126d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 136}
+  - name: NecromancerUpAttack03_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.17948718}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 4
+      width: 22
+      height: 39
+    spriteID: afcfe332c1569d5488303b50778b9882
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 4}
+  - name: NecromancerUpAttack03_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.1707317}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 91
+      width: 22
+      height: 41
+    spriteID: c98cdb70f8aee3a4c9a1a0035c16693e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 91}
+  - name: NecromancerUpAttack03_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.1707317}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 140
+      width: 22
+      height: 41
+    spriteID: 8046f76eadfbd124caebe3e11057c978
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 140}
+  - name: NecromancerUpAttack03_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.1707317}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 189
+      width: 22
+      height: 41
+    spriteID: 337ba092647fedc4aac9456b27a81b54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 189}
+  - name: NecromancerUpAttack03_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 51
+      width: 22
+      height: 35
+    spriteID: d4d4075b651d68e4ab3439e992096533
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 51}
+  - name: NecromancerUpAttack03_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.22580643}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 175
+      width: 22
+      height: 31
+    spriteID: 568f22ff18317ad46b18c6211a7e2ce5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 175}
+  - name: NecromancerUpAttack03_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.11764707}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 94
+      width: 22
+      height: 34
+    spriteID: 24ee0c063a22afa4da4bac12ed535ff9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 94}
+  - name: NecromancerUpAttack03_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.22580643}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 214
+      width: 22
+      height: 31
+    spriteID: 871ea4a86eb67fa4fbbe68dc62ad9f62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 214}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 911478473
+    name: NecromancerUpAttack03
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: NecromancerUpAttack03_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 9
+        y: 3
+        width: 30
+        height: 35
+      spriteId: 0ff7d2e1d9c160c40a53356bbf05cb27
+    - name: NecromancerUpAttack03_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 4
+        y: 2
+        width: 40
+        height: 36
+      spriteId: ced2b1654cbcf504892861817ce67ace
+    - name: NecromancerUpAttack03_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 15
+        y: 7
+        width: 18
+        height: 31
+      spriteId: 558c286cfabce684999dd27233466616
+    - name: NecromancerUpAttack03_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 13
+        y: 7
+        width: 22
+        height: 31
+      spriteId: 99d0d580530401643b0fc53681d126d9
+    - name: NecromancerUpAttack03_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 13
+        y: 7
+        width: 22
+        height: 39
+      spriteId: afcfe332c1569d5488303b50778b9882
+    - name: NecromancerUpAttack03_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 13
+        y: 7
+        width: 22
+        height: 41
+      spriteId: c98cdb70f8aee3a4c9a1a0035c16693e
+    - name: NecromancerUpAttack03_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 13
+        y: 7
+        width: 22
+        height: 41
+      spriteId: 8046f76eadfbd124caebe3e11057c978
+    - name: NecromancerUpAttack03_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 13
+        y: 7
+        width: 22
+        height: 41
+      spriteId: 337ba092647fedc4aac9456b27a81b54
+    - name: NecromancerUpAttack03_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 13
+        y: 7
+        width: 22
+        height: 35
+      spriteId: d4d4075b651d68e4ab3439e992096533
+    - name: NecromancerUpAttack03_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 13
+        y: 7
+        width: 22
+        height: 31
+      spriteId: 568f22ff18317ad46b18c6211a7e2ce5
+    - name: NecromancerUpAttack03_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 13
+        y: 4
+        width: 22
+        height: 34
+      spriteId: 24ee0c063a22afa4da4bac12ed535ff9
+    - name: NecromancerUpAttack03_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 13
+        y: 7
+        width: 22
+        height: 31
+      spriteId: 871ea4a86eb67fa4fbbe68dc62ad9f62
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 48, y: 48}

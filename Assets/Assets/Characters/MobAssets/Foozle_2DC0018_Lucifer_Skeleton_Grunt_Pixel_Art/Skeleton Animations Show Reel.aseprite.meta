@@ -1,0 +1,2376 @@
+fileFormatVersion: 2
+guid: 0389dc40534eab04bbf1dc0da9084a90
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Skeleton Animations Show Reel_Frame_0
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 490
+      y: 216
+      width: 87
+      height: 93
+    spriteID: 013b66e3206ffb7409c3cbe08433aaff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 490, y: 216}
+  - name: Skeleton Animations Show Reel_Frame_6
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 585
+      y: 216
+      width: 87
+      height: 93
+    spriteID: 518cd4ab03a3fc04383edf7c8921ef8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 585, y: 216}
+  - name: Skeleton Animations Show Reel_Frame_12
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 680
+      y: 216
+      width: 87
+      height: 93
+    spriteID: 512fa371d1daddb4ba61d494a0567251
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 680, y: 216}
+  - name: Skeleton Animations Show Reel_Frame_18
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 775
+      y: 216
+      width: 87
+      height: 93
+    spriteID: 2661edab05327f34fb42fee67d1629d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 775, y: 216}
+  - name: Skeleton Animations Show Reel_Frame_24
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 870
+      y: 216
+      width: 87
+      height: 93
+    spriteID: 7f201beea596fa140b61dd53a904933a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 870, y: 216}
+  - name: Skeleton Animations Show Reel_Frame_30
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 317
+      width: 87
+      height: 93
+    spriteID: c017a7e50730f1043a0340206e27eac9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 317}
+  - name: Skeleton Animations Show Reel_Frame_36
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 317
+      width: 87
+      height: 93
+    spriteID: 36bb2e007648d3148bfcf9a4fa4991ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 317}
+  - name: Skeleton Animations Show Reel_Frame_40
+    originalName: 
+    pivot: {x: 0.5113636, y: -0.19587629}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 414
+      y: 4
+      width: 88
+      height: 97
+    spriteID: be725507e9f359841a4beffcee1c12cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 414, y: 4}
+  - name: Skeleton Animations Show Reel_Frame_44
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 317
+      width: 87
+      height: 93
+    spriteID: 549e7dc8565f71c43a0285404668f806
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 317}
+  - name: Skeleton Animations Show Reel_Frame_50
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 289
+      y: 317
+      width: 87
+      height: 93
+    spriteID: bd6eff9a9938c9d4db186d55d95539c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 289, y: 317}
+  - name: Skeleton Animations Show Reel_Frame_58
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 317
+      width: 87
+      height: 93
+    spriteID: c0060f6263f7e3148b5222945bb0e800
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 317}
+  - name: Skeleton Animations Show Reel_Frame_64
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 479
+      y: 317
+      width: 87
+      height: 93
+    spriteID: 7c233b4a5769ecf43a5c12e91f989ba9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 479, y: 317}
+  - name: Skeleton Animations Show Reel_Frame_68
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 574
+      y: 317
+      width: 87
+      height: 93
+    spriteID: 239ee7d640fb4274a8819dbcc372b856
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 574, y: 317}
+  - name: Skeleton Animations Show Reel_Frame_72
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 669
+      y: 317
+      width: 87
+      height: 93
+    spriteID: b42b4399fc36bc442960c562769749f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 669, y: 317}
+  - name: Skeleton Animations Show Reel_Frame_1
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 764
+      y: 317
+      width: 87
+      height: 93
+    spriteID: a003ec1ab5d2c31458e64baf566ad818
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 764, y: 317}
+  - name: Skeleton Animations Show Reel_Frame_2
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 892
+      y: 116
+      width: 87
+      height: 92
+    spriteID: b9d76a9d76990d64eadef755769b70d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 892, y: 116}
+  - name: Skeleton Animations Show Reel_Frame_3
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 859
+      y: 418
+      width: 87
+      height: 92
+    spriteID: 30a542110b89fdc429b4c2ce3bb7a28c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 859, y: 418}
+  - name: Skeleton Animations Show Reel_Frame_4
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.17582418}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 301
+      y: 116
+      width: 91
+      height: 91
+    spriteID: 9be83d090a4c0a04db7d0b843c6cef2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 301, y: 116}
+  - name: Skeleton Animations Show Reel_Frame_5
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17582418}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 764
+      y: 519
+      width: 87
+      height: 91
+    spriteID: b82842d477c18b84ab1e258adce6e3d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 764, y: 519}
+  - name: Skeleton Animations Show Reel_Frame_7
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 859
+      y: 317
+      width: 87
+      height: 93
+    spriteID: b6d8462cf9ea3de469a73ecf2ba1059f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 859, y: 317}
+  - name: Skeleton Animations Show Reel_Frame_8
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 519
+      width: 87
+      height: 92
+    spriteID: aec9aa86ef02bb04db30e73b38a28a78
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 519}
+  - name: Skeleton Animations Show Reel_Frame_9
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 519
+      width: 87
+      height: 92
+    spriteID: bb6f1701575f9cc4ea9a78fe0e7d5592
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 519}
+  - name: Skeleton Animations Show Reel_Frame_10
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.17582418}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 116
+      width: 91
+      height: 91
+    spriteID: 3d8baec9484225a468f0a406cc025c25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 116}
+  - name: Skeleton Animations Show Reel_Frame_11
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17582418}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 859
+      y: 519
+      width: 87
+      height: 91
+    spriteID: 64f50861b2239b6478e1ebecd0d6d837
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 859, y: 519}
+  - name: Skeleton Animations Show Reel_Frame_13
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 418
+      width: 87
+      height: 93
+    spriteID: d999570a71c5eee43a01b676d1434fca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 418}
+  - name: Skeleton Animations Show Reel_Frame_14
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 519
+      width: 87
+      height: 92
+    spriteID: 737ed203eb5922146bd8a6b985353e50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 519}
+  - name: Skeleton Animations Show Reel_Frame_15
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 289
+      y: 519
+      width: 87
+      height: 92
+    spriteID: f530aeb1549467947969858cfa4fe342
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 289, y: 519}
+  - name: Skeleton Animations Show Reel_Frame_16
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.17582418}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 499
+      y: 116
+      width: 91
+      height: 91
+    spriteID: 8dee34b8daba15b46945199b9cc60d42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 499, y: 116}
+  - name: Skeleton Animations Show Reel_Frame_17
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17582418}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 619
+      width: 87
+      height: 91
+    spriteID: 02534869cf499194e8fb9a7fab3b2a2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 619}
+  - name: Skeleton Animations Show Reel_Frame_19
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.18478261}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 702
+      y: 4
+      width: 91
+      height: 92
+    spriteID: a9c4fc96bade437459ab11d33442e342
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 702, y: 4}
+  - name: Skeleton Animations Show Reel_Frame_20
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.19565217}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 801
+      y: 4
+      width: 91
+      height: 92
+    spriteID: c4d3f136982fa01409b86f397a01e6f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 801, y: 4}
+  - name: Skeleton Animations Show Reel_Frame_21
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 418
+      width: 87
+      height: 93
+    spriteID: d0edafd01aa1c8741adce94ae87acf2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 418}
+  - name: Skeleton Animations Show Reel_Frame_22
+    originalName: 
+    pivot: {x: 0.53571427, y: -0.18478261}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 286
+      y: 718
+      width: 84
+      height: 92
+    spriteID: edaf52e6cd57b7945bbd2e706e251a76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 286, y: 718}
+  - name: Skeleton Animations Show Reel_Frame_23
+    originalName: 
+    pivot: {x: 0.5232558, y: -0.19565217}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 718
+      width: 86
+      height: 92
+    spriteID: 29dc972dfc1c02346bf166509c708133
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 718}
+  - name: Skeleton Animations Show Reel_Frame_25
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.18478261}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 900
+      y: 4
+      width: 91
+      height: 92
+    spriteID: 7f866fffebe01f3419d2d757d05fc66a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 900, y: 4}
+  - name: Skeleton Animations Show Reel_Frame_26
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.19565217}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 116
+      width: 91
+      height: 92
+    spriteID: 1e9a582e855da8d4c81a36c9e6be5af6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 116}
+  - name: Skeleton Animations Show Reel_Frame_27
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 418
+      width: 87
+      height: 93
+    spriteID: 7b05dc0bee0e58e43b2d2790731fc760
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 418}
+  - name: Skeleton Animations Show Reel_Frame_28
+    originalName: 
+    pivot: {x: 0.53571427, y: -0.18478261}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 378
+      y: 718
+      width: 84
+      height: 92
+    spriteID: 3a906fd6c4fbef34788de5914253314a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 378, y: 718}
+  - name: Skeleton Animations Show Reel_Frame_29
+    originalName: 
+    pivot: {x: 0.5232558, y: -0.19565217}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 718
+      width: 86
+      height: 92
+    spriteID: a6139a47102ca2a4988cb1df0279ad8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 718}
+  - name: Skeleton Animations Show Reel_Frame_31
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.18478261}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 116
+      width: 91
+      height: 92
+    spriteID: c3e977c9fefaeb94996a4ce9e6c3361c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 116}
+  - name: Skeleton Animations Show Reel_Frame_32
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.19565217}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 202
+      y: 116
+      width: 91
+      height: 92
+    spriteID: 12a847aa6b16c844ab2df0762d2d6a06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 202, y: 116}
+  - name: Skeleton Animations Show Reel_Frame_33
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 289
+      y: 418
+      width: 87
+      height: 93
+    spriteID: 415d6d2aea65db845bf31c61ccf29743
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 289, y: 418}
+  - name: Skeleton Animations Show Reel_Frame_34
+    originalName: 
+    pivot: {x: 0.53571427, y: -0.18478261}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 470
+      y: 718
+      width: 84
+      height: 92
+    spriteID: 9f6f42608771dfd4e8ef4b13d168a956
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 470, y: 718}
+  - name: Skeleton Animations Show Reel_Frame_35
+    originalName: 
+    pivot: {x: 0.5232558, y: -0.19565217}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 718
+      width: 86
+      height: 92
+    spriteID: e57b2fac69ff526439e22240a63d52af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 718}
+  - name: Skeleton Animations Show Reel_Frame_37
+    originalName: 
+    pivot: {x: 0.5113636, y: -0.19565217}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 116
+      width: 88
+      height: 92
+    spriteID: 1d899afdc11262646b831171bf5bae4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 116}
+  - name: Skeleton Animations Show Reel_Frame_38
+    originalName: 
+    pivot: {x: 0.5113636, y: -0.19587629}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 4
+      width: 88
+      height: 97
+    spriteID: 6c3beb7428eacd14ca70057ef0cbbb0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 510, y: 4}
+  - name: Skeleton Animations Show Reel_Frame_39
+    originalName: 
+    pivot: {x: 0.5113636, y: -0.19587629}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 606
+      y: 4
+      width: 88
+      height: 97
+    spriteID: aaa98bf154ff37540a5bde33fa6b7507
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 606, y: 4}
+  - name: Skeleton Animations Show Reel_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: -0.17045455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 289
+      y: 619
+      width: 80
+      height: 88
+    spriteID: 58fddca7fcce6844bbb3381395ca50f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 289, y: 619}
+  - name: Skeleton Animations Show Reel_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: -0.17045455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 619
+      width: 80
+      height: 88
+    spriteID: c69ffaca56d16e149be7968f7b149bf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 619}
+  - name: Skeleton Animations Show Reel_Frame_43
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 418
+      width: 87
+      height: 93
+    spriteID: ffb75aac2f5d67c48a6f4bf25d00fcb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 418}
+  - name: Skeleton Animations Show Reel_Frame_45
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 479
+      y: 418
+      width: 87
+      height: 93
+    spriteID: d7ab2ddba181cbd46a6c376784463b5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 479, y: 418}
+  - name: Skeleton Animations Show Reel_Frame_46
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 519
+      width: 87
+      height: 92
+    spriteID: 41d30e761c7afaf4c9de33c83bb994bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 519}
+  - name: Skeleton Animations Show Reel_Frame_47
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 479
+      y: 519
+      width: 87
+      height: 92
+    spriteID: 6fd6ee0d4da00d24e9f5a19cd1617f2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 479, y: 519}
+  - name: Skeleton Animations Show Reel_Frame_48
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.17582418}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 598
+      y: 116
+      width: 91
+      height: 91
+    spriteID: ad6de67c17320c64fa118c859dea105e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 598, y: 116}
+  - name: Skeleton Animations Show Reel_Frame_49
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17582418}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 99
+      y: 619
+      width: 87
+      height: 91
+    spriteID: 2f596fe60f5fb5a4fbd8efb13e4e59d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 99, y: 619}
+  - name: Skeleton Animations Show Reel_Frame_51
+    originalName: 
+    pivot: {x: 0.5411765, y: -0.17977528}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 562
+      y: 718
+      width: 85
+      height: 89
+    spriteID: 78b9dc8dae62a1d4d95680e9b34b2eb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 562, y: 718}
+  - name: Skeleton Animations Show Reel_Frame_52
+    originalName: 
+    pivot: {x: 0.5411765, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 655
+      y: 718
+      width: 85
+      height: 88
+    spriteID: 1786892cee1618b4699274f2dbb84f07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 655, y: 718}
+  - name: Skeleton Animations Show Reel_Frame_53
+    originalName: 
+    pivot: {x: 0.5411765, y: -0.18390805}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 718
+      width: 85
+      height: 87
+    spriteID: 0e7f30c0d1dd7d449a66b4c62681f265
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 718}
+  - name: Skeleton Animations Show Reel_Frame_54
+    originalName: 
+    pivot: {x: 0.5411765, y: -0.18390805}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 841
+      y: 718
+      width: 85
+      height: 87
+    spriteID: 0f39e1ecc7c73554f8d96f7d3030d0a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 841, y: 718}
+  - name: Skeleton Animations Show Reel_Frame_55
+    originalName: 
+    pivot: {x: 0.53571427, y: -0.18390805}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 934
+      y: 718
+      width: 84
+      height: 87
+    spriteID: c9210cb61a2b29b4e86889f716ec68ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 934, y: 718}
+  - name: Skeleton Animations Show Reel_Frame_56
+    originalName: 
+    pivot: {x: 0.49514565, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 103
+      height: 104
+    spriteID: 14c3888cb908d1445893b99511adb77d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Skeleton Animations Show Reel_Frame_57
+    originalName: 
+    pivot: {x: 0.4456522, y: -0.12871286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 4
+      width: 92
+      height: 101
+    spriteID: 31c03dffeaf1d3e4b8cfc0fb6d854a55
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 216, y: 4}
+  - name: Skeleton Animations Show Reel_Frame_59
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17204301}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 574
+      y: 418
+      width: 87
+      height: 93
+    spriteID: e1752342bc476264fbacc5ee1c44d0da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 574, y: 418}
+  - name: Skeleton Animations Show Reel_Frame_60
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 574
+      y: 519
+      width: 87
+      height: 92
+    spriteID: 704c9de3494c9e7428f084b1f5808b47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 574, y: 519}
+  - name: Skeleton Animations Show Reel_Frame_61
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 669
+      y: 519
+      width: 87
+      height: 92
+    spriteID: 9eda59dd2ac97a3428e42eced186c016
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 669, y: 519}
+  - name: Skeleton Animations Show Reel_Frame_62
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.17582418}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 697
+      y: 116
+      width: 91
+      height: 91
+    spriteID: 2425f19dea6c43145a866c645d5f185a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 697, y: 116}
+  - name: Skeleton Animations Show Reel_Frame_63
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.17582418}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 619
+      width: 87
+      height: 91
+    spriteID: d7e0580ed0e49e642877f3a49138f0d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 619}
+  - name: Skeleton Animations Show Reel_Frame_65
+    originalName: 
+    pivot: {x: 0.53932583, y: -0.19354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 216
+      width: 89
+      height: 93
+    spriteID: 027148ba229c21b4db0b8bb631c979a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 102, y: 216}
+  - name: Skeleton Animations Show Reel_Frame_66
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.20430107}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 669
+      y: 418
+      width: 87
+      height: 93
+    spriteID: e245d1721a49c5048abb31670ac749b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 669, y: 418}
+  - name: Skeleton Animations Show Reel_Frame_67
+    originalName: 
+    pivot: {x: 0.53932583, y: -0.21505377}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 216
+      width: 89
+      height: 93
+    spriteID: bd77338341619e049bf910623cb005e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 216}
+  - name: Skeleton Animations Show Reel_Frame_69
+    originalName: 
+    pivot: {x: 0.53932583, y: -0.19354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 296
+      y: 216
+      width: 89
+      height: 93
+    spriteID: d16a29eccd375224699011f463756073
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 296, y: 216}
+  - name: Skeleton Animations Show Reel_Frame_70
+    originalName: 
+    pivot: {x: 0.54022986, y: -0.20430107}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 764
+      y: 418
+      width: 87
+      height: 93
+    spriteID: 3f7a22cb17e88f24e84d3c21709a7d9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 764, y: 418}
+  - name: Skeleton Animations Show Reel_Frame_71
+    originalName: 
+    pivot: {x: 0.53932583, y: -0.21505377}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 216
+      width: 89
+      height: 93
+    spriteID: 54006bed130dfac4d84faf0ce35d4953
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 216}
+  - name: Skeleton Animations Show Reel_Frame_73
+    originalName: 
+    pivot: {x: 0.51111114, y: -0.20430107}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 216
+      width: 90
+      height: 93
+    spriteID: e5ab2adf67816294b974a34c6eee665b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 216}
+  - name: Skeleton Animations Show Reel_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: -0.1764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 4
+      width: 90
+      height: 102
+    spriteID: 1f37e5555c6e4604ead7802214a6b747
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 4}
+  - name: Skeleton Animations Show Reel_Frame_75
+    originalName: 
+    pivot: {x: 0.50537634, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 4
+      width: 93
+      height: 104
+    spriteID: d41e47e7fb3808f42978bb0392122e86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 4}
+  - name: Skeleton Animations Show Reel_Frame_76
+    originalName: 
+    pivot: {x: 0.50617284, y: -0.15053764}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 818
+      width: 81
+      height: 93
+    spriteID: 983f285fa6068c747870620a81a61646
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 818}
+  - name: Skeleton Animations Show Reel_Frame_77
+    originalName: 
+    pivot: {x: 0.50617284, y: -0.19178082}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 554
+      y: 619
+      width: 81
+      height: 73
+    spriteID: 04f73a337d891b24ab1cdb12ea1eb805
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 554, y: 619}
+  - name: Skeleton Animations Show Reel_Frame_78
+    originalName: 
+    pivot: {x: 0.50617284, y: -0.1891892}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 465
+      y: 619
+      width: 81
+      height: 74
+    spriteID: 0a3752a9ed5cf7644bcbf1e5fbc9a5f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 465, y: 619}
+  - name: Skeleton Animations Show Reel_Frame_79
+    originalName: 
+    pivot: {x: 0.50617284, y: -0.19178082}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 643
+      y: 619
+      width: 81
+      height: 73
+    spriteID: 7a233b97f3567db4d98f2322410bdbe7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 643, y: 619}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -966465095
+    name: Skeleton Animations Show Reel
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Skeleton Animations Show Reel_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: 013b66e3206ffb7409c3cbe08433aaff
+    - name: Skeleton Animations Show Reel_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: 518cd4ab03a3fc04383edf7c8921ef8e
+    - name: Skeleton Animations Show Reel_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: 512fa371d1daddb4ba61d494a0567251
+    - name: Skeleton Animations Show Reel_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: 2661edab05327f34fb42fee67d1629d6
+    - name: Skeleton Animations Show Reel_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: 7f201beea596fa140b61dd53a904933a
+    - name: Skeleton Animations Show Reel_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: c017a7e50730f1043a0340206e27eac9
+    - name: Skeleton Animations Show Reel_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: 36bb2e007648d3148bfcf9a4fa4991ef
+    - name: Skeleton Animations Show Reel_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 19
+        y: 19
+        width: 88
+        height: 97
+      spriteId: be725507e9f359841a4beffcee1c12cc
+    - name: Skeleton Animations Show Reel_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: 549e7dc8565f71c43a0285404668f806
+    - name: Skeleton Animations Show Reel_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: bd6eff9a9938c9d4db186d55d95539c4
+    - name: Skeleton Animations Show Reel_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: c0060f6263f7e3148b5222945bb0e800
+    - name: Skeleton Animations Show Reel_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: 7c233b4a5769ecf43a5c12e91f989ba9
+    - name: Skeleton Animations Show Reel_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: 239ee7d640fb4274a8819dbcc372b856
+    - name: Skeleton Animations Show Reel_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: b42b4399fc36bc442960c562769749f3
+    - name: Skeleton Animations Show Reel_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: a003ec1ab5d2c31458e64baf566ad818
+    - name: Skeleton Animations Show Reel_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 92
+      spriteId: b9d76a9d76990d64eadef755769b70d7
+    - name: Skeleton Animations Show Reel_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 92
+      spriteId: 30a542110b89fdc429b4c2ce3bb7a28c
+    - name: Skeleton Animations Show Reel_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 15
+        y: 16
+        width: 91
+        height: 91
+      spriteId: 9be83d090a4c0a04db7d0b843c6cef2a
+    - name: Skeleton Animations Show Reel_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 91
+      spriteId: b82842d477c18b84ab1e258adce6e3d9
+    - name: Skeleton Animations Show Reel_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: b6d8462cf9ea3de469a73ecf2ba1059f
+    - name: Skeleton Animations Show Reel_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 92
+      spriteId: aec9aa86ef02bb04db30e73b38a28a78
+    - name: Skeleton Animations Show Reel_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 92
+      spriteId: bb6f1701575f9cc4ea9a78fe0e7d5592
+    - name: Skeleton Animations Show Reel_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 15
+        y: 16
+        width: 91
+        height: 91
+      spriteId: 3d8baec9484225a468f0a406cc025c25
+    - name: Skeleton Animations Show Reel_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 91
+      spriteId: 64f50861b2239b6478e1ebecd0d6d837
+    - name: Skeleton Animations Show Reel_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: d999570a71c5eee43a01b676d1434fca
+    - name: Skeleton Animations Show Reel_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 92
+      spriteId: 737ed203eb5922146bd8a6b985353e50
+    - name: Skeleton Animations Show Reel_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 92
+      spriteId: f530aeb1549467947969858cfa4fe342
+    - name: Skeleton Animations Show Reel_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 15
+        y: 16
+        width: 91
+        height: 91
+      spriteId: 8dee34b8daba15b46945199b9cc60d42
+    - name: Skeleton Animations Show Reel_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 91
+      spriteId: 02534869cf499194e8fb9a7fab3b2a2b
+    - name: Skeleton Animations Show Reel_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 15
+        y: 17
+        width: 91
+        height: 92
+      spriteId: a9c4fc96bade437459ab11d33442e342
+    - name: Skeleton Animations Show Reel_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 15
+        y: 18
+        width: 91
+        height: 92
+      spriteId: c4d3f136982fa01409b86f397a01e6f1
+    - name: Skeleton Animations Show Reel_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: d0edafd01aa1c8741adce94ae87acf2b
+    - name: Skeleton Animations Show Reel_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 19
+        y: 17
+        width: 84
+        height: 92
+      spriteId: edaf52e6cd57b7945bbd2e706e251a76
+    - name: Skeleton Animations Show Reel_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 19
+        y: 18
+        width: 86
+        height: 92
+      spriteId: 29dc972dfc1c02346bf166509c708133
+    - name: Skeleton Animations Show Reel_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 15
+        y: 17
+        width: 91
+        height: 92
+      spriteId: 7f866fffebe01f3419d2d757d05fc66a
+    - name: Skeleton Animations Show Reel_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 15
+        y: 18
+        width: 91
+        height: 92
+      spriteId: 1e9a582e855da8d4c81a36c9e6be5af6
+    - name: Skeleton Animations Show Reel_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: 7b05dc0bee0e58e43b2d2790731fc760
+    - name: Skeleton Animations Show Reel_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 19
+        y: 17
+        width: 84
+        height: 92
+      spriteId: 3a906fd6c4fbef34788de5914253314a
+    - name: Skeleton Animations Show Reel_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 19
+        y: 18
+        width: 86
+        height: 92
+      spriteId: a6139a47102ca2a4988cb1df0279ad8e
+    - name: Skeleton Animations Show Reel_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 15
+        y: 17
+        width: 91
+        height: 92
+      spriteId: c3e977c9fefaeb94996a4ce9e6c3361c
+    - name: Skeleton Animations Show Reel_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 15
+        y: 18
+        width: 91
+        height: 92
+      spriteId: 12a847aa6b16c844ab2df0762d2d6a06
+    - name: Skeleton Animations Show Reel_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: 415d6d2aea65db845bf31c61ccf29743
+    - name: Skeleton Animations Show Reel_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 19
+        y: 17
+        width: 84
+        height: 92
+      spriteId: 9f6f42608771dfd4e8ef4b13d168a956
+    - name: Skeleton Animations Show Reel_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 19
+        y: 18
+        width: 86
+        height: 92
+      spriteId: e57b2fac69ff526439e22240a63d52af
+    - name: Skeleton Animations Show Reel_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 19
+        y: 18
+        width: 88
+        height: 92
+      spriteId: 1d899afdc11262646b831171bf5bae4d
+    - name: Skeleton Animations Show Reel_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 19
+        y: 19
+        width: 88
+        height: 97
+      spriteId: 6c3beb7428eacd14ca70057ef0cbbb0b
+    - name: Skeleton Animations Show Reel_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 19
+        y: 19
+        width: 88
+        height: 97
+      spriteId: aaa98bf154ff37540a5bde33fa6b7507
+    - name: Skeleton Animations Show Reel_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 24
+        y: 15
+        width: 80
+        height: 88
+      spriteId: 58fddca7fcce6844bbb3381395ca50f0
+    - name: Skeleton Animations Show Reel_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 24
+        y: 15
+        width: 80
+        height: 88
+      spriteId: c69ffaca56d16e149be7968f7b149bf8
+    - name: Skeleton Animations Show Reel_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: ffb75aac2f5d67c48a6f4bf25d00fcb3
+    - name: Skeleton Animations Show Reel_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: d7ab2ddba181cbd46a6c376784463b5b
+    - name: Skeleton Animations Show Reel_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 92
+      spriteId: 41d30e761c7afaf4c9de33c83bb994bd
+    - name: Skeleton Animations Show Reel_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 92
+      spriteId: 6fd6ee0d4da00d24e9f5a19cd1617f2a
+    - name: Skeleton Animations Show Reel_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 15
+        y: 16
+        width: 91
+        height: 91
+      spriteId: ad6de67c17320c64fa118c859dea105e
+    - name: Skeleton Animations Show Reel_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 91
+      spriteId: 2f596fe60f5fb5a4fbd8efb13e4e59d4
+    - name: Skeleton Animations Show Reel_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 18
+        y: 16
+        width: 85
+        height: 89
+      spriteId: 78b9dc8dae62a1d4d95680e9b34b2eb3
+    - name: Skeleton Animations Show Reel_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 18
+        y: 16
+        width: 85
+        height: 88
+      spriteId: 1786892cee1618b4699274f2dbb84f07
+    - name: Skeleton Animations Show Reel_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 18
+        y: 16
+        width: 85
+        height: 87
+      spriteId: 0e7f30c0d1dd7d449a66b4c62681f265
+    - name: Skeleton Animations Show Reel_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 18
+        y: 16
+        width: 85
+        height: 87
+      spriteId: 0f39e1ecc7c73554f8d96f7d3030d0a7
+    - name: Skeleton Animations Show Reel_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 19
+        y: 16
+        width: 84
+        height: 87
+      spriteId: c9210cb61a2b29b4e86889f716ec68ca
+    - name: Skeleton Animations Show Reel_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 13
+        y: 13
+        width: 103
+        height: 104
+      spriteId: 14c3888cb908d1445893b99511adb77d
+    - name: Skeleton Animations Show Reel_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 23
+        y: 13
+        width: 92
+        height: 101
+      spriteId: 31c03dffeaf1d3e4b8cfc0fb6d854a55
+    - name: Skeleton Animations Show Reel_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 93
+      spriteId: e1752342bc476264fbacc5ee1c44d0da
+    - name: Skeleton Animations Show Reel_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 92
+      spriteId: 704c9de3494c9e7428f084b1f5808b47
+    - name: Skeleton Animations Show Reel_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 92
+      spriteId: 9eda59dd2ac97a3428e42eced186c016
+    - name: Skeleton Animations Show Reel_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 15
+        y: 16
+        width: 91
+        height: 91
+      spriteId: 2425f19dea6c43145a866c645d5f185a
+    - name: Skeleton Animations Show Reel_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 17
+        y: 16
+        width: 87
+        height: 91
+      spriteId: d7e0580ed0e49e642877f3a49138f0d9
+    - name: Skeleton Animations Show Reel_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 16
+        y: 18
+        width: 89
+        height: 93
+      spriteId: 027148ba229c21b4db0b8bb631c979a7
+    - name: Skeleton Animations Show Reel_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 17
+        y: 19
+        width: 87
+        height: 93
+      spriteId: e245d1721a49c5048abb31670ac749b2
+    - name: Skeleton Animations Show Reel_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 16
+        y: 20
+        width: 89
+        height: 93
+      spriteId: bd77338341619e049bf910623cb005e7
+    - name: Skeleton Animations Show Reel_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 16
+        y: 18
+        width: 89
+        height: 93
+      spriteId: d16a29eccd375224699011f463756073
+    - name: Skeleton Animations Show Reel_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 17
+        y: 19
+        width: 87
+        height: 93
+      spriteId: 3f7a22cb17e88f24e84d3c21709a7d9a
+    - name: Skeleton Animations Show Reel_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 16
+        y: 20
+        width: 89
+        height: 93
+      spriteId: 54006bed130dfac4d84faf0ce35d4953
+    - name: Skeleton Animations Show Reel_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 18
+        y: 19
+        width: 90
+        height: 93
+      spriteId: e5ab2adf67816294b974a34c6eee665b
+    - name: Skeleton Animations Show Reel_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 19
+        y: 18
+        width: 90
+        height: 102
+      spriteId: 1f37e5555c6e4604ead7802214a6b747
+    - name: Skeleton Animations Show Reel_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 17
+        y: 16
+        width: 93
+        height: 104
+      spriteId: d41e47e7fb3808f42978bb0392122e86
+    - name: Skeleton Animations Show Reel_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 23
+        y: 14
+        width: 81
+        height: 93
+      spriteId: 983f285fa6068c747870620a81a61646
+    - name: Skeleton Animations Show Reel_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 23
+        y: 14
+        width: 81
+        height: 73
+      spriteId: 04f73a337d891b24ab1cdb12ea1eb805
+    - name: Skeleton Animations Show Reel_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 23
+        y: 14
+        width: 81
+        height: 74
+      spriteId: 0a3752a9ed5cf7644bcbf1e5fbc9a5f3
+    - name: Skeleton Animations Show Reel_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 23
+        y: 14
+        width: 81
+        height: 73
+      spriteId: 7a233b97f3567db4d98f2322410bdbe7
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}
