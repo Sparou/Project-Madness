@@ -4,18 +4,47 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    [SerializeField] string characterName;
-    [SerializeField] float maxHealth;
+    [SerializeField] string characterName = "Character";
+    [SerializeField] float maxHealth = 100.0f;
+
     protected float currentHealth;
-    // Start is called before the first frame update
+    protected bool isDead = false;
+
+    //Components
+    Animator animator;
+
     void Start()
     {
-        
+        currentHealth = maxHealth;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    public void TakeDamge(float damage)
+    {
+        Debug.Log(string.Format("{0} was damaged!", characterName));
+
+        // Hurt animation
+        // animator.SetTrigger("Hurt");
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    public void Die()
+    {
+        Debug.Log(string.Format("{0} was died!", characterName));
+
+        // Die animation
+        // animator.SetTrigger("Die")
+
+        // Disable collision and logics
+        GetComponent<Collider2D>().enabled = false;
+        this.enabled = false;
     }
 }
