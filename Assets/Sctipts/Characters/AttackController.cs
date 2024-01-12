@@ -1,29 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Character))]
 [RequireComponent(typeof(AnimationController))]
 public class AttackController : MonoBehaviour
 {
-    private Character character;
     private AnimationController animationController;
 
     private float attackCooldownCounter = 0;
     public bool isAttacking { get; private set; } = false;
 
-    // Start is called before the first frame update
     private void Start()
     {
-        character = GetComponent<Character>();
         animationController = GetComponent<AnimationController>();
     }
 
-    public void OnFire(InputValue value)
+    public void OnFire(float attackCooldown)
     {
         //TODO: урон не повтор€ютс€
-        if (!isAttacking && attackCooldownCounter >= character.GetAttackCooldown())
+        if (!isAttacking && attackCooldownCounter >= attackCooldown)
         {
             animationController.FireAnimation();
             isAttacking = true;
@@ -43,15 +36,5 @@ public class AttackController : MonoBehaviour
     private void Update()
     {
         attackCooldownCounter += Time.deltaTime;
-    }
-
-    private void OnDrawGizmosSelected()
-    {
-        if (character.GetAttackPoint() == null)
-        {
-            return;
-        }
-
-        Gizmos.DrawWireSphere(character.GetAttackPoint().position, character.GetAttackRange());
     }
 }

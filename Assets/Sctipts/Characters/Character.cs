@@ -6,11 +6,12 @@ public class Character : MonoBehaviour
 {
     [SerializeField] private string characterName;
 
-    // Health variables 
+    #region Health variables 
     [SerializeField] private float maxHealth;
     public float currentHealth { get; private set; }
+    #endregion
 
-    // Movement variables
+    #region Movement variables
     [SerializeField] private float moveSpeed = 5;
     [SerializeField] private float dashSpeed = 3;
     [SerializeField] private float dashLength = .5f;
@@ -19,24 +20,14 @@ public class Character : MonoBehaviour
     public float GetDashSpeed() { return dashSpeed; }
     public float GetDashLength() { return dashLength; }
     public float GetDashCooldown() {  return dashCooldown; }
+    #endregion
 
-    //Attack variables
+    #region Attack variables
     [SerializeField] private Transform attackPoint;
     [SerializeField] private float attackRange = .5f;
     [SerializeField] private float attackCooldown = .1f;
     public Transform GetAttackPoint() { return attackPoint; }
     public float GetAttackRange() { return attackRange; }
     public float GetAttackCooldown() {  return attackCooldown; }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    #endregion
 }

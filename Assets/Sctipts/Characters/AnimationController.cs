@@ -1,23 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Animator))]
 public class AnimationController : MonoBehaviour
 {
     private Animator animator;
 
-    // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
     }
 
-    public void OnMove(InputValue value)
+    public void OnMoveStart()
     {
-        animator.ResetTrigger("IdleTrigger");
-        animator.SetTrigger("MoveTrigger");
+        if (!animator.GetBool("MoveTrigger"))
+        {
+            animator.ResetTrigger("IdleTrigger");
+            animator.SetTrigger("MoveTrigger");
+        }
     }
 
     public void OnMoveEnd()
@@ -28,14 +27,9 @@ public class AnimationController : MonoBehaviour
 
     public void FireAnimation()
     {
-        animator.SetTrigger("AttackTrigger");
-    }
-
-
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        if (!animator.GetBool("AttackTrigger")) 
+        {
+            animator.SetTrigger("AttackTrigger");
+        }
     }
 }
