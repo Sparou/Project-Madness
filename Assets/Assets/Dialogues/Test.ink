@@ -1,14 +1,16 @@
+VAR totalPoints = 0
 -> main
 
 === main ===
-Which pokemon do you choose?
-    + [Charmander]
-        -> chosen("Charmander")
-    + [Bulbasaur]
-        -> chosen("Bulbasaur")
-    + [Squirtle]
-        -> chosen("Squirtle")
+Устроить резню?
+    * [Так точно!]
+        -> chosen(10)
+    * [Никак нет!]
+        -> chosen(-10)
+    * [Ты кто..]
+        -> chosen(0)
         
-=== chosen(pokemon) ===
-You chose {pokemon}!
+=== chosen(points) ===
+Получено очков: {points}!
+~totalPoints = points 
 -> END

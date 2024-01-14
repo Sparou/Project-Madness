@@ -17,8 +17,10 @@ public class DialogueManager : MonoBehaviour
     public bool dialogueIsPlaying { get; private set; }
     private Story currentStory;
     private TextMeshProUGUI[] textChoices;
+    private DialogueVariables dialogueVariables;
 
-    
+
+
 
     private void Awake()
     {
@@ -26,6 +28,7 @@ public class DialogueManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            dialogueVariables = new DialogueVariables();
             DontDestroyOnLoad(gameObject);
             return;
         }
@@ -72,6 +75,8 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(true);
         currentStory = new Story(inkJSON.text);
 
+        dialogueVariables.StartListening(currentStory);
+
         actorName.text = NPCname;
 
         ContinueStory();
@@ -116,6 +121,9 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
+
+        // Calculate total RP points
+        dialogueVariables.StopListening(currentStory);
     }
 
     private IEnumerator SelectChoice()

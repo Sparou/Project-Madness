@@ -8,7 +8,7 @@ public class Character : MonoBehaviour
     [SerializeField] float maxHealth;
     protected float currentHealth;
 
-    [SerializeField] protected int _humanPoints;
+    [SerializeField] public int _humanPoints;
     // Start is called before the first frame update
     void Start()
     {
