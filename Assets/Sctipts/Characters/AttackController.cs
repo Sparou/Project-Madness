@@ -1,4 +1,5 @@
 using UnityEngine;
+using static AnimationController;
 
 [RequireComponent(typeof(AnimationController))]
 public class AttackController : MonoBehaviour
@@ -6,20 +7,29 @@ public class AttackController : MonoBehaviour
     private AnimationController animationController;
 
     private float attackCooldownCounter = 0;
-    public bool isAttacking { get; private set; } = false;
+    
+    private Attack nextAttack = Attack.first;
 
     private void Start()
     {
         animationController = GetComponent<AnimationController>();
     }
 
-    public void OnFire(float attackCooldown)
+    public void OnFire(float attackCooldown, float nextAttackTimeLimit)
     {
-        //TODO: урон не повтор€ютс€
-        if (!isAttacking && attackCooldownCounter >= attackCooldown)
+        if (attackCooldownCounter >= attackCooldown)
         {
-            animationController.FireAnimation();
-            isAttacking = true;
+
+            if(nextAttack == Attack.second && attackCooldownCounter - attackCooldown < nextAttackTimeLimit)
+            {
+                animationController.FireAnimation(Attack.second);
+                nextAttack = Attack.first;
+            }
+            else
+            {
+                animationController.FireAnimation(Attack.first);
+                nextAttack = Attack.second;
+            }
 
             //Collider2D[] hitCharacters = Physics2D.OverlapCircleAll(character.attackPoint.position, character.attackRange);
 
@@ -29,7 +39,6 @@ public class AttackController : MonoBehaviour
             //}
 
             attackCooldownCounter = 0;
-            isAttacking = false;
         }
     }
 

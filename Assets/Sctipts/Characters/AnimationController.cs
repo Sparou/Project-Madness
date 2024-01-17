@@ -5,31 +5,56 @@ public class AnimationController : MonoBehaviour
 {
     private Animator animator;
 
+    public enum Attack
+    {
+        first,
+        second
+    }
+
+    #region Animator variables names
+    [SerializeField] private string animatorAttackTrigger = "AttackTrigger";
+    [SerializeField] private string animatorSecondAttackTrigger = "SecondAttackTrigger";
+    [SerializeField] private string animatorHurtTrigger = "HurtTrigger";
+    [SerializeField] private string animatorDeathTrigger = "DeathTrigger";
+    [SerializeField] private string animatorSpeed = "Speed";
+    #endregion 
+
     void Start()
     {
         animator = GetComponent<Animator>();
     }
 
-    public void OnMoveStart()
+    public void FireAnimation(Attack attack)
     {
-        if (!animator.GetBool("MoveTrigger"))
+        if (attack == Attack.first && !animator.GetBool(animatorAttackTrigger))
         {
-            animator.ResetTrigger("IdleTrigger");
-            animator.SetTrigger("MoveTrigger");
+            animator.ResetTrigger(animatorSecondAttackTrigger);
+            animator.SetTrigger(animatorAttackTrigger);
+        }
+        else if (attack == Attack.second && !animator.GetBool(animatorSecondAttackTrigger))
+        {
+            animator.SetTrigger(animatorSecondAttackTrigger);
         }
     }
 
-    public void OnMoveEnd()
+    public void SetSpeed(float speed)
     {
-        animator.ResetTrigger("MoveTrigger");
-        animator.SetTrigger("IdleTrigger");
+        animator.SetFloat(animatorSpeed, speed);
     }
 
-    public void FireAnimation()
+    public void HurtAnimation()
     {
-        if (!animator.GetBool("AttackTrigger")) 
+        if (!animator.GetBool(animatorHurtTrigger))
         {
-            animator.SetTrigger("AttackTrigger");
+            animator.SetTrigger(animatorHurtTrigger);
+        }
+    }
+
+    public void DeathAnimation()
+    {
+        if (!animator.GetBool(animatorDeathTrigger))
+        {
+            animator.SetTrigger(animatorDeathTrigger);
         }
     }
 }

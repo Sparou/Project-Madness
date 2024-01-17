@@ -483,6 +483,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: ee18fd25-0b43-4631-9991-e7d47f91d2fa
     m_ActionName: 'Player/Dash[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2ca5c8ad-ef59-4a83-aed4-281e252f11d2
+    m_ActionName: 'Player/Dodge[/Keyboard/space]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
@@ -533,14 +537,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Morte
-  maxHealth: 0
+  maxHealth: 100
   moveSpeed: 5
-  dashSpeed: 15
-  dashLength: 3
-  dashCooldown: 2
+  rotationSpeed: 15
+  dashSpeed: 10
+  dashDuration: 1
+  dashCooldown: 5
+  dodgeSpeed: 15
+  dodgeDuration: 0.1
+  dodgeCooldown: 1
   attackPoint: {fileID: 1850073480}
   attackRange: 0.5
-  attackCooldown: 1
+  attackCooldown: 0.5
+  nextAttackTimeLimit: 0.3
 --- !u!114 &1021442809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -553,6 +562,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ae91a714a7d45141a1d2a6cd83e8df3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatorAttackTrigger: AttackTrigger
+  animatorSecondAttackTrigger: SecondAttackTrigger
+  animatorHurtTrigger: HurtTrigger
+  animatorDeathTrigger: DeathTrigger
+  animatorSpeed: Speed
 --- !u!114 &1021442810
 MonoBehaviour:
   m_ObjectHideFlags: 0
