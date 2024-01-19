@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 [RequireComponent(typeof(HealthController))]
 public class Character : MonoBehaviour
 {
     [SerializeField] private string characterName;
+    [SerializeField] private LayerMask layerMask;
+    public LayerMask GetLayerMask() { return layerMask; }
 
     #region Health variables 
     [SerializeField] private float maxHealth;
@@ -32,13 +35,23 @@ public class Character : MonoBehaviour
     #endregion
 
     #region Attack variables
-    [SerializeField] protected Transform attackPoint;
-    [SerializeField] protected float attackRange = .5f;
-    [SerializeField] protected float attackCooldown = .1f;
+    [SerializeField] private Transform attackPoint;
+    [SerializeField] private float attackRange = .5f;
+    [SerializeField] private float attackCooldown = .1f;
     ///<summary> 
     ///—колько времени даетс€ игроку, чтобы совершить следующую атаку в серии 
     ///</summary>*/
-    [SerializeField] protected float nextAttackTimeLimit = .2f;
+    [SerializeField] private float nextAttackTimeLimit = .2f;
+    public Transform GetAttackPoint() { return attackPoint; }
+    public float GetAttackRange() { return attackRange; }
+    public float GetAttackCooldown() { return attackCooldown; }
+    public float GetNextAttackTimeLimit() { return nextAttackTimeLimit; }
+    #endregion
+
+    //TODO: создать класс оружи€
+    #region Weapon variables
+    [SerializeField] private float weaponDamage = 5f;
+    public float GetWeaponDamage() { return weaponDamage; }
     #endregion
 
     public HealthController healthController;

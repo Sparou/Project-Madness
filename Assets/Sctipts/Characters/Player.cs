@@ -26,7 +26,7 @@ public class Player : Character
         playerInputActions.Player.Dodge.started += context => movementController.OnDodge(GetDodgeCooldown(),
                                                                                          GetDodgeSpeed(),
                                                                                          GetDodgeDuration());
-        playerInputActions.Player.Fire.started += context => attackController.OnFire(attackCooldown, nextAttackTimeLimit);
+        playerInputActions.Player.Fire.started += context => attackController.OnFire(GetAttackCooldown(), GetNextAttackTimeLimit());
         #endregion
 
         #endregion
@@ -53,11 +53,11 @@ public class Player : Character
     //DEBUG
     private void OnDrawGizmosSelected()
     {
-        if (attackPoint == null)
+        if (GetAttackPoint() == null)
         {
             return;
         }
 
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        Gizmos.DrawWireSphere(GetAttackPoint().position, GetAttackRange());
     }
 }
