@@ -21,30 +21,32 @@ public class AttackController : MonoBehaviour
     {
         if (attackCooldownCounter >= attackCooldown)
         {
-
             if(nextAttack == Attack.second && attackCooldownCounter - attackCooldown < nextAttackTimeLimit)
             {
                 animationController.FireAnimation(Attack.second);
+                attackCooldownCounter = 0;
                 nextAttack = Attack.first;
             }
             else
             {
                 animationController.FireAnimation(Attack.first);
+                attackCooldownCounter = 0;
                 nextAttack = Attack.second;
             }
+        }
+    }
 
-            Collider2D[] hitCharacters = Physics2D.OverlapCircleAll(character.GetAttackPoint().position, character.GetAttackRange(), character.GetLayerMask());
+    public void OnAttack()
+    {
+        Collider2D[] hitCharacters = Physics2D.OverlapCircleAll(character.GetAttackPoint().position, character.GetAttackRange(), character.GetLayerMask());
 
-            foreach (Collider2D potentialEnemy in hitCharacters)
+        foreach (Collider2D potentialEnemy in hitCharacters)
+        {
+            Character enemyCharacter = potentialEnemy.GetComponent<Character>();
+            if (!enemyCharacter.Equals(character))
             {
-                Character enemyCharacter = potentialEnemy.GetComponent<Character>();
-                if (!enemyCharacter.Equals(character))
-                {
-                    enemyCharacter.healthController.TakeDamage(character.GetWeaponDamage());
-                }
+                enemyCharacter.healthController.TakeDamage(character.GetWeaponDamage());
             }
-
-            attackCooldownCounter = 0;
         }
     }
 
