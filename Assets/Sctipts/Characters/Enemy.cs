@@ -5,33 +5,57 @@ using UnityEngine;
 
 public class Enemy : NPC
 {
-
+    [SerializeField] Player target;
     [SerializeField] float agressiveRadius;
     [SerializeField] float moveSpeed;
 
-    [SerializeField] Player target;
-
+    private float currentMoveSpeed;
+    private bool agressiveStatus;
     private float distanceToTarget;
 
-    void Start()
-    {
-
-    }
-
-    
-    void Update()
-    {
-        Chase();
-    }
-
-
-    private void Chase()
+    private void FixedUpdate()
     {
         distanceToTarget = Vector2.Distance(transform.position, target.transform.position);
-
-        if (distanceToTarget <= agressiveRadius)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, target.transform.position, moveSpeed * Time.deltaTime);
-        }
     }
+
+    public float GetAgressiveRadius()
+    {
+        return agressiveRadius;
+    }
+
+    public bool GetAggressiveStatus()
+    {
+        return agressiveStatus;
+    }
+
+    public void SetAgressiveStatus(bool value)
+    {
+        agressiveStatus = value;
+    }
+
+    public float GetMoveSpeed()
+    {
+        return moveSpeed;
+    }
+
+    public float GetCurrentMoveSpeed()
+    {
+        return currentMoveSpeed;
+    }
+
+    public void SetCurrentMoveSpeed(float value)
+    {
+        currentMoveSpeed = value;
+    }
+
+    public Player GetTarget()
+    {
+        return target;
+    }
+
+    public float GetDistanceToTarget()
+    {
+        return distanceToTarget;
+    }
+
 }
