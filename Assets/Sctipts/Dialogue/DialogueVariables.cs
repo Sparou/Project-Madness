@@ -38,12 +38,7 @@ public class DialogueVariables : MonoBehaviour
 
     public void StopListening(Story story)
     {
-        story.variablesState.variableChangedEvent -= VariableChanged;
-
-        if (player != null && story.variablesState[inkPointsParam] != null)
-        {
-            player.ChangePoints((int)story.variablesState[inkPointsParam]);
-        }     
+        story.variablesState.variableChangedEvent -= VariableChanged;     
     }
 
     private void VariableChanged(string name, Ink.Runtime.Object value)
@@ -52,6 +47,12 @@ public class DialogueVariables : MonoBehaviour
         if (variables.ContainsKey(name))
         {
             variables[name] = value;
+
+            // change human points of player in main script
+            if (name == inkPointsParam && player != null)
+            {
+                player.ChangePoints(((Ink.Runtime.IntValue) value).value);
+            }
         }
 
     }

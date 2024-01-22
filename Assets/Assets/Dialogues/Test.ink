@@ -3,12 +3,12 @@ INCLUDE globals.ink
 
 === main ===
 Устроить резню?
-    * {humanPoints < -10} [Так точно!]
+    * {humanPoints <= -10} [Так точно!]
         -> chosen(-10)
-    * {humanPoints > 10} [Никак нет!]
+    * {humanPoints >= 10} [Никак нет!]
         -> chosen(10)
     * [Ты кто..]
-        -> chosen(0)
+        -> chosen(RANDOM(-10, 10))
         
 === chosen(points) ===
 Получено очков: {points}!

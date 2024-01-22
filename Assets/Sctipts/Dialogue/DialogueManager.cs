@@ -100,6 +100,7 @@ public class DialogueManager : MonoBehaviour
     private void DisplayChoices()
     {
         List<Choice> currentChoices = currentStory.currentChoices;
+        Debug.Log(currentChoices.Count);
         int i = 0;
 
         // Displays choices in UI holders
@@ -110,8 +111,9 @@ public class DialogueManager : MonoBehaviour
             i++;
         }
 
+        Debug.Log(choices.Length);
         // Hides unused choice holders
-        int bound = currentChoices.Count > 0 ? currentChoices.Count : choices.Length;
+        int bound = choices.Length;
         for (int j = i; j < bound; j++)
         {
             choices[j].gameObject.SetActive(false);

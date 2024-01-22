@@ -23,6 +23,7 @@ public class Character : MonoBehaviour
 
     public void ChangePoints(int ammount)
     {
-        this._humanPoints += ammount;
+        this._humanPoints = ammount;
     }
+
 }
