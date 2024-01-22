@@ -8,7 +8,16 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(AnimationController))]
 public class MovementController : MonoBehaviour
 {
-    private Player player;
+    [SerializeField] private float moveSpeed = 5;
+
+    [SerializeField] private float dashSpeed = 10;
+    [SerializeField] private float dashDuration = .5f;
+    [SerializeField] private float dashCooldown = 5f;
+
+    [SerializeField] private float dodgeSpeed = 15;
+    [SerializeField] private float dodgeDuration = .1f;
+    [SerializeField] private float dodgeCooldown = 2f;
+
     private Rigidbody2D characterRigidbody;
     private AnimationController animationController;
 
@@ -23,13 +32,12 @@ public class MovementController : MonoBehaviour
 
     private void Start()
     {
-        player = GetComponent<Player>();
         characterRigidbody = GetComponent<Rigidbody2D>();
         animationController = GetComponent<AnimationController>();
 
-        activeMoveSpeed = player.GetMoveSpeed();
-        dashCooldownCounter = player.GetDashCooldown();
-        dodgeCooldownCounter = player.GetDodgeCooldown();
+        activeMoveSpeed = moveSpeed;
+        dashCooldownCounter = dashCooldown;
+        dodgeCooldownCounter = dodgeCooldown;
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -89,7 +97,7 @@ public class MovementController : MonoBehaviour
     //}
     #endregion
 
-    public void OnDodge(float dodgeCooldown, float dodgeSpeed, float dodgeDuration)
+    public void OnDodge()
     {
         IncreaseSpeed(ref isDodging,
                       dodgeCooldown,
@@ -99,7 +107,7 @@ public class MovementController : MonoBehaviour
                       (flag, counter) => { isDodging = flag; dodgeCooldownCounter = counter; });
     }
 
-    public void OnDash(float dashCooldown, float dashSpeed, float dashDuration)
+    public void OnDash()
     {
         IncreaseSpeed(ref isDashing,
                       dashCooldown,
@@ -128,7 +136,7 @@ public class MovementController : MonoBehaviour
     {
         yield return new WaitForSeconds(delayTime);
 
-        activeMoveSpeed = player.GetMoveSpeed();
+        activeMoveSpeed = moveSpeed;
         onComplete.Invoke();
     }
 

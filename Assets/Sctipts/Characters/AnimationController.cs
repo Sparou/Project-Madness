@@ -17,6 +17,8 @@ public class AnimationController : MonoBehaviour
     [SerializeField] private string animatorHurtTrigger = "HurtTrigger";
     [SerializeField] private string animatorDeathTrigger = "DeathTrigger";
     [SerializeField] private string animatorSpeed = "Speed";
+    [SerializeField] private string firstAttackSpeedMultiplier = "FirstAttackSpeedMultiplier";
+    [SerializeField] private string secondAttackSpeedMultiplier = "SecondAttackSpeedMultiplier";
     #endregion 
 
     void Start()
@@ -26,15 +28,16 @@ public class AnimationController : MonoBehaviour
 
     public void FireAnimation(Attack attack)
     {
-        if (attack == Attack.first && !animator.GetBool(animatorAttackTrigger))
-        {
-            animator.ResetTrigger(animatorSecondAttackTrigger);
-            animator.SetTrigger(animatorAttackTrigger);
-        }
-        else if (attack == Attack.second && !animator.GetBool(animatorSecondAttackTrigger))
-        {
-            animator.SetTrigger(animatorSecondAttackTrigger);
-        }
+        animator.SetTrigger(attack == Attack.first ? animatorAttackTrigger : animatorSecondAttackTrigger);
+        /*Код на когда будет много атак*/
+        //if (attack == Attack.first && !animator.GetBool(animatorAttackTrigger))
+        //{
+        //    animator.SetTrigger(animatorAttackTrigger);
+        //}
+        //else if (attack == Attack.second && !animator.GetBool(animatorSecondAttackTrigger))
+        //{
+        //    animator.SetTrigger(animatorSecondAttackTrigger);
+        //}
     }
 
     public void SetSpeed(float speed)

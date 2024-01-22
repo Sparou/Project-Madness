@@ -360,6 +360,11 @@ MonoBehaviour:
   minSceneCoordinates: {x: -1000, y: 0}
   maxSceneCoordinates: {x: 1000, y: 1000}
   cameraSpeed: 2.5
+--- !u!4 &705715339 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1670789330513846771, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
+  m_PrefabInstance: {fileID: 1267413493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &927775279
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -555,9 +560,6 @@ PrefabInstance:
       addedObject: {fileID: 927775282}
     - targetCorrespondingSourceObject: {fileID: 312320201983474571, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 927775281}
-    - targetCorrespondingSourceObject: {fileID: 312320201983474571, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 927775288}
   m_SourcePrefab: {fileID: 100100000, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
 --- !u!1 &927775280 stripped
@@ -565,18 +567,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 312320201983474571, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
   m_PrefabInstance: {fileID: 927775279}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &927775281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927775280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cc29effcec549446877cc9411644fdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &927775282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -590,24 +580,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: enemy
-  layerMask:
+  characterLayerMask:
     serializedVersion: 2
     m_Bits: 8
-  maxHealth: 15
-  moveSpeed: 5
-  rotationSpeed: 3
-  dashSpeed: 10
-  dashDuration: 0.5
-  dashCooldown: 5
-  dodgeSpeed: 15
-  dodgeDuration: 0.1
-  dodgeCooldown: 2
-  attackPoint: {fileID: 0}
-  attackRange: 0.5
-  attackCooldown: 0.1
-  nextAttackTimeLimit: 0.2
-  weaponDamage: 5
-  healthController: {fileID: 927775281}
+  healthController: {fileID: 927775283}
 --- !u!114 &927775283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -620,6 +596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cc29effcec549446877cc9411644fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!114 &927775284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -637,6 +614,8 @@ MonoBehaviour:
   animatorHurtTrigger: HurtTrigger
   animatorDeathTrigger: DeathTrigger
   animatorSpeed: Speed
+  firstAttackSpeedMultiplier: FirstAttackSpeedMultiplier
+  secondAttackSpeedMultiplier: SecondAttackSpeedMultiplier
 --- !u!70 &927775288
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -851,24 +830,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Morte
-  layerMask:
+  characterLayerMask:
     serializedVersion: 2
     m_Bits: 8
-  maxHealth: 100
-  moveSpeed: 5
-  rotationSpeed: 15
-  dashSpeed: 10
-  dashDuration: 1
-  dashCooldown: 5
-  dodgeSpeed: 15
-  dodgeDuration: 0.1
-  dodgeCooldown: 1
-  attackPoint: {fileID: 1850073480}
-  attackRange: 2
-  attackCooldown: 0.5
-  nextAttackTimeLimit: 0.3
-  weaponDamage: 5
-  healthController: {fileID: 0}
+  healthController: {fileID: 1021442814}
 --- !u!114 &1021442809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -886,6 +851,8 @@ MonoBehaviour:
   animatorHurtTrigger: HurtTrigger
   animatorDeathTrigger: DeathTrigger
   animatorSpeed: Speed
+  firstAttackSpeedMultiplier: FirstAttackSpeedMultiplier
+  secondAttackSpeedMultiplier: SecondAttackSpeedMultiplier
 --- !u!114 &1021442810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -898,6 +865,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 996817f5c71690d4db9bf92ef3f43973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackPoint: {fileID: 1850073480}
+  attackRange: 1
+  nextAttackTimeLimit: 0.2
 --- !u!114 &1021442813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -910,6 +880,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97277d24c15ce6f4097188a885863a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 5
+  dashSpeed: 10
+  dashDuration: 0.5
+  dashCooldown: 5
+  dodgeSpeed: 15
+  dodgeDuration: 0.1
+  dodgeCooldown: 1
 --- !u!114 &1021442814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -922,6 +899,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cc29effcec549446877cc9411644fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+--- !u!114 &1021442815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021442798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 598b8aa5edb726d42bea6d1ed2692ff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponDamage: 5
 --- !u!1001 &1267413493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1077,8 +1068,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 8816646948371397361, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
-      insertIndex: -1
+    - targetCorrespondingSourceObject: {fileID: 1670789330513846771, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
+      insertIndex: 8
       addedObject: {fileID: 1850073480}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 312320201983474571, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
@@ -1098,6 +1089,9 @@ PrefabInstance:
       addedObject: {fileID: 1021442810}
     - targetCorrespondingSourceObject: {fileID: 312320201983474571, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1021442815}
+    - targetCorrespondingSourceObject: {fileID: 312320201983474571, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1021442809}
     - targetCorrespondingSourceObject: {fileID: 312320201983474571, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
       insertIndex: -1
@@ -1106,11 +1100,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1021442814}
   m_SourcePrefab: {fileID: 100100000, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
---- !u!4 &1637411710 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8816646948371397361, guid: af8372814d3915847a2d6b83ba8b3dfe, type: 3}
-  m_PrefabInstance: {fileID: 1267413493}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1850073479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,12 +1125,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850073479}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.80043626, w: -0.599418}
-  m_LocalPosition: {x: 0.54032433, y: -0.6227815, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1637411710}
+  m_Father: {fileID: 705715339}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1850073481
 SpriteRenderer:

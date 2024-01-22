@@ -4,17 +4,16 @@ using UnityEngine;
 [RequireComponent (typeof(Character))]
 public class HealthController : MonoBehaviour
 {
+    [SerializeField] private float maxHealth = 100;
+
     private AnimationController animationController;
-    private Character character;
-    
     private float currentHealth;
 
     private void Start()
     {
         animationController = GetComponent<AnimationController>();
-        character = GetComponent<Character>();
         
-        currentHealth = character.GetMaxHealth();
+        currentHealth = maxHealth;
     }
 
     public void TakeDamage(float damage)

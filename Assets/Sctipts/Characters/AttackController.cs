@@ -1,57 +1,95 @@
+using System.Collections;
 using UnityEngine;
 using static AnimationController;
 
+[RequireComponent(typeof(Character))]
 [RequireComponent(typeof(AnimationController))]
+[RequireComponent (typeof(Weapon))]
 public class AttackController : MonoBehaviour
 {
-    private AnimationController animationController;
-    private Character character;
+    [SerializeField] private Transform attackPoint;
+    [SerializeField] private float attackRange = .5f;
+    ///<summary> 
+    ///Сколько времени дается игроку, чтобы совершить следующую атаку в серии 
+    ///</summary>*/
+    [SerializeField] private float nextAttackTimeLimit = .2f;
 
-    private float attackCooldownCounter = 0;
-    
+    private Character character;
+    private AnimationController animationController;
+    private Weapon weapon;
+
+    private bool isAttacking = false;
+    private bool canUseSecondAttack = true;
+
     private Attack nextAttack = Attack.first;
 
     private void Start()
     {
-        animationController = GetComponent<AnimationController>();
         character = GetComponent<Character>();
+        animationController = GetComponent<AnimationController>();
+        weapon = GetComponent<Weapon>();
     }
 
-    public void OnFire(float attackCooldown, float nextAttackTimeLimit)
+    public void OnFire()
     {
-        if (attackCooldownCounter >= attackCooldown)
+        if (!isAttacking)
         {
-            if(nextAttack == Attack.second && attackCooldownCounter - attackCooldown < nextAttackTimeLimit)
+            isAttacking = true;
+
+            if (nextAttack == Attack.second && canUseSecondAttack)
             {
                 animationController.FireAnimation(Attack.second);
-                attackCooldownCounter = 0;
                 nextAttack = Attack.first;
             }
             else
             {
                 animationController.FireAnimation(Attack.first);
-                attackCooldownCounter = 0;
                 nextAttack = Attack.second;
             }
         }
     }
 
+    //Вызывается из анимации, начало нанесения урона
     public void OnAttack()
     {
-        Collider2D[] hitCharacters = Physics2D.OverlapCircleAll(character.GetAttackPoint().position, character.GetAttackRange(), character.GetLayerMask());
+        Collider2D[] hitCharacters = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, character.CharacterLayerMask);
 
         foreach (Collider2D potentialEnemy in hitCharacters)
         {
             Character enemyCharacter = potentialEnemy.GetComponent<Character>();
             if (!enemyCharacter.Equals(character))
             {
-                enemyCharacter.healthController.TakeDamage(character.GetWeaponDamage());
+                enemyCharacter.healthController.TakeDamage(weapon.WeaponDamage);
             }
         }
     }
 
-    private void Update()
+    //Вызывается в конце анимации
+    public void OnAttackEnd(Attack attack)
     {
-        attackCooldownCounter += Time.deltaTime;
+        canUseSecondAttack = true;
+        if(attack == Attack.first)
+        {
+            StartCoroutine(nameof(EndOfTimeForSecondAttack));
+        }
+        isAttacking = false;
+    }
+
+    //Возможно в апдейте будет точнее измеряться время
+    IEnumerator EndOfTimeForSecondAttack()
+    {
+        yield return new WaitForSeconds(nextAttackTimeLimit);
+        canUseSecondAttack = false;
+    }
+
+    //DEBUG
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+        {
+            return;
+        }
+
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
