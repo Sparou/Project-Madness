@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI actorName;
     [SerializeField] private TextMeshProUGUI messegeText;
     [SerializeField] private GameObject[] choices;
+    [SerializeField] private TextAsset globalsReadableJSON;
 
     public bool dialogueIsPlaying { get; private set; }
     private Story currentStory;
@@ -28,7 +29,7 @@ public class DialogueManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            dialogueVariables = new DialogueVariables();
+            dialogueVariables = new DialogueVariables(globalsReadableJSON);
             DontDestroyOnLoad(gameObject);
             return;
         }

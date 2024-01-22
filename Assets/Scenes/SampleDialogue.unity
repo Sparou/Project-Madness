@@ -964,6 +964,7 @@ GameObject:
   - component: {fileID: 1946572255}
   - component: {fileID: 1946572253}
   - component: {fileID: 1946572258}
+  - component: {fileID: 1946572259}
   m_Layer: 0
   m_Name: TX Player F
   m_TagString: Player
@@ -1224,6 +1225,21 @@ MonoBehaviour:
   dashSpeed: 10
   dashLength: 0.5
   dashCooldown: 2
+--- !u!114 &1946572259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946572252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d950c1bfbac9014da860f0fa795cde4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: 
+  maxHealth: 0
+  _humanPoints: 0
 --- !u!1 &2040097298 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7915502186917923782, guid: fa9ac0f9e56af3b45916ab5bd9097285, type: 3}
