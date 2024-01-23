@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -8,10 +6,6 @@ public class CameraController : MonoBehaviour
     [SerializeField] Vector2 minSceneCoordinates;
     [SerializeField] Vector2 maxSceneCoordinates;
     [SerializeField] float cameraSpeed = 2f; 
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
