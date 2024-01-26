@@ -16,19 +16,14 @@ public class Character : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-    }
-
-    void Update()
-    {
-
+        Debug.Log("Current health = " +  currentHealth);
     }
 
     public void TakeDamge(float damage)
     {
         Debug.Log(string.Format("{0} was damaged!", characterName));
 
-        // Hurt animation
-        // animator.SetTrigger("Hurt");
+        currentHealth -= damage;
 
         if (currentHealth <= 0)
         {
