@@ -20,7 +20,7 @@ public class AIAttackTrigger : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log("On player enter in trigger!");
-            enemy.GetTarget().TakeDamge(attackingTarget.attackDamage);
+            enemy.Target.healthController.TakeDamage(attackingTarget.attackDamage);
         }
     }
 }
