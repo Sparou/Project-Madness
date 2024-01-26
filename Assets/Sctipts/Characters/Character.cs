@@ -1,45 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(HealthController))]
 public class Character : MonoBehaviour
 {
-    [SerializeField] string characterName = "Character";
-    [SerializeField] float maxHealth = 100.0f;
+    [SerializeField] private string characterName;
+    [SerializeField] private LayerMask characterLayerMask;
+    public LayerMask CharacterLayerMask => characterLayerMask;
 
-    protected float currentHealth;
-    protected bool isDead = false;
+    public HealthController healthController;
 
-    //Components
-    Animator animator;
-
-    void Start()
+    private void Start()
     {
-        currentHealth = maxHealth;
-        Debug.Log("Current health = " +  currentHealth);
-    }
-
-    public void TakeDamge(float damage)
-    {
-        Debug.Log(string.Format("{0} was damaged!", characterName));
-
-        currentHealth -= damage;
-
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
-    }
-
-    public void Die()
-    {
-        Debug.Log(string.Format("{0} was died!", characterName));
-
-        // Die animation
-        // animator.SetTrigger("Die")
-
-        // Disable collision and logics
-        GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
+        healthController = GetComponent<HealthController>();
     }
 }
