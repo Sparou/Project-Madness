@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(HealthController))]
 public class Character : MonoBehaviour
 {
-    [SerializeField] private string characterName;
+    [SerializeField] public string characterName;
     [SerializeField] private LayerMask characterLayerMask;
     [SerializeField] private int _humanPoints;
     public LayerMask CharacterLayerMask => characterLayerMask;
