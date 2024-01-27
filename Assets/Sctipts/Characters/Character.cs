@@ -1,24 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(HealthController))]
 public class Character : MonoBehaviour
 {
-    public string characterName;
-    [SerializeField] float maxHealth;
-    protected float currentHealth;
-
+    [SerializeField] private string characterName;
+    [SerializeField] private LayerMask characterLayerMask;
     [SerializeField] private int _humanPoints;
-    // Start is called before the first frame update
-    void Start()
-    {
-          
-    }
+    public LayerMask CharacterLayerMask => characterLayerMask;
 
-    // Update is called once per frame
-    void Update()
+    public HealthController healthController;
+
+    private void Start()
     {
-        
+        healthController = GetComponent<HealthController>();
     }
 
     public void ChangePoints(int ammount)
