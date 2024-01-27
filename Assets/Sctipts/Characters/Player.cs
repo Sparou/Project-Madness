@@ -31,4 +31,5 @@ public class Player : Character
     {
         playerInputActions.Disable();
     }
+
 }

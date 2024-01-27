@@ -3,8 +3,9 @@ using UnityEngine;
 [RequireComponent(typeof(HealthController))]
 public class Character : MonoBehaviour
 {
-    [SerializeField] private string characterName;
+    [SerializeField] public string characterName;
     [SerializeField] private LayerMask characterLayerMask;
+    [SerializeField] private int _humanPoints;
     public LayerMask CharacterLayerMask => characterLayerMask;
 
     public HealthController healthController;
@@ -13,4 +14,10 @@ public class Character : MonoBehaviour
     {
         healthController = GetComponent<HealthController>();
     }
+
+    public void ChangePoints(int ammount)
+    {
+        this._humanPoints = ammount;
+    }
+
 }
