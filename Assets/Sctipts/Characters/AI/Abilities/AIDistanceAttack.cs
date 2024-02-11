@@ -7,9 +7,21 @@ public class AIDistanceAttack : MonoBehaviour
 {
     #region Serialized Fields
     [SerializeField] float attackRadius;
-    [SerializeField] public Projectile projectileType;
     [SerializeField] float attackCooldown;
+    [SerializeField] float delayBeforeAttack;
     [SerializeField] bool canMoveInAttack;
+    [SerializeField] public Projectile projectileType;
+
+    [SerializeField] Transform projectileSpawnPositionUp;
+    [SerializeField] Transform projectileSpawnPositionRight;
+    [SerializeField] Transform projectileSpawnPositionLeft;
+    [SerializeField] Transform projectileSpawnPositionDown;
+
+    public bool isUpAttack;
+    public bool isRightAttack;
+    public bool isLeftAttack;
+    public bool isDownAttack;
+
     #endregion
 
 
@@ -33,20 +45,36 @@ public class AIDistanceAttack : MonoBehaviour
 
         if (enemy.DistanceToTarget <= attackRadius && attackCooldownTimer >= attackCooldown)
         {
-            AttackTarget();
+            StartCoroutine(nameof(AttackTargetWithDelay));
         }
     }
 
-    void AttackTarget()
+    IEnumerator AttackTargetWithDelay()
     {
         attackCooldownTimer = 0;
         animator.SetTrigger("isAttacking");
+        yield return new WaitForSeconds(delayBeforeAttack);
         SpawnProjectile();
     }
 
     void SpawnProjectile()
     {
         Vector3 spawnPosition = transform.position;
+
+        float Horizontal = animator.GetFloat("Horizontal");
+        float Vertical = animator.GetFloat("Vertical");
+
+        if (Mathf.Abs(Vertical) > Mathf.Abs(Horizontal)) 
+        {
+            if (isUpAttack) spawnPosition = projectileSpawnPositionUp.position;
+            else spawnPosition = projectileSpawnPositionDown.position;
+        }
+        else
+        {
+            if (isRightAttack) spawnPosition = projectileSpawnPositionRight.position;
+            else spawnPosition = projectileSpawnPositionLeft.position;
+        }
+
         Instantiate(projectileType, spawnPosition, Quaternion.identity, transform);
     }
 }
