@@ -25,10 +25,6 @@ public class Enemy : NPC
     public Player Target => target;
     public float DistanceToTarget => distanceToTarget;
     public float AgressiveRadius => agressiveRadius;
-
-    public Player GetTarget() { return target; }
-    public float GetDistanceToTarget() { return distanceToTarget; }
-    public bool GetIsAttacking() { return isAttacking; }
     #endregion
 
     #region Setters
