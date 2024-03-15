@@ -3,7 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class AnimationController : MonoBehaviour
 {
-    private Animator animator;
+    //TODO: днкфмн ашрэ опнрейред, днярюрэ псйх хг фнош!
+    protected Animator animator;
 
     public enum Attack
     {

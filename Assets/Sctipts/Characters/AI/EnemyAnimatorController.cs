@@ -1,13 +1,12 @@
 using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
-[RequireComponent(typeof(Animator))]
-public class EnemyAnimatorController : MonoBehaviour
+public class EnemyAnimatorController : AnimationController
 {
-    private Animator animator;
     private AIPath aiPath;
     private AIDestinationSetter aiDestinationSetter;
 
@@ -24,7 +23,6 @@ public class EnemyAnimatorController : MonoBehaviour
 
         //if (velocity.magnitude != 0)
         //{
-
         //    animator.SetFloat("Horizontal", velocity.normalized.x);
         //    animator.SetFloat("Vertical", velocity.normalized.y);
         //}
