@@ -1,3 +1,5 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(AnimationController))]
@@ -7,7 +9,7 @@ public class HealthController : MonoBehaviour
     [SerializeField] private float maxHealth = 100;
 
     private AnimationController animationController;
-    private float currentHealth;
+    public float currentHealth;
 
     private void Start()
     {
@@ -37,8 +39,26 @@ public class HealthController : MonoBehaviour
     {
         animationController.DeathAnimation();
 
-        // Disable collision and logics
-        GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
+        //Disable collision and logics
+        //GetComponent<Collider2D>().enabled = false;
+        //this.enabled = false;
+
+        var childs = gameObject.GetComponents<MonoBehaviour>();
+        var collider = gameObject.GetComponent<Collider2D>();
+
+        foreach (var child in childs)
+        {
+            child.enabled = false;
+        }
+
+        collider.enabled = false;
+        //StartCoroutine(nameof(DisableAnimator));
+        //Destroy(gameObject, animationController.animator.GetCurrentAnimatorStateInfo(0).length - 0.2f);
     }
+
+    //IEnumerator DisableAnimator()
+    //{
+    //    yield return new WaitForSeconds(animationController.animator.GetCurrentAnimatorStateInfo(0).length - 0.1f);
+    //    animationController.animator.enabled = false;
+    //}
 }
