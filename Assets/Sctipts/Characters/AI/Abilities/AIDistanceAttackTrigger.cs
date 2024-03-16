@@ -22,5 +22,4 @@ public class AIDistanceAttackTrigger : MonoBehaviour
             Destroy(projectile.gameObject);
         }
     }
-
 }

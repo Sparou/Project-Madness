@@ -75,6 +75,6 @@ public class AIDistanceAttack : MonoBehaviour
             else spawnPosition = projectileSpawnPositionLeft.position;
         }
 
-        Instantiate(projectileType, spawnPosition, Quaternion.identity, transform);
+        Instantiate(projectileType, spawnPosition, Quaternion.identity, null);
     }
 }

@@ -3,6 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class AnimationController : MonoBehaviour
 {
+    //TODO: ÄÎËÆÍÎ ÁÛÒÜ ÏÐÎÒÅÊÒÅÄ, ÄÎÑÒÀÒÜ ÐÓÊÈ ÈÇ ÆÎÏÛ!
+
     protected Animator animator;
 
     public enum Attack
@@ -31,7 +33,7 @@ public class AnimationController : MonoBehaviour
     public void FireAnimation(Attack attack)
     {
         animator.SetTrigger(attack == Attack.first ? animatorAttackTrigger : animatorSecondAttackTrigger);
-        /*��� �� ����� ����� ����� ����*/
+        /*Êîä íà êîãäà áóäåò ìíîãî àòàê*/
         //if (attack == Attack.first && !animator.GetBool(animatorAttackTrigger))
         //{
         //    animator.SetTrigger(animatorAttackTrigger);

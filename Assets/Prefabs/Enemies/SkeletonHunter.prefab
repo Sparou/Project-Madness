@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8934536924563534905}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2796105315187071868}
   - component: {fileID: 6760616609615698858}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6949092419217333047}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,9 +157,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3733869503619006253}
+  - component: {fileID: 1512016572744538769}
   - component: {fileID: 2583805151219167301}
   - component: {fileID: 6206662064596043069}
-  - component: {fileID: 1022173371716978908}
   - component: {fileID: 6167817095267307867}
   - component: {fileID: 5750478926157231120}
   - component: {fileID: 2815138358428605275}
@@ -167,10 +167,10 @@ GameObject:
   - component: {fileID: 1022422006250824123}
   - component: {fileID: 5424453950870099055}
   - component: {fileID: 6256682131774276327}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SkeletonHunter
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -191,6 +191,43 @@ Transform:
   - {fileID: 131168165021936091}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1512016572744538769
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3101325034860898366}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.5, y: 1}
+  m_Direction: 0
 --- !u!114 &2583805151219167301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,7 +243,7 @@ MonoBehaviour:
   characterName: SkeletonHunter
   characterLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   _humanPoints: 0
   healthController: {fileID: 6167817095267307867}
   relationshipStatus: 2
@@ -234,25 +271,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1022173371716978908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3101325034860898366}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ae91a714a7d45141a1d2a6cd83e8df3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animatorAttackTrigger: AttackTrigger
-  animatorSecondAttackTrigger: SecondAttackTrigger
-  animatorHurtTrigger: HurtTrigger
-  animatorDeathTrigger: DeathTrigger
-  animatorSpeed: Speed
-  firstAttackSpeedMultiplier: FirstAttackSpeedMultiplier
-  secondAttackSpeedMultiplier: SecondAttackSpeedMultiplier
 --- !u!114 &6167817095267307867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,6 +284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  currentHealth: 0
 --- !u!114 &5750478926157231120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,6 +297,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc5c55852fbe6ff47afbd31977fe8000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatorAttackTrigger: AttackTrigger
+  animatorSecondAttackTrigger: SecondAttackTrigger
+  animatorHurtTrigger: isHurted
+  animatorDeathTrigger: isDead
+  animatorSpeed: Speed
+  firstAttackSpeedMultiplier: FirstAttackSpeedMultiplier
+  secondAttackSpeedMultiplier: SecondAttackSpeedMultiplier
 --- !u!114 &2815138358428605275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,11 +414,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ece39c1083ac82745841e2e8840d7c74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRadius: 5
+  attackRadius: 10
   attackCooldown: 3
   delayBeforeAttack: 0.7
   canMoveInAttack: 0
-  projectileType: {fileID: 5588478369429859400, guid: 09cbda1e1d43ecb428fd620c9be707d7, type: 3}
+  projectileType: {fileID: 4792315307729636218, guid: 09cbda1e1d43ecb428fd620c9be707d7, type: 3}
   projectileSpawnPositionUp: {fileID: 8194844765943068216}
   projectileSpawnPositionRight: {fileID: 7319892546460709185}
   projectileSpawnPositionLeft: {fileID: 8934536924563534905}
@@ -410,7 +436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7319892546460709185}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -441,7 +467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8194844765943068216}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -472,7 +498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 131168165021936091}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ProjectileSpawnPositions
   m_TagString: Untagged
   m_Icon: {fileID: 0}

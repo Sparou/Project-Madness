@@ -12,12 +12,13 @@ public class Projectile : MonoBehaviour
     private Player target;
     private float lifeTimeTimer = 0f;
 
-    void Start()
+    protected Vector3 direction;
+
+    protected virtual void Start()
     {
         target = FindFirstObjectByType<Player>();
-
         rb = GetComponent<Rigidbody2D>();
-        var direction = (target.transform.position - transform.position).normalized;
+        direction = (target.transform.position - transform.position).normalized;
         rb.AddForce(direction * force);
     }
 
@@ -30,5 +31,5 @@ public class Projectile : MonoBehaviour
         }
     }
 
-    public Player GetTarget() { return  target; }
+    public Player GetTarget() { return target; }
 }
