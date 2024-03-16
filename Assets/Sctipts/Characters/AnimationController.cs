@@ -3,7 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class AnimationController : MonoBehaviour
 {
-    //TODO: ƒŒÀ∆ÕŒ ¡€“‹ œ–Œ“≈ “≈ƒ, ƒŒ—“¿“‹ –” » »« ∆Œœ€!
+    //TODO: √Ñ√é√ã√Ü√ç√é √Å√õ√í√ú √è√ê√é√í√Ö√ä√í√Ö√Ñ, √Ñ√é√ë√í√Ä√í√ú √ê√ì√ä√à √à√á √Ü√é√è√õ!
+
     protected Animator animator;
 
     public enum Attack
@@ -14,6 +15,8 @@ public class AnimationController : MonoBehaviour
 
     #region Animator variables names
     [SerializeField] private string animatorAttackTrigger = "AttackTrigger";
+    [SerializeField] private string animatorDodgeTrigger = "DodgeTrigger";
+    [SerializeField] private string animatorRollTrigger = "RollTrigger";
     [SerializeField] private string animatorSecondAttackTrigger = "SecondAttackTrigger";
     [SerializeField] private string animatorHurtTrigger = "HurtTrigger";
     [SerializeField] private string animatorDeathTrigger = "DeathTrigger";
@@ -30,7 +33,7 @@ public class AnimationController : MonoBehaviour
     public void FireAnimation(Attack attack)
     {
         animator.SetTrigger(attack == Attack.first ? animatorAttackTrigger : animatorSecondAttackTrigger);
-        /* Ó‰ Ì‡ ÍÓ„‰‡ ·Û‰ÂÚ ÏÌÓ„Ó ‡Ú‡Í*/
+        /*√ä√Æ√§ √≠√† √™√Æ√£√§√† √°√≥√§√•√≤ √¨√≠√Æ√£√Æ √†√≤√†√™*/
         //if (attack == Attack.first && !animator.GetBool(animatorAttackTrigger))
         //{
         //    animator.SetTrigger(animatorAttackTrigger);
@@ -59,6 +62,22 @@ public class AnimationController : MonoBehaviour
         if (!animator.GetBool(animatorDeathTrigger))
         {
             animator.SetTrigger(animatorDeathTrigger);
+        }
+    }
+
+    public void DodgeAnimation()
+    {
+        if (!animator.GetBool(animatorDodgeTrigger))
+        {
+            animator.SetTrigger(animatorDodgeTrigger);
+        }
+    }
+
+    public void RollAnimation()
+    {
+        if (!animator.GetBool(animatorRollTrigger))
+        {
+            animator.SetTrigger(animatorRollTrigger);
         }
     }
 }

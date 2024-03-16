@@ -49,20 +49,20 @@ public class AttackController : MonoBehaviour
         }
     }
 
-    //Вызывается из анимации, начало нанесения урона
-    public void OnAttack()
-    {
-        Collider2D[] hitCharacters = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, character.CharacterLayerMask);
+    ////Вызывается из анимации, начало нанесения урона
+    //public void OnAttack()
+    //{
+    //    Collider2D[] hitCharacters = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, character.CharacterLayerMask);
 
-        foreach (Collider2D potentialEnemy in hitCharacters)
-        {
-            Character enemyCharacter = potentialEnemy.GetComponent<Character>();
-            if (!enemyCharacter.Equals(character))
-            {
-                enemyCharacter.healthController.TakeDamage(weapon.WeaponDamage);
-            }
-        }
-    }
+    //    foreach (Collider2D potentialEnemy in hitCharacters)
+    //    {
+    //        Character enemyCharacter = potentialEnemy.GetComponent<Character>();
+    //        if (!enemyCharacter.Equals(character))
+    //        {
+    //            enemyCharacter.healthController.TakeDamage(weapon.WeaponDamage);
+    //        }
+    //    }
+    //}
 
     //Вызывается в конце анимации
     public void OnAttackEnd(Attack attack)

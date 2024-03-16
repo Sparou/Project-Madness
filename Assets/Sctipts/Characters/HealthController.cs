@@ -11,6 +11,8 @@ public class HealthController : MonoBehaviour
     private AnimationController animationController;
     public float currentHealth;
 
+    public bool invincible = false;
+
     private void Start()
     {
         animationController = GetComponent<AnimationController>();
@@ -20,7 +22,7 @@ public class HealthController : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        if (damage > 0)
+        if (!invincible && damage > 0)
         {
             currentHealth -= damage;
 
