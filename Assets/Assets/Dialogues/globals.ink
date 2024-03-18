@@ -1,0 +1,1 @@
+VAR humanPoints = 0
