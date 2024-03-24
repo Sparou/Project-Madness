@@ -1,158 +1,116 @@
-using System;
-using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static AnimationController;
 
+[RequireComponent(typeof(Player))]
 [RequireComponent (typeof(Rigidbody2D))]
-[RequireComponent(typeof(AnimationController))]
-[RequireComponent(typeof(HealthController))]
 public class MovementController : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 5;
-
+    [Header("Dash")]
     [SerializeField] private float dashSpeed = 10;
     [SerializeField] private float dashDuration = .5f;
     [SerializeField] private float dashCooldown = 5f;
 
+    [Header("Dodge")]
     [SerializeField] private float dodgeSpeed = 15;
     [SerializeField] private float dodgeDuration = .1f;
     [SerializeField] private float dodgeCooldown = 2f;
 
+    [Header("Move")]
+    [SerializeField] private float moveSpeed = 5;
+
+    [Header("Roll")]
     [SerializeField] private float rollSpeed = 10;
     [SerializeField] private float rollCooldown = 1f;
 
-
+    private Player player;
     private Rigidbody2D characterRigidbody;
-    private AnimationController animationController;
-    private HealthController healthController;
 
     private float activeMoveSpeed;
     private Vector2 moveDirection;
+    private Vector2 viewDirection = new(-1f, 0f);
 
-    private InputAction.CallbackContext delayedContext;
-
-    private bool isRolling = false;
     private float rollCooldownCounter;
-
-    private bool isDashing = false;
-    private float dashCooldownCounter;
-
-    private bool isDodging = false;
     private float dodgeCooldownCounter;
 
     private void Start()
     {
+        player = GetComponent<Player>();
         characterRigidbody = GetComponent<Rigidbody2D>();
-        animationController = GetComponent<AnimationController>();
-        healthController = GetComponent<HealthController>();
 
         activeMoveSpeed = moveSpeed;
-        dashCooldownCounter = dashCooldown;
-        dodgeCooldownCounter = dodgeCooldown;
         rollCooldownCounter = rollCooldown;
+    }
+
+    public void OnDisable()
+    {
+        characterRigidbody.velocity = Vector2.zero;
     }
 
     public void OnMove(InputAction.CallbackContext context)
     {
         //Если игрок не перекатывается, меняем направление движения
-        if (!isRolling)
+        if (!player.isRolling && !player.isAttacking)
         {
             moveDirection = context.ReadValue<Vector2>();
+            //Запоминаем направление если оно ненулевое
+            if (IsWalking() == 1)
+            {
+                viewDirection = moveDirection;
+            }
         }
-
         //Запоминаем последнее действие
-        delayedContext = context;
+        player.moveLastContext = context;
 
         //Анимация ходьбы
-        animationController.SetSpeed(activeMoveSpeed * IsWalking());
+        player.animationController.SetSpeed(activeMoveSpeed * IsWalking());
 
         //TODO: добавить анимацию разворота
-        if (moveDirection.x > 0)
-        {
-            transform.rotation = Quaternion.Euler(0f, 180f, 0f);
-        }
-        else if (moveDirection.x < 0)
-        {
-            transform.rotation = Quaternion.Euler(0f, 0, 0f);
-        }
+        player.viewController.Turn(moveDirection);
+    }
+
+    public void StopMoving()
+    {
+        moveDirection = Vector2.zero;
     }
 
     private int IsWalking()
     {
-        return moveDirection.x != 0 || moveDirection.y != 0 ? 1 : 0;
+        return moveDirection != Vector2.zero ? 1 : 0;
     }
 
     private void Update()
     {
-        dashCooldownCounter += Time.deltaTime;
         dodgeCooldownCounter += Time.deltaTime;
         rollCooldownCounter += Time.deltaTime;
 
         characterRigidbody.velocity = moveDirection * activeMoveSpeed;
     }
 
-    #region GPT version
-    //public void OnDodge(InputAction.CallbackContext context)
-    //{
-    //    StartCoroutine(IncreaseSpeedCoroutine(() => isDodging, 12, () => dodgeCooldownCounter, 16, 5, (flag, counter) => { isDodging = flag; dodgeCooldownCounter = counter; }));
-    //}
-
-    //public void OnDash(InputAction.CallbackContext context)
-    //{
-    //    StartCoroutine(IncreaseSpeedCoroutine(() => isDashing, 12, () => dashCooldownCounter, 16, 5, (flag, counter) => { isDashing = flag; dashCooldownCounter = counter; }));
-    //}
-
-    //IEnumerator IncreaseSpeedCoroutine(Func<bool> getFlag, float cooldown, Func<float> getCounter, float newSpeed, float duration, Action<bool, float> setValues)
-    //{
-    //    IncreaseSpeed(getFlag, cooldown, getCounter, newSpeed, duration, setValues);
-    //    yield return null; // Wait for the next frame
-    //}
-
-    //public void IncreaseSpeed(Func<bool> getFlag, float cooldown, Func<float> getCounter, float newSpeed, float duration, Action<bool, float> setValues)
-    //{
-    //    bool enableFlag = getFlag();
-    //    float cooldownCounter = getCounter();
-
-    //    if (!enableFlag && cooldownCounter >= cooldown)
-    //    {
-    //        enableFlag = true;
-    //        activeMoveSpeed = newSpeed;
-    //        StartCoroutine(ReturnNormalSpeed(() => setValues(false, 0), duration));
-    //    }
-    //}
-
-    //IEnumerator ReturnNormalSpeed(Action onComplete, float delayTime)
-    //{
-    //    yield return new WaitForSeconds(delayTime);
-
-    //    activeMoveSpeed = player.GetMoveSpeed();
-    //    onComplete.Invoke();
-    //}
-    #endregion
-
     public void OnRollStart()
     {
-        if(IsWalking() != 0 && !isRolling && rollCooldownCounter >= rollCooldown)
+        if(!player.isAttacking && !player.isRolling && rollCooldownCounter >= rollCooldown)
         {
-            isRolling = true;
-            healthController.invincible = true;
-            animationController.RollAnimation();
+            player.animationController.RollAnimation();
         }
     }
 
     private void OnRoll()
     {
+        //кувырок по направлению взгляда
+        player.isRolling = true;
+        player.healthController.invincible = true;
+        moveDirection = viewDirection;
+        player.viewController.Turn(moveDirection);
         activeMoveSpeed = rollSpeed;
     }
 
     private void OnRollEnd()
     {
         activeMoveSpeed = moveSpeed;
-        isRolling = false;
+        player.isRolling = false;
         rollCooldownCounter = 0;
-        OnMove(delayedContext);
-        healthController.invincible = false;
+        OnMove(player.moveLastContext);
+        player.healthController.invincible = false;
     }
 
     #region Реализация увеличения скорости №1
@@ -163,10 +121,10 @@ public class MovementController : MonoBehaviour
      */
     public void OnDodgeStart()
     {
-        if (!isDodging && dodgeCooldownCounter >= dodgeCooldown)
+        if (!player.isDodging && dodgeCooldownCounter >= dodgeCooldown)
         {
-            isDodging = true;
-            animationController.DodgeAnimation();
+            player.isDodging = true;
+            player.animationController.DodgeAnimation();
         }
     }
 
@@ -178,7 +136,7 @@ public class MovementController : MonoBehaviour
     public void OnDodgeEnd()
     {
         activeMoveSpeed = moveSpeed;
-        isDodging = false;
+        player.isDodging = false;
         dodgeCooldownCounter = 0;
     }
     #endregion
