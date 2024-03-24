@@ -111,7 +111,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.17, y: 0.3}
+  m_Size: {x: 0.53125, y: 0.9375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -285,6 +285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  invincible: 0
 --- !u!114 &5750478926157231120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,6 +299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animatorAttackTrigger: AttackTrigger
+  animatorDodgeTrigger: DodgeTrigger
+  animatorRollTrigger: RollTrigger
   animatorSecondAttackTrigger: SecondAttackTrigger
   animatorHurtTrigger: isHurted
   animatorDeathTrigger: isDead
