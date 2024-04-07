@@ -1,0 +1,3272 @@
+fileFormatVersion: 2
+guid: 4888cab6d1d4aff4fac73a1dfb87a041
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Warrior Showreel_Frame_0
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 1911
+      width: 131
+      height: 128
+    spriteID: cba28ad269f2c8d49a8911c4178a3d54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 1911}
+  - name: Warrior Showreel_Frame_5
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 4
+      width: 131
+      height: 128
+    spriteID: d0bf2ee5f1df4db48997a11b4ab3ec65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 4}
+  - name: Warrior Showreel_Frame_10
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 140
+      width: 131
+      height: 128
+    spriteID: a6bf40f0913a24241aea41dbbc1c5844
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 140}
+  - name: Warrior Showreel_Frame_21
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30810812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1736
+      width: 132
+      height: 185
+    spriteID: 33e53b9fd34baf34383790ef55ff331e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1736}
+  - name: Warrior Showreel_Frame_27
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30810812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 4
+      width: 132
+      height: 185
+    spriteID: c2f4bab9f5e22a94984484e5c3a367ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 4}
+  - name: Warrior Showreel_Frame_33
+    originalName: 
+    pivot: {x: 0.48854962, y: 0.30810812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 1348
+      width: 131
+      height: 185
+    spriteID: 23ae0317ba92b7e45a6864ed0997217b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 1348}
+  - name: Warrior Showreel_Frame_38
+    originalName: 
+    pivot: {x: 0.48854962, y: 0.30054644}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 196
+      width: 131
+      height: 183
+    spriteID: a9c75ccad4ed03e4abdd7a5d36cfb152
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 196}
+  - name: Warrior Showreel_Frame_43
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 276
+      width: 131
+      height: 128
+    spriteID: ebb3d66e7e1057f45ab3105a082c66bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 276}
+  - name: Warrior Showreel_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 517
+      y: 591
+      width: 128
+      height: 184
+    spriteID: 6368422d83b965842b70721b6374bcb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 517, y: 591}
+  - name: Warrior Showreel_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.2967033}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 517
+      y: 1166
+      width: 128
+      height: 182
+    spriteID: a118a18d6cc8e534b81a5b4d717fe2bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 517, y: 1166}
+  - name: Warrior Showreel_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.26436782}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 792
+      y: 1122
+      width: 128
+      height: 174
+    spriteID: ee31cd518d7929d43af1208b349b991d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 792, y: 1122}
+  - name: Warrior Showreel_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.26436782}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 792
+      y: 1304
+      width: 128
+      height: 174
+    spriteID: 8b5e9d344e633f245815971b298190eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 792, y: 1304}
+  - name: Warrior Showreel_Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 517
+      y: 783
+      width: 128
+      height: 184
+    spriteID: 5b0a0fa63a53fe5448d8f48b4ad5155c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 517, y: 783}
+  - name: Warrior Showreel_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.29281768}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 517
+      y: 1546
+      width: 128
+      height: 181
+    spriteID: 9b4af501932814344a0fb258cd8ae1f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 517, y: 1546}
+  - name: Warrior Showreel_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.28089887}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 792
+      y: 382
+      width: 128
+      height: 178
+    spriteID: 042fce64a864bb64094a6a9e3fd7e30f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 792, y: 382}
+  - name: Warrior Showreel_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.26436782}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 792
+      y: 1486
+      width: 128
+      height: 174
+    spriteID: c517e36f6848dcc4496abb83d4e6a8ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 792, y: 1486}
+  - name: Warrior Showreel_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.26436782}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 792
+      y: 1668
+      width: 128
+      height: 174
+    spriteID: 575354aa28b731a43885bf00c15cfce2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 792, y: 1668}
+  - name: Warrior Showreel_Frame_63
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 412
+      width: 131
+      height: 128
+    spriteID: 09ce4486d6f00f84d8b1493ada24aa2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 412}
+  - name: Warrior Showreel_Frame_68
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 548
+      width: 131
+      height: 128
+    spriteID: 60d34d954ad032344b4698eb34a1548a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 548}
+  - name: Warrior Showreel_Frame_74
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 684
+      width: 131
+      height: 128
+    spriteID: dc637dd969b19924d83d0e2970f26e4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 684}
+  - name: Warrior Showreel_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.30810812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 517
+      y: 398
+      width: 128
+      height: 185
+    spriteID: ba5c24101a06102418b22436c307f7e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 517, y: 398}
+  - name: Warrior Showreel_Frame_85
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 820
+      width: 131
+      height: 128
+    spriteID: 2e9cb0522774d364c8b770bd94f099c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 820}
+  - name: Warrior Showreel_Frame_90
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 820
+      width: 128
+      height: 128
+    spriteID: 67b891333d6bc9741b9e0bae0d312741
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 820}
+  - name: Warrior Showreel_Frame_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.30810812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 763
+      width: 134
+      height: 185
+    spriteID: 371ea997e8606d04091da5ea1695fd59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 763}
+  - name: Warrior Showreel_Frame_103
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 956
+      width: 128
+      height: 128
+    spriteID: c40d01d141a2e604c946b3dab7a28c8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 956}
+  - name: Warrior Showreel_Frame_108
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 1092
+      width: 128
+      height: 128
+    spriteID: 6cea0701a598b7549b6ce2350bfbc093
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 1092}
+  - name: Warrior Showreel_Frame_1
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 956
+      width: 131
+      height: 128
+    spriteID: 2930c2cdc3415a24ab6b5fc88ac75ec6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 956}
+  - name: Warrior Showreel_Frame_2
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 1092
+      width: 131
+      height: 128
+    spriteID: d3d59b31ac461a242a1fd90518a217a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 1092}
+  - name: Warrior Showreel_Frame_3
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 1228
+      width: 131
+      height: 128
+    spriteID: 0d4b82053e3afc446b1f82aa4f865523
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 1228}
+  - name: Warrior Showreel_Frame_4
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 1364
+      width: 131
+      height: 128
+    spriteID: fe88179d94af33c43b54890cd5cbc250
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 1364}
+  - name: Warrior Showreel_Frame_6
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 1500
+      width: 131
+      height: 128
+    spriteID: d4e59a4fb89b3f3489060131c2f3711f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 1500}
+  - name: Warrior Showreel_Frame_7
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 1636
+      width: 131
+      height: 128
+    spriteID: 0fd3c86b830927c44a7dc231a172b7c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 1636}
+  - name: Warrior Showreel_Frame_8
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 1772
+      width: 131
+      height: 128
+    spriteID: 78e5c380b588dc945b2e27858188071a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 1772}
+  - name: Warrior Showreel_Frame_9
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1067
+      y: 1908
+      width: 131
+      height: 128
+    spriteID: d14fe489139d117449301947279608fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1067, y: 1908}
+  - name: Warrior Showreel_Frame_11
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 4
+      width: 131
+      height: 128
+    spriteID: d811a2bbce4abda4381a6f19ae9ccc62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 4}
+  - name: Warrior Showreel_Frame_12
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 140
+      width: 131
+      height: 128
+    spriteID: f8d8d7c071564e14092018ad53ff4c2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 140}
+  - name: Warrior Showreel_Frame_13
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 276
+      width: 131
+      height: 128
+    spriteID: 3caf4f9affe63d94783633acbae5a387
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 276}
+  - name: Warrior Showreel_Frame_14
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 412
+      width: 131
+      height: 128
+    spriteID: dfff3409102aa8747881ebb13ebf5ca5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 412}
+  - name: Warrior Showreel_Frame_15
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30810812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 197
+      width: 132
+      height: 185
+    spriteID: 95512ac3f5926b145a382c9be9b3dfe9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 197}
+  - name: Warrior Showreel_Frame_16
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 969
+      width: 132
+      height: 184
+    spriteID: 8e3cf54e8dcf2a144a952367fecf984d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 969}
+  - name: Warrior Showreel_Frame_17
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 1161
+      width: 132
+      height: 184
+    spriteID: e4939f0109741074b88f80bd37002af6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 1161}
+  - name: Warrior Showreel_Frame_18
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30810812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 390
+      width: 132
+      height: 185
+    spriteID: 6714ab8096516c74887c42525ce20177
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 390}
+  - name: Warrior Showreel_Frame_19
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 1353
+      width: 132
+      height: 184
+    spriteID: dbaa26bcbdf7ab749866699b59c8929a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 1353}
+  - name: Warrior Showreel_Frame_20
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 1545
+      width: 132
+      height: 184
+    spriteID: 51abbb5ebaedd51448300df8a2314ca6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 1545}
+  - name: Warrior Showreel_Frame_22
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 1737
+      width: 132
+      height: 184
+    spriteID: 2cc6c01b58446f44aa9f764a40d2c13d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 1737}
+  - name: Warrior Showreel_Frame_23
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 4
+      width: 132
+      height: 184
+    spriteID: 9277eae9e3f5613409db961cf66a53e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 4}
+  - name: Warrior Showreel_Frame_24
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30810812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 583
+      width: 132
+      height: 185
+    spriteID: 83b2a2f9cc0603f40bd704f794108f4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 583}
+  - name: Warrior Showreel_Frame_25
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 196
+      width: 132
+      height: 184
+    spriteID: 87686bdb5799e024eae7805207da55f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 196}
+  - name: Warrior Showreel_Frame_26
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 388
+      width: 132
+      height: 184
+    spriteID: 852247565b15c874e83f7265e4d7cbdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 388}
+  - name: Warrior Showreel_Frame_28
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 580
+      width: 132
+      height: 184
+    spriteID: 57fe9e360fa1d4f4188e617a14106368
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 580}
+  - name: Warrior Showreel_Frame_29
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 772
+      width: 132
+      height: 184
+    spriteID: a31c2a18925bfeb4d89e70e1ea973b4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 772}
+  - name: Warrior Showreel_Frame_30
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30810812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 237
+      y: 776
+      width: 132
+      height: 185
+    spriteID: 7ac1190f89be686478b4e3fd9600fbfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 776}
+  - name: Warrior Showreel_Frame_31
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 964
+      width: 132
+      height: 184
+    spriteID: 5f0a766431a18a9489683a9b6a9145b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 964}
+  - name: Warrior Showreel_Frame_32
+    originalName: 
+    pivot: {x: 0.4848485, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 1156
+      width: 132
+      height: 184
+    spriteID: fc08c8d391481f8499fb32060fa05335
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 1156}
+  - name: Warrior Showreel_Frame_34
+    originalName: 
+    pivot: {x: 0.48854962, y: 0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 4
+      width: 131
+      height: 184
+    spriteID: 5462f39a4de034e4f87b5d62624f77e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 4}
+  - name: Warrior Showreel_Frame_35
+    originalName: 
+    pivot: {x: 0.48854962, y: 0.30054644}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 387
+      width: 131
+      height: 183
+    spriteID: ed594674bbc1d064ab45a4205a22860f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 387}
+  - name: Warrior Showreel_Frame_36
+    originalName: 
+    pivot: {x: 0.48854962, y: 0.30054644}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 578
+      width: 131
+      height: 183
+    spriteID: b3fc9a1a54ef9244dbae44818548587c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 578}
+  - name: Warrior Showreel_Frame_37
+    originalName: 
+    pivot: {x: 0.48854962, y: 0.30054644}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 769
+      width: 131
+      height: 183
+    spriteID: da8e2749855e01a4f80488c6ebc93689
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 769}
+  - name: Warrior Showreel_Frame_39
+    originalName: 
+    pivot: {x: 0.48854962, y: 0.31914893}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1149
+      width: 131
+      height: 188
+    spriteID: 5f927a61ad913894ea4c4c5216f3ca03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1149}
+  - name: Warrior Showreel_Frame_40
+    originalName: 
+    pivot: {x: 0.48854962, y: 0.31914893}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1345
+      width: 131
+      height: 188
+    spriteID: ee795be36e75aae4dbfd69cc186867aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1345}
+  - name: Warrior Showreel_Frame_41
+    originalName: 
+    pivot: {x: 0.48854962, y: 0.31550804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1541
+      width: 131
+      height: 187
+    spriteID: 413b2fcd78e0c49428685f8ea694df83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1541}
+  - name: Warrior Showreel_Frame_42
+    originalName: 
+    pivot: {x: 0.48854962, y: 0.30810812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 1541
+      width: 131
+      height: 185
+    spriteID: 885bf8140e6d3d448b7503ec71ecda79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 1541}
+  - name: Warrior Showreel_Frame_44
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 548
+      width: 131
+      height: 128
+    spriteID: 6c454eeaebcde1b44a5465462437c0cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 548}
+  - name: Warrior Showreel_Frame_45
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 684
+      width: 131
+      height: 128
+    spriteID: fccc2cf30b3077044bdf71c796988c76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 684}
+  - name: Warrior Showreel_Frame_46
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 820
+      width: 131
+      height: 128
+    spriteID: 64ecbc930f7a50f4c9e18c444c7df2c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 820}
+  - name: Warrior Showreel_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.29281768}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 517
+      y: 1735
+      width: 128
+      height: 181
+    spriteID: 3b10798fbc4efb046ab2e2fa69ca95a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 517, y: 1735}
+  - name: Warrior Showreel_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.28089887}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 792
+      y: 568
+      width: 128
+      height: 178
+    spriteID: 563bdd4c6c7ad4749afd98e8e02b2b7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 792, y: 568}
+  - name: Warrior Showreel_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.27272728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 792
+      y: 754
+      width: 128
+      height: 176
+    spriteID: e72d47afd0c23484abfda18c4936fac5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 792, y: 754}
+  - name: Warrior Showreel_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.26436782}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 792
+      y: 1850
+      width: 128
+      height: 174
+    spriteID: e3f094c2adb26204e95bffbf68abd35b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 792, y: 1850}
+  - name: Warrior Showreel_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.2967033}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 517
+      y: 1356
+      width: 128
+      height: 182
+    spriteID: 331329a5c745db84cb99475478ba517b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 517, y: 1356}
+  - name: Warrior Showreel_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.27272728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 792
+      y: 938
+      width: 128
+      height: 176
+    spriteID: c518ac5a8be59bf43a9fc1f4075dbf4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 792, y: 938}
+  - name: Warrior Showreel_Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.26436782}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 931
+      y: 4
+      width: 128
+      height: 174
+    spriteID: 5acc46271235b1749820e32ef46bc744
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 931, y: 4}
+  - name: Warrior Showreel_Frame_64
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 956
+      width: 131
+      height: 128
+    spriteID: 0678d3bf52b780247a5af31c1fd48504
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 956}
+  - name: Warrior Showreel_Frame_65
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 1092
+      width: 131
+      height: 128
+    spriteID: 1e75234feba1f8943a72fe839832ce43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 1092}
+  - name: Warrior Showreel_Frame_66
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 1228
+      width: 131
+      height: 128
+    spriteID: 63043286760ea1e4295c2fc53f3b995b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 1228}
+  - name: Warrior Showreel_Frame_67
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 1364
+      width: 131
+      height: 128
+    spriteID: 040bfead6c5f076448dcc465d8701189
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 1364}
+  - name: Warrior Showreel_Frame_69
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 1500
+      width: 131
+      height: 128
+    spriteID: 8042d78e33a66134e8bab48ccffc2d46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 1500}
+  - name: Warrior Showreel_Frame_70
+    originalName: 
+    pivot: {x: 0.28444445, y: 0.477551}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 225
+      height: 245
+    spriteID: fe32914a0f6120044ad56b13fa88aebc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Warrior Showreel_Frame_71
+    originalName: 
+    pivot: {x: 0.28444445, y: 0.477551}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 257
+      width: 225
+      height: 245
+    spriteID: 7136ed111097da64880b6fe2749fdf2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 257}
+  - name: Warrior Showreel_Frame_72
+    originalName: 
+    pivot: {x: 0.28444445, y: 0.477551}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 510
+      width: 225
+      height: 245
+    spriteID: 062f8a9e39dd2034e99f10179e5489b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 510}
+  - name: Warrior Showreel_Frame_73
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 1636
+      width: 131
+      height: 128
+    spriteID: d317e93d099b69046a38d64928243fc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 1636}
+  - name: Warrior Showreel_Frame_75
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 1772
+      width: 131
+      height: 128
+    spriteID: a9a9e4d1b0ee1404e8de6d9195242c24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 1772}
+  - name: Warrior Showreel_Frame_76
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1206
+      y: 1908
+      width: 131
+      height: 128
+    spriteID: 1eb3e4d67a0ba8149805f80417696c1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1206, y: 1908}
+  - name: Warrior Showreel_Frame_77
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 4
+      width: 131
+      height: 128
+    spriteID: ddb5fa79ca29d5e4ab0d31c1fe257889
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 4}
+  - name: Warrior Showreel_Frame_78
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 140
+      width: 131
+      height: 128
+    spriteID: 054680c36435c2a4ab056b32d0f34e4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 140}
+  - name: Warrior Showreel_Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.30054644}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 517
+      y: 975
+      width: 128
+      height: 183
+    spriteID: 51ec37655a94bd142b472aa137eba7e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 517, y: 975}
+  - name: Warrior Showreel_Frame_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.29281768}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 792
+      y: 193
+      width: 128
+      height: 181
+    spriteID: 5de409efd48dceb4f8332dcdc7039947
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 792, y: 193}
+  - name: Warrior Showreel_Frame_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.3227513}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 1734
+      width: 128
+      height: 189
+    spriteID: da63c830c6fd9694eb3eca238f899a66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 1734}
+  - name: Warrior Showreel_Frame_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.3227513}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 517
+      y: 4
+      width: 128
+      height: 189
+    spriteID: 63c863985a34f2648af2be72a1435d96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 517, y: 4}
+  - name: Warrior Showreel_Frame_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.3227513}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 517
+      y: 201
+      width: 128
+      height: 189
+    spriteID: 15ecd32ceb4286245ba5d4b736c8ada5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 517, y: 201}
+  - name: Warrior Showreel_Frame_86
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 276
+      width: 131
+      height: 128
+    spriteID: a70a5251de56be04e87ac5865e9620b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 276}
+  - name: Warrior Showreel_Frame_87
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 412
+      width: 131
+      height: 128
+    spriteID: a0dad8571e7310c478c72900efadec81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 412}
+  - name: Warrior Showreel_Frame_88
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 548
+      width: 131
+      height: 128
+    spriteID: b5cf0c40b9a241e4caf1951b377b492f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 548}
+  - name: Warrior Showreel_Frame_89
+    originalName: 
+    pivot: {x: 0.48854962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 684
+      width: 131
+      height: 128
+    spriteID: eda3fbd0d38c14845b1cf4de4955cdeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 684}
+  - name: Warrior Showreel_Frame_91
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 1228
+      width: 128
+      height: 128
+    spriteID: 2a3b278d4a6f08449a2b610b6ccb0d38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 1228}
+  - name: Warrior Showreel_Frame_92
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 1364
+      width: 128
+      height: 128
+    spriteID: 843709c497a436140bebc57acb706e4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 1364}
+  - name: Warrior Showreel_Frame_93
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 1500
+      width: 128
+      height: 128
+    spriteID: 8ec035927c8977d44aad67e0dc8b2f3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 1500}
+  - name: Warrior Showreel_Frame_94
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 1636
+      width: 128
+      height: 128
+    spriteID: 4222fe952e0b6ba4ca0e000f43a4d996
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 1636}
+  - name: Warrior Showreel_Frame_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.30810812}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 956
+      width: 134
+      height: 185
+    spriteID: 50fe6f93d1c06d145bad004cff81bb7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 956}
+  - name: Warrior Showreel_Frame_96
+    originalName: 
+    pivot: {x: 0.5114504, y: 0.30054644}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 960
+      width: 131
+      height: 183
+    spriteID: f60cc7342786d24408405a6f8a3bfaa9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 960}
+  - name: Warrior Showreel_Frame_97
+    originalName: 
+    pivot: {x: 0.5114504, y: 0.2967033}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 1342
+      width: 131
+      height: 182
+    spriteID: 85c76339be031f74e9eb40e279962053
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 1342}
+  - name: Warrior Showreel_Frame_98
+    originalName: 
+    pivot: {x: 0.5114504, y: 0.29281768}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 1722
+      width: 131
+      height: 181
+    spriteID: 8f688bc62100a8f4eaa973472bc3bfcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 1722}
+  - name: Warrior Showreel_Frame_100
+    originalName: 
+    pivot: {x: 0.5114504, y: 0.30054644}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 1151
+      width: 131
+      height: 183
+    spriteID: cbf86a730cec7a742bf8b7052b1a8a8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 1151}
+  - name: Warrior Showreel_Frame_101
+    originalName: 
+    pivot: {x: 0.5114504, y: 0.2967033}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 1532
+      width: 131
+      height: 182
+    spriteID: 6590bfec9f3803445861e7fa99e133d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 653, y: 1532}
+  - name: Warrior Showreel_Frame_102
+    originalName: 
+    pivot: {x: 0.5114504, y: 0.29281768}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 792
+      y: 4
+      width: 131
+      height: 181
+    spriteID: 4561b9ccb65636d41ba5c89fbf2fc727
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 792, y: 4}
+  - name: Warrior Showreel_Frame_104
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 1772
+      width: 128
+      height: 128
+    spriteID: ae7c6284cc0ca0e4399c4125ecd59599
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 1772}
+  - name: Warrior Showreel_Frame_105
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1345
+      y: 1908
+      width: 128
+      height: 128
+    spriteID: 6f3c92e162373104fac0d2d60004e386
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1345, y: 1908}
+  - name: Warrior Showreel_Frame_106
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 931
+      y: 186
+      width: 128
+      height: 128
+    spriteID: 395054edd46c559419e96e1f0202e461
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 931, y: 186}
+  - name: Warrior Showreel_Frame_107
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 931
+      y: 322
+      width: 128
+      height: 128
+    spriteID: 7f56905afbe05874ba23485218d5d567
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 931, y: 322}
+  - name: Warrior Showreel_Frame_109
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 931
+      y: 458
+      width: 128
+      height: 128
+    spriteID: a4f2c1c126f9f5c44907e00b9bbfcb75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 931, y: 458}
+  - name: Warrior Showreel_Frame_110
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 931
+      y: 594
+      width: 128
+      height: 128
+    spriteID: 87af2d25c09355e4ba7fab49160ce3be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 931, y: 594}
+  - name: Warrior Showreel_Frame_111
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 931
+      y: 730
+      width: 128
+      height: 128
+    spriteID: 411154dd2115bf94ba05c853fb92e329
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 931, y: 730}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1481730431
+    name: Warrior Showreel
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Warrior Showreel_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: cba28ad269f2c8d49a8911c4178a3d54
+    - name: Warrior Showreel_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: d0bf2ee5f1df4db48997a11b4ab3ec65
+    - name: Warrior Showreel_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: a6bf40f0913a24241aea41dbbc1c5844
+    - name: Warrior Showreel_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: -57
+        width: 132
+        height: 185
+      spriteId: 33e53b9fd34baf34383790ef55ff331e
+    - name: Warrior Showreel_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: -57
+        width: 132
+        height: 185
+      spriteId: c2f4bab9f5e22a94984484e5c3a367ca
+    - name: Warrior Showreel_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: -57
+        width: 131
+        height: 185
+      spriteId: 23ae0317ba92b7e45a6864ed0997217b
+    - name: Warrior Showreel_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: -55
+        width: 131
+        height: 183
+      spriteId: a9c75ccad4ed03e4abdd7a5d36cfb152
+    - name: Warrior Showreel_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: ebb3d66e7e1057f45ab3105a082c66bd
+    - name: Warrior Showreel_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: -56
+        width: 128
+        height: 184
+      spriteId: 6368422d83b965842b70721b6374bcb3
+    - name: Warrior Showreel_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: -54
+        width: 128
+        height: 182
+      spriteId: a118a18d6cc8e534b81a5b4d717fe2bc
+    - name: Warrior Showreel_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 0
+        y: -46
+        width: 128
+        height: 174
+      spriteId: ee31cd518d7929d43af1208b349b991d
+    - name: Warrior Showreel_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 0
+        y: -46
+        width: 128
+        height: 174
+      spriteId: 8b5e9d344e633f245815971b298190eb
+    - name: Warrior Showreel_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: -56
+        width: 128
+        height: 184
+      spriteId: 5b0a0fa63a53fe5448d8f48b4ad5155c
+    - name: Warrior Showreel_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 0
+        y: -53
+        width: 128
+        height: 181
+      spriteId: 9b4af501932814344a0fb258cd8ae1f5
+    - name: Warrior Showreel_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 0
+        y: -50
+        width: 128
+        height: 178
+      spriteId: 042fce64a864bb64094a6a9e3fd7e30f
+    - name: Warrior Showreel_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 0
+        y: -46
+        width: 128
+        height: 174
+      spriteId: c517e36f6848dcc4496abb83d4e6a8ed
+    - name: Warrior Showreel_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 0
+        y: -46
+        width: 128
+        height: 174
+      spriteId: 575354aa28b731a43885bf00c15cfce2
+    - name: Warrior Showreel_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 09ce4486d6f00f84d8b1493ada24aa2e
+    - name: Warrior Showreel_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 60d34d954ad032344b4698eb34a1548a
+    - name: Warrior Showreel_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: dc637dd969b19924d83d0e2970f26e4b
+    - name: Warrior Showreel_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 0
+        y: -57
+        width: 128
+        height: 185
+      spriteId: ba5c24101a06102418b22436c307f7e1
+    - name: Warrior Showreel_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 2e9cb0522774d364c8b770bd94f099c4
+    - name: Warrior Showreel_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 67b891333d6bc9741b9e0bae0d312741
+    - name: Warrior Showreel_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: -3
+        y: -57
+        width: 134
+        height: 185
+      spriteId: 371ea997e8606d04091da5ea1695fd59
+    - name: Warrior Showreel_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: c40d01d141a2e604c946b3dab7a28c8f
+    - name: Warrior Showreel_Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 6cea0701a598b7549b6ce2350bfbc093
+    - name: Warrior Showreel_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 2930c2cdc3415a24ab6b5fc88ac75ec6
+    - name: Warrior Showreel_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: d3d59b31ac461a242a1fd90518a217a1
+    - name: Warrior Showreel_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 0d4b82053e3afc446b1f82aa4f865523
+    - name: Warrior Showreel_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: fe88179d94af33c43b54890cd5cbc250
+    - name: Warrior Showreel_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: d4e59a4fb89b3f3489060131c2f3711f
+    - name: Warrior Showreel_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 0fd3c86b830927c44a7dc231a172b7c0
+    - name: Warrior Showreel_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 78e5c380b588dc945b2e27858188071a
+    - name: Warrior Showreel_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: d14fe489139d117449301947279608fe
+    - name: Warrior Showreel_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: d811a2bbce4abda4381a6f19ae9ccc62
+    - name: Warrior Showreel_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: f8d8d7c071564e14092018ad53ff4c2b
+    - name: Warrior Showreel_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 3caf4f9affe63d94783633acbae5a387
+    - name: Warrior Showreel_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: dfff3409102aa8747881ebb13ebf5ca5
+    - name: Warrior Showreel_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: -57
+        width: 132
+        height: 185
+      spriteId: 95512ac3f5926b145a382c9be9b3dfe9
+    - name: Warrior Showreel_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: -56
+        width: 132
+        height: 184
+      spriteId: 8e3cf54e8dcf2a144a952367fecf984d
+    - name: Warrior Showreel_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: -56
+        width: 132
+        height: 184
+      spriteId: e4939f0109741074b88f80bd37002af6
+    - name: Warrior Showreel_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: -57
+        width: 132
+        height: 185
+      spriteId: 6714ab8096516c74887c42525ce20177
+    - name: Warrior Showreel_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: -56
+        width: 132
+        height: 184
+      spriteId: dbaa26bcbdf7ab749866699b59c8929a
+    - name: Warrior Showreel_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: -56
+        width: 132
+        height: 184
+      spriteId: 51abbb5ebaedd51448300df8a2314ca6
+    - name: Warrior Showreel_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: -56
+        width: 132
+        height: 184
+      spriteId: 2cc6c01b58446f44aa9f764a40d2c13d
+    - name: Warrior Showreel_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: -56
+        width: 132
+        height: 184
+      spriteId: 9277eae9e3f5613409db961cf66a53e9
+    - name: Warrior Showreel_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: -57
+        width: 132
+        height: 185
+      spriteId: 83b2a2f9cc0603f40bd704f794108f4b
+    - name: Warrior Showreel_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: -56
+        width: 132
+        height: 184
+      spriteId: 87686bdb5799e024eae7805207da55f8
+    - name: Warrior Showreel_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: -56
+        width: 132
+        height: 184
+      spriteId: 852247565b15c874e83f7265e4d7cbdd
+    - name: Warrior Showreel_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: -56
+        width: 132
+        height: 184
+      spriteId: 57fe9e360fa1d4f4188e617a14106368
+    - name: Warrior Showreel_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: -56
+        width: 132
+        height: 184
+      spriteId: a31c2a18925bfeb4d89e70e1ea973b4d
+    - name: Warrior Showreel_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: -57
+        width: 132
+        height: 185
+      spriteId: 7ac1190f89be686478b4e3fd9600fbfd
+    - name: Warrior Showreel_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: -56
+        width: 132
+        height: 184
+      spriteId: 5f0a766431a18a9489683a9b6a9145b0
+    - name: Warrior Showreel_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: -56
+        width: 132
+        height: 184
+      spriteId: fc08c8d391481f8499fb32060fa05335
+    - name: Warrior Showreel_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: -56
+        width: 131
+        height: 184
+      spriteId: 5462f39a4de034e4f87b5d62624f77e2
+    - name: Warrior Showreel_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: -55
+        width: 131
+        height: 183
+      spriteId: ed594674bbc1d064ab45a4205a22860f
+    - name: Warrior Showreel_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: -55
+        width: 131
+        height: 183
+      spriteId: b3fc9a1a54ef9244dbae44818548587c
+    - name: Warrior Showreel_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: -55
+        width: 131
+        height: 183
+      spriteId: da8e2749855e01a4f80488c6ebc93689
+    - name: Warrior Showreel_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: -60
+        width: 131
+        height: 188
+      spriteId: 5f927a61ad913894ea4c4c5216f3ca03
+    - name: Warrior Showreel_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: -60
+        width: 131
+        height: 188
+      spriteId: ee795be36e75aae4dbfd69cc186867aa
+    - name: Warrior Showreel_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: -59
+        width: 131
+        height: 187
+      spriteId: 413b2fcd78e0c49428685f8ea694df83
+    - name: Warrior Showreel_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: -57
+        width: 131
+        height: 185
+      spriteId: 885bf8140e6d3d448b7503ec71ecda79
+    - name: Warrior Showreel_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 6c454eeaebcde1b44a5465462437c0cb
+    - name: Warrior Showreel_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: fccc2cf30b3077044bdf71c796988c76
+    - name: Warrior Showreel_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 64ecbc930f7a50f4c9e18c444c7df2c8
+    - name: Warrior Showreel_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: -53
+        width: 128
+        height: 181
+      spriteId: 3b10798fbc4efb046ab2e2fa69ca95a4
+    - name: Warrior Showreel_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: -50
+        width: 128
+        height: 178
+      spriteId: 563bdd4c6c7ad4749afd98e8e02b2b7f
+    - name: Warrior Showreel_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: -48
+        width: 128
+        height: 176
+      spriteId: e72d47afd0c23484abfda18c4936fac5
+    - name: Warrior Showreel_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 0
+        y: -46
+        width: 128
+        height: 174
+      spriteId: e3f094c2adb26204e95bffbf68abd35b
+    - name: Warrior Showreel_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 0
+        y: -54
+        width: 128
+        height: 182
+      spriteId: 331329a5c745db84cb99475478ba517b
+    - name: Warrior Showreel_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 0
+        y: -48
+        width: 128
+        height: 176
+      spriteId: c518ac5a8be59bf43a9fc1f4075dbf4e
+    - name: Warrior Showreel_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 0
+        y: -46
+        width: 128
+        height: 174
+      spriteId: 5acc46271235b1749820e32ef46bc744
+    - name: Warrior Showreel_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 0678d3bf52b780247a5af31c1fd48504
+    - name: Warrior Showreel_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 1e75234feba1f8943a72fe839832ce43
+    - name: Warrior Showreel_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 63043286760ea1e4295c2fc53f3b995b
+    - name: Warrior Showreel_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 040bfead6c5f076448dcc465d8701189
+    - name: Warrior Showreel_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 8042d78e33a66134e8bab48ccffc2d46
+    - name: Warrior Showreel_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 0
+        y: -117
+        width: 225
+        height: 245
+      spriteId: fe32914a0f6120044ad56b13fa88aebc
+    - name: Warrior Showreel_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 0
+        y: -117
+        width: 225
+        height: 245
+      spriteId: 7136ed111097da64880b6fe2749fdf2b
+    - name: Warrior Showreel_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 0
+        y: -117
+        width: 225
+        height: 245
+      spriteId: 062f8a9e39dd2034e99f10179e5489b4
+    - name: Warrior Showreel_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: d317e93d099b69046a38d64928243fc8
+    - name: Warrior Showreel_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: a9a9e4d1b0ee1404e8de6d9195242c24
+    - name: Warrior Showreel_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 1eb3e4d67a0ba8149805f80417696c1f
+    - name: Warrior Showreel_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: ddb5fa79ca29d5e4ab0d31c1fe257889
+    - name: Warrior Showreel_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: 054680c36435c2a4ab056b32d0f34e4c
+    - name: Warrior Showreel_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 0
+        y: -55
+        width: 128
+        height: 183
+      spriteId: 51ec37655a94bd142b472aa137eba7e2
+    - name: Warrior Showreel_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 0
+        y: -53
+        width: 128
+        height: 181
+      spriteId: 5de409efd48dceb4f8332dcdc7039947
+    - name: Warrior Showreel_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 0
+        y: -61
+        width: 128
+        height: 189
+      spriteId: da63c830c6fd9694eb3eca238f899a66
+    - name: Warrior Showreel_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 0
+        y: -61
+        width: 128
+        height: 189
+      spriteId: 63c863985a34f2648af2be72a1435d96
+    - name: Warrior Showreel_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 0
+        y: -61
+        width: 128
+        height: 189
+      spriteId: 15ecd32ceb4286245ba5d4b736c8ada5
+    - name: Warrior Showreel_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: a70a5251de56be04e87ac5865e9620b1
+    - name: Warrior Showreel_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: a0dad8571e7310c478c72900efadec81
+    - name: Warrior Showreel_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: b5cf0c40b9a241e4caf1951b377b492f
+    - name: Warrior Showreel_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 0
+        y: 0
+        width: 131
+        height: 128
+      spriteId: eda3fbd0d38c14845b1cf4de4955cdeb
+    - name: Warrior Showreel_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 2a3b278d4a6f08449a2b610b6ccb0d38
+    - name: Warrior Showreel_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 843709c497a436140bebc57acb706e4d
+    - name: Warrior Showreel_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 8ec035927c8977d44aad67e0dc8b2f3e
+    - name: Warrior Showreel_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 4222fe952e0b6ba4ca0e000f43a4d996
+    - name: Warrior Showreel_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: -3
+        y: -57
+        width: 134
+        height: 185
+      spriteId: 50fe6f93d1c06d145bad004cff81bb7d
+    - name: Warrior Showreel_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: -3
+        y: -55
+        width: 131
+        height: 183
+      spriteId: f60cc7342786d24408405a6f8a3bfaa9
+    - name: Warrior Showreel_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: -3
+        y: -54
+        width: 131
+        height: 182
+      spriteId: 85c76339be031f74e9eb40e279962053
+    - name: Warrior Showreel_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: -3
+        y: -53
+        width: 131
+        height: 181
+      spriteId: 8f688bc62100a8f4eaa973472bc3bfcc
+    - name: Warrior Showreel_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: -3
+        y: -55
+        width: 131
+        height: 183
+      spriteId: cbf86a730cec7a742bf8b7052b1a8a8e
+    - name: Warrior Showreel_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: -3
+        y: -54
+        width: 131
+        height: 182
+      spriteId: 6590bfec9f3803445861e7fa99e133d5
+    - name: Warrior Showreel_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: -3
+        y: -53
+        width: 131
+        height: 181
+      spriteId: 4561b9ccb65636d41ba5c89fbf2fc727
+    - name: Warrior Showreel_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: ae7c6284cc0ca0e4399c4125ecd59599
+    - name: Warrior Showreel_Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 6f3c92e162373104fac0d2d60004e386
+    - name: Warrior Showreel_Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 395054edd46c559419e96e1f0202e461
+    - name: Warrior Showreel_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 7f56905afbe05874ba23485218d5d567
+    - name: Warrior Showreel_Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: a4f2c1c126f9f5c44907e00b9bbfcb75
+    - name: Warrior Showreel_Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 87af2d25c09355e4ba7fab49160ce3be
+    - name: Warrior Showreel_Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 411154dd2115bf94ba05c853fb92e329
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}

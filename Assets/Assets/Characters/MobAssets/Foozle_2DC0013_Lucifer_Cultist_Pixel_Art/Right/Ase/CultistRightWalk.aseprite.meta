@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: ed243bf9bfe6e2f48a61507ddab5d516
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: CultistRightWalk_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.3448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 4
+      width: 12
+      height: 29
+    spriteID: 1da6cb844fbcdd648b2671503b8bcd8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 4}
+  - name: CultistRightWalk_Frame_1
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.3448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 14
+      height: 29
+    spriteID: e02f2c2a4a3a07c4e964ceefe40b27bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: CultistRightWalk_Frame_2
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.35714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 41
+      width: 14
+      height: 28
+    spriteID: 509258e7854d5df44849ed4ac2f5086e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 41}
+  - name: CultistRightWalk_Frame_3
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.35714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 77
+      width: 14
+      height: 28
+    spriteID: b0da5d5a8a1fcd74390bdc50e73d4f28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 77}
+  - name: CultistRightWalk_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.3448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 41
+      width: 12
+      height: 29
+    spriteID: 30e6be2801c005f4499d536f646b4d07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 41}
+  - name: CultistRightWalk_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.39285716}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 78
+      width: 12
+      height: 28
+    spriteID: fa08646c13600c04d893ba2f65508516
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 78}
+  - name: CultistRightWalk_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.40740743}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 4
+      width: 12
+      height: 27
+    spriteID: 0f70f76f2e5c7ca48b265c0ec15d2383
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 4}
+  - name: CultistRightWalk_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.40740743}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 39
+      width: 12
+      height: 27
+    spriteID: b6295cd576a71f045949b770626fe7b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 39}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1954479899
+    name: CultistRightWalk
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: CultistRightWalk_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 18
+        y: 10
+        width: 12
+        height: 29
+      spriteId: 1da6cb844fbcdd648b2671503b8bcd8e
+    - name: CultistRightWalk_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 17
+        y: 10
+        width: 14
+        height: 29
+      spriteId: e02f2c2a4a3a07c4e964ceefe40b27bf
+    - name: CultistRightWalk_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 17
+        y: 10
+        width: 14
+        height: 28
+      spriteId: 509258e7854d5df44849ed4ac2f5086e
+    - name: CultistRightWalk_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 17
+        y: 10
+        width: 14
+        height: 28
+      spriteId: b0da5d5a8a1fcd74390bdc50e73d4f28
+    - name: CultistRightWalk_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 18
+        y: 10
+        width: 12
+        height: 29
+      spriteId: 30e6be2801c005f4499d536f646b4d07
+    - name: CultistRightWalk_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 18
+        y: 11
+        width: 12
+        height: 28
+      spriteId: fa08646c13600c04d893ba2f65508516
+    - name: CultistRightWalk_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 18
+        y: 11
+        width: 12
+        height: 27
+      spriteId: 0f70f76f2e5c7ca48b265c0ec15d2383
+    - name: CultistRightWalk_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 18
+        y: 11
+        width: 12
+        height: 27
+      spriteId: b6295cd576a71f045949b770626fe7b6
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 48, y: 48}
