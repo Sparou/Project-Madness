@@ -12,7 +12,6 @@ public class Torch : MonoBehaviour
     UnityEngine.Rendering.Universal.Light2D flickerLightComponent;
 
 
-    // Start is called before the first frame update
     void Start()
     {
 
