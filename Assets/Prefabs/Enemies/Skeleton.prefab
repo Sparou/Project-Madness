@@ -27,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 3078638936640365803}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.24933386, y: 1.273186, z: -0.032302093}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.075, y: 0.187, z: -0.032302093}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5302332629402834823}
@@ -132,8 +132,8 @@ Transform:
   m_GameObject: {fileID: 3548582001501172559}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.24933386, y: 1.273186, z: -0.032302093}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.116, y: 0.184, z: -0.032302093}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5302332629402834823}
@@ -216,6 +216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5302332629402834823}
+  - component: {fileID: 5156532267259206188}
   - component: {fileID: 5057687491718827092}
   - component: {fileID: 3931524643347987066}
   - component: {fileID: 152575782546331174}
@@ -226,10 +227,11 @@ GameObject:
   - component: {fileID: 2901607959707667597}
   - component: {fileID: 6884561438790715456}
   - component: {fileID: 2133003536946848368}
-  m_Layer: 0
+  - component: {fileID: 1093483878454095951}
+  m_Layer: 3
   m_Name: Skeleton
   m_TagString: Untagged
-  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -253,6 +255,43 @@ Transform:
   - {fileID: 8379614651153295075}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &5156532267259206188
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014179383799502084}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0013073385, y: -0.034738183}
+  m_Size: {x: 0.3996746, y: 0.9715884}
+  m_Direction: 0
 --- !u!114 &5057687491718827092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,11 +305,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Skeleton
-  maxHealth: 100
+  characterLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  _humanPoints: 0
+  healthController: {fileID: 1093483878454095951}
   relationshipStatus: 2
   target: {fileID: 0}
   agressiveRadius: 10
-  moveSpeed: 0
 --- !u!95 &3931524643347987066
 Animator:
   serializedVersion: 7
@@ -305,6 +347,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc5c55852fbe6ff47afbd31977fe8000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatorAttackTrigger: AttackTrigger
+  animatorDodgeTrigger: DodgeTrigger
+  animatorRollTrigger: RollTrigger
+  animatorSecondAttackTrigger: SecondAttackTrigger
+  animatorHurtTrigger: isHurted
+  animatorDeathTrigger: isDead
+  animatorSpeed: Speed
+  firstAttackSpeedMultiplier: FirstAttackSpeedMultiplier
+  secondAttackSpeedMultiplier: SecondAttackSpeedMultiplier
 --- !u!114 &7089605686427402323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,7 +397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
-  radius: 1.5
+  radius: 0.5
   height: 0.01
   canMove: 1
   maxSpeed: 1
@@ -368,9 +419,9 @@ MonoBehaviour:
   targetCompatibility: {fileID: 0}
   maxAcceleration: -2.5
   rotationSpeed: 360
-  slowdownDistance: 0.6
+  slowdownDistance: 1
   pickNextWaypointDist: 1
-  endReachedDistance: 0.2
+  endReachedDistance: 1
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
@@ -449,6 +500,21 @@ MonoBehaviour:
   attackDamage: 1
   attackCooldown: 2
   canMoveInAttack: 0
+--- !u!114 &1093483878454095951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014179383799502084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cc29effcec549446877cc9411644fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 100
+  invincible: 0
 --- !u!1 &7268031364698407895
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8065865267847960534}
   - component: {fileID: 9046932071165574420}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SkeletonSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -475,7 +541,7 @@ Transform:
   m_GameObject: {fileID: 7268031364698407895}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.043, y: -0.829, z: 0}
+  m_LocalPosition: {x: 0, y: -0.449, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -524,12 +590,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5167949729299656357, guid: a8a144886dc43004285e7c5a0a3c433b, type: 3}
+  m_Sprite: {fileID: 1703043292498516232, guid: bdf2df181df5d1048983c9e0186d24a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.625, y: 1.9375}
+  m_Size: {x: 0.75, y: 0.90625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -562,8 +628,8 @@ Transform:
   m_GameObject: {fileID: 7686286921673689852}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.24933386, y: 1.273186, z: -0.032302093}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.12, y: 0.182, z: -0.032302093}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5302332629402834823}
@@ -664,8 +730,8 @@ Transform:
   m_GameObject: {fileID: 8134309993054756912}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.24933386, y: 1.273186, z: -0.032302093}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.119, y: 0.183, z: -0.032302093}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5302332629402834823}
