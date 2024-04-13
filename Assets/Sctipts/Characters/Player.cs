@@ -17,7 +17,6 @@ public class Player : Character
         #region Action functions binding
         playerInputActions.Player.Move.performed += context => movementController.OnMove(context);
         playerInputActions.Player.Move.canceled += context => movementController.OnMove(context);
-        playerInputActions.Player.Dash.started += context => movementController.OnDashStart();
         playerInputActions.Player.Dodge.started += context => movementController.OnDodgeStart();
         playerInputActions.Player.Roll.started += context => movementController.OnRollStart();
         playerInputActions.Player.Fire.started += context => attackController.OnFire();

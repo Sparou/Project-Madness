@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5862717982393531422}
   - component: {fileID: 5362704899434100504}
   - component: {fileID: 4871228140227378382}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: FirstAttackCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 4376354981840266143}
   - component: {fileID: 4238355259753395840}
   - component: {fileID: 5343242423879914796}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: HeroKnight
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -306,10 +306,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animatorAttackTrigger: AttackTrigger
+  animatorDodgeTrigger: DodgeTrigger
+  animatorRollTrigger: RollTrigger
   animatorSecondAttackTrigger: SecondAttackTrigger
   animatorHurtTrigger: HurtTrigger
   animatorDeathTrigger: DeathTrigger
-  animatorDodgeTrigger: DodgeTrigger
   animatorSpeed: Speed
   firstAttackSpeedMultiplier: FirstAttackSpeedMultiplier
   secondAttackSpeedMultiplier: SecondAttackSpeedMultiplier
@@ -332,6 +333,8 @@ MonoBehaviour:
   dodgeSpeed: 30
   dodgeDuration: 0.2
   dodgeCooldown: 2
+  rollSpeed: 10
+  rollCooldown: 1
 --- !u!114 &3137557568533541093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,6 +376,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  currentHealth: 0
+  invincible: 0
 --- !u!114 &5343242423879914796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,7 +407,7 @@ GameObject:
   - component: {fileID: 2997809955303870580}
   - component: {fileID: 6172954916690131875}
   - component: {fileID: 311865928344444774}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: SecondAttackCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
