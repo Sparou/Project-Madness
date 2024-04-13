@@ -7,12 +7,6 @@ public class AnimationController : MonoBehaviour
 
     protected Animator animator;
 
-    public enum Attack
-    {
-        first,
-        second
-    }
-
     #region Animator variables names
     [SerializeField] private string animatorAttackTrigger = "AttackTrigger";
     [SerializeField] private string animatorDodgeTrigger = "DodgeTrigger";
