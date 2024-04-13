@@ -37,6 +37,12 @@ public class HealthController : MonoBehaviour
         }
     }
 
+    public void TakeHeal(float heal)
+    {
+        if (currentHealth + heal > maxHealth) currentHealth = maxHealth;
+        else currentHealth += heal;
+    }
+
     private void Die()
     {
         animationController.DeathAnimation();
