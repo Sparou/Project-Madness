@@ -37,6 +37,12 @@ public class HealthController : MonoBehaviour
         }
     }
 
+    public void TakeHeal(float heal)
+    {
+        if (currentHealth + heal > maxHealth) currentHealth = maxHealth;
+        else currentHealth += heal;
+    }
+
     private void Die()
     {
         animationController.DeathAnimation();
@@ -46,14 +52,15 @@ public class HealthController : MonoBehaviour
         //this.enabled = false;
 
         var childs = gameObject.GetComponents<MonoBehaviour>();
-        var collider = gameObject.GetComponent<Collider2D>();
-
         foreach (var child in childs)
         {
             child.enabled = false;
         }
 
-        collider.enabled = false;
+        gameObject.GetComponent<Collider2D>().enabled = false;
+        gameObject.GetComponent<Character>().enabled = false;
+
+
         //StartCoroutine(nameof(DisableAnimator));
         //Destroy(gameObject, animationController.animator.GetCurrentAnimatorStateInfo(0).length - 0.2f);
     }

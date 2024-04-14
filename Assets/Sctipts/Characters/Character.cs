@@ -19,5 +19,4 @@ public class Character : MonoBehaviour
     {
         this._humanPoints = ammount;
     }
-
 }
