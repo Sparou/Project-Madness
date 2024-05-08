@@ -42,4 +42,23 @@ public class EnemyMovementController : MonoBehaviour
             ds.enabled = false;
         }
     }
+
+    public void DisableAIMovement(AIAbilityManager am)
+    {
+        GetComponent<EnemyAnimatorController>().enabled = false;
+        GetComponent<EnemyMovementController>().enabled = false;
+        GetComponent<AIPath>().enabled = false;
+        GetComponent<AIDestinationSetter>().enabled = false;
+        GetComponent<Seeker>().enabled = false;
+    }
+
+    public void EnableAIMovement(AIAbilityManager am)
+    {
+        GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        GetComponent<EnemyAnimatorController>().enabled = true;
+        GetComponent<EnemyMovementController>().enabled = true;
+        GetComponent<AIPath>().enabled = true;
+        GetComponent<AIDestinationSetter>().enabled = true;
+        GetComponent<Seeker>().enabled = true;
+    }
 }

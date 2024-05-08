@@ -31,7 +31,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.85714287
+        time: 0.42857143
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -40,7 +40,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.1428572
+        time: 0.71428573
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -61,26 +61,26 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 2044420824915367838, guid: f1a1963d6f4bf7d4c90c16d32082c77e, type: 3}
-    - time: 0.14285715
+    - time: 0.071428575
       value: {fileID: 775611012558708937, guid: f1a1963d6f4bf7d4c90c16d32082c77e, type: 3}
-    - time: 0.2857143
+    - time: 0.14285715
       value: {fileID: 2755352804498692739, guid: f1a1963d6f4bf7d4c90c16d32082c77e, type: 3}
-    - time: 0.42857143
+    - time: 0.21428572
       value: {fileID: -2615421299902191579, guid: f1a1963d6f4bf7d4c90c16d32082c77e, type: 3}
-    - time: 0.5714286
+    - time: 0.2857143
       value: {fileID: 9025938831930157089, guid: f1a1963d6f4bf7d4c90c16d32082c77e, type: 3}
-    - time: 0.71428573
+    - time: 0.35714287
       value: {fileID: 2074219467898271481, guid: f1a1963d6f4bf7d4c90c16d32082c77e, type: 3}
-    - time: 0.85714287
+    - time: 0.42857143
       value: {fileID: -5217683257490485591, guid: f1a1963d6f4bf7d4c90c16d32082c77e, type: 3}
-    - time: 1
+    - time: 0.5714286
       value: {fileID: 6176852726211933280, guid: f1a1963d6f4bf7d4c90c16d32082c77e, type: 3}
     attribute: m_Sprite
     path: SkeletonSprite
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 7
+  m_SampleRate: 14
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -119,7 +119,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.1428572
+    m_StopTime: 0.71428573
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -149,7 +149,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.85714287
+        time: 0.42857143
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -158,7 +158,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1.1428572
+        time: 0.71428573
         value: 1
         inSlope: Infinity
         outSlope: Infinity

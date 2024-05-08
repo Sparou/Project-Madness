@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Melee Attack", menuName = "Abilities/MeleeAtack")]
-public class AIMeleeAttackAbility : AIAbility
+public class AIMeleeAttackAbility : AIAttackAbility
 {
-    public float damage;
+    [Header("Melee Attack")]
     public float minRange;
     public float maxRange;
+
+    [Header("Animations")]
     public string animationTriggerName;
 
     public override bool CheckActivationCondition(AIAbilityManager am)

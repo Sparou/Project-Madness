@@ -166,12 +166,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
-  force: 100
+  force: 200
   lifeTime: 60
   dangerTime: 60
-  growSpeed: 0.0025
+  growSpeed: 0.003
   explosiveMultiplier: 0
-  maxIncreaseRate: 4
+  maxIncreaseRate: 5
 --- !u!114 &7693322247481068758
 MonoBehaviour:
   m_ObjectHideFlags: 0

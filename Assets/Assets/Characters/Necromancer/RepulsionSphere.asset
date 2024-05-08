@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af84df0161b576409a501322af7015e, type: 3}
+  m_Name: RepulsionSphere
+  m_EditorClassIdentifier: 
+  abilityName: DarkSphere
+  cooldownTime: 10
+  duration: 3
+  lastUseTime: 20.00322
+  triggerDistance: 3
+  projectile: {fileID: 735277840646017889, guid: 80a06b064951fe74c84acb8f78b31903, type: 3}
+  delay: 1
+  animationTriggerName: isPushingAway
+  ShiftUp: {x: 0, y: 0, z: 0}
+  ShiftRight: {x: 0, y: 0, z: 0}
+  ShiftLeft: {x: 0, y: 0, z: 0}
+  ShiftDown: {x: 0, y: 0, z: 0}

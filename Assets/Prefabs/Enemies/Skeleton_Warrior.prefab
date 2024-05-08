@@ -226,7 +226,6 @@ GameObject:
   - component: {fileID: 7089605686427402323}
   - component: {fileID: 2133418970020472609}
   - component: {fileID: 1852369957046001940}
-  - component: {fileID: 2133003536946848368}
   - component: {fileID: 5441132625414129531}
   m_Layer: 3
   m_Name: Skeleton_Warrior
@@ -358,7 +357,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   _humanPoints: 0
-  healthController: {fileID: 1093483878454095951}
+  healthController: {fileID: 0}
   relationshipStatus: 2
   target: {fileID: 0}
   agressiveRadius: 10
@@ -455,6 +454,7 @@ MonoBehaviour:
   abilities:
   - {fileID: 11400000, guid: 97262f7bbc4622d4286b6f607ff0c7c5, type: 2}
   characterIsBusy: 0
+  currentAbility: 0
 --- !u!114 &1852369957046001940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,22 +469,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
---- !u!114 &2133003536946848368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6014179383799502084}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22b8d39191ca31e4cabb141806d26c25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackRadius: 2
-  attackDamage: 10
-  attackCooldown: 2
-  canMoveInAttack: 0
 --- !u!114 &5441132625414129531
 MonoBehaviour:
   m_ObjectHideFlags: 0

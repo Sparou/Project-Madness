@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.IO.LowLevel.Unsafe;
 using UnityEditor.Timeline.Actions;
 using UnityEngine;
 
@@ -24,5 +25,12 @@ public class AIAbility : ScriptableObject
         Debug.Log(abilityName + " was activated!");
         am.characterIsBusy = true;
         lastUseTime = Time.time;
+        am.StartCoroutine(OnAbilityEnd(am));
+    }
+
+    protected virtual IEnumerator OnAbilityEnd(AIAbilityManager am)
+    {
+        yield return new WaitForSeconds(duration);
+        am.characterIsBusy = false;
     }
 }
