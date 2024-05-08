@@ -16,5 +16,4 @@ public class AIRepulsionAbility : AIAbility
     public float triggerDistance;
 
     private Enemy owner;
-
 }

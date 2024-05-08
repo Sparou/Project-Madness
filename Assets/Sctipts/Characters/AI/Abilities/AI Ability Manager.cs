@@ -11,6 +11,7 @@ public class AIAbilityManager : MonoBehaviour
 
     [HideInInspector]
     public bool characterIsBusy;
+
     [HideInInspector]
     public int currentAbility;
 

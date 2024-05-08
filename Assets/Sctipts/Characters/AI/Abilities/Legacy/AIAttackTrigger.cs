@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class AIAttackTrigger : MonoBehaviour
 {
-
     private Enemy owner;
     private AIAbilityManager am;
 
