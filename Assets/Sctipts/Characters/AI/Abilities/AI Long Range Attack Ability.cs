@@ -38,13 +38,13 @@ public class AILongRangeAttackAbility : AIAbility
         base.Activate(am);
     }
 
-    IEnumerator AttackTargetWithDelay(AIAbilityManager am)
+    protected IEnumerator AttackTargetWithDelay(AIAbilityManager am)
     {
         yield return new WaitForSeconds(delay);
         SpawnProjctile(am);
     }
 
-    void SpawnProjctile(AIAbilityManager am)
+    protected void SpawnProjctile(AIAbilityManager am)
     {
         Animator animator = am.GetComponent<Animator>();
         Vector3 spawnPosition = am.transform.position;

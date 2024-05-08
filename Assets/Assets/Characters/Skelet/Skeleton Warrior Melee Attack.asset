@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   abilityName: Skeleton Strike
   cooldownTime: 2
-  duration: 1
-  lastUseTime: 0
+  duration: 0.5
+  lastUseTime: 2.001155
   damage: 10
   minRange: 0
   maxRange: 2
