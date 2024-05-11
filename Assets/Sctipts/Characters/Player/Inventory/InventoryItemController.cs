@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class InventoryItemController : MonoBehaviour
 {
     public ItemInventory item;
 
-    public Button RemoveButton;
+    public void DropItem()
+    {
+        Inventory.Instance.Drop(item);
+        Destroy(gameObject);
+    }
 
     public void RemoveItem()
     {
@@ -18,5 +21,11 @@ public class InventoryItemController : MonoBehaviour
     public void Set(ItemInventory newItem)
     {
         item = newItem;
+    }
+
+    public void UseItem()
+    {
+        item.UseItem();
+        RemoveItem();
     }
 }

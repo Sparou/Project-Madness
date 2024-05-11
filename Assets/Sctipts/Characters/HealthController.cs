@@ -1,6 +1,7 @@
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using TMPro;
 
 [RequireComponent(typeof(AnimationController))]
 [RequireComponent (typeof(Character))]
@@ -10,6 +11,7 @@ public class HealthController : MonoBehaviour
 
     private AnimationController animationController;
     public float currentHealth;
+    public TMP_Text HealthText; 
 
     public bool invincible = false;
 
@@ -17,14 +19,16 @@ public class HealthController : MonoBehaviour
     {
         animationController = GetComponent<AnimationController>();
         
-        currentHealth = maxHealth;
+        currentHealth = 10;
+        UpdateHealth();
     }
 
     public void TakeDamage(float damage)
     {
         if (!invincible && damage > 0)
         {
-            currentHealth -= damage;
+            currentHealth = Mathf.Max(currentHealth - damage, 0);
+            UpdateHealth();
 
             if (currentHealth <= 0)
             {
@@ -39,8 +43,8 @@ public class HealthController : MonoBehaviour
 
     public void TakeHeal(float heal)
     {
-        if (currentHealth + heal > maxHealth) currentHealth = maxHealth;
-        else currentHealth += heal;
+        currentHealth = Mathf.Min(currentHealth + heal, maxHealth);
+        UpdateHealth();
     }
 
     private void Die()
@@ -63,6 +67,11 @@ public class HealthController : MonoBehaviour
 
         //StartCoroutine(nameof(DisableAnimator));
         //Destroy(gameObject, animationController.animator.GetCurrentAnimatorStateInfo(0).length - 0.2f);
+    }
+
+    private void UpdateHealth()
+    {
+        HealthText.text = $"HP: {currentHealth}";
     }
 
     //IEnumerator DisableAnimator()

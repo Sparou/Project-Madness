@@ -22,6 +22,8 @@ public class Inventory : MonoBehaviour
 
     public GameObject ItemPref;
     public Transform LocationPlayer;
+    public HealthController HealthPlayer;
+
 
     private void Awake()
     {
@@ -50,6 +52,7 @@ public class Inventory : MonoBehaviour
     {
         InventoryRef = GameObject.Find("Inventory");
         InventoryRef.SetActive(false);
+        ListItems();
     }
 
     void Update()
@@ -101,7 +104,7 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void Remove(ItemInventory item)
+    public void Drop(ItemInventory item)
     {
         if (Items.Contains(item))
         {
@@ -121,6 +124,20 @@ public class Inventory : MonoBehaviour
         } else
         {
             Debug.Log($"Предмет не выброшен из инвентаря.");
+        }
+    }
+
+    public void Remove(ItemInventory item)
+    {
+        if (Items.Contains(item))
+        {
+            Items.Remove(item);
+            ListItems();
+            Debug.Log($"Предмет удален");
+        }
+        else
+        {
+            Debug.Log($"Предмет не удален");
         }
     }
 
