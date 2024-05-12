@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithSwordDownLand_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 10
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: f90d8d35a60ff8d45ac341708f2f1ffb
     - name: SkeletonWithSwordDownLand_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: 78efac4e7c339394b87cae9b2d8763b2
     - name: SkeletonWithSwordDownLand_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: b596675f414e8e24fb79222a394df219
     - name: SkeletonWithSwordDownLand_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7

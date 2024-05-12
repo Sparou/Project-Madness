@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: NecromancerUpHurt_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: 2bd9fdb382e6c4247b537600732c4f8e
     - name: NecromancerUpHurt_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 8
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: 42bc69dbabc14f44a81b8406bcdf454c
     - name: NecromancerUpHurt_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 9
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: 0a64873955ca0b446966f96f81c9a64a
     - name: NecromancerUpHurt_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 10

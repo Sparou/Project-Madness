@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithBowRightRun_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: cccf8756b84e81840bf344e7c6df597a
     - name: SkeletonWithBowRightRun_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 8
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: 1f9fa8e47faa6a049a4b22de108b2ab4
     - name: SkeletonWithBowRightRun_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 11
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: 1886470f1922ea240857f3bb0efd2bf9
     - name: SkeletonWithBowRightRun_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: ad3e63d71c03db048b132db9b92027e1
     - name: SkeletonWithBowRightRun_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 8
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: 649a2d4aad02d36458aa418676470f31
     - name: SkeletonWithBowRightRun_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 11

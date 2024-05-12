@@ -292,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithBowLefttDeath_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 7
@@ -300,6 +301,7 @@ ScriptedImporter:
       spriteId: d675be4766299b4429cfbb3e19eb0a4e
     - name: SkeletonWithBowLefttDeath_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 10
@@ -308,6 +310,7 @@ ScriptedImporter:
       spriteId: 19f7c65dc3254ad49a1f4dd4589c4fb3
     - name: SkeletonWithBowLefttDeath_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 11
@@ -316,6 +319,7 @@ ScriptedImporter:
       spriteId: fcf1a108f9dc53d4abc3a4382eaa0603
     - name: SkeletonWithBowLefttDeath_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 5
@@ -324,6 +328,7 @@ ScriptedImporter:
       spriteId: 922a527c42dbd8745aa2a37ac2aa029c
     - name: SkeletonWithBowLefttDeath_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 4
@@ -332,6 +337,7 @@ ScriptedImporter:
       spriteId: 7687d38af1d320847adece8499682a5c
     - name: SkeletonWithBowLefttDeath_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 4
@@ -340,6 +346,7 @@ ScriptedImporter:
       spriteId: 6e9db9ca1fe053a469bd2a275b21a6dc
     - name: SkeletonWithBowLefttDeath_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 4
@@ -348,6 +355,7 @@ ScriptedImporter:
       spriteId: 251ab4f61582fd041a833688d18de294
     - name: SkeletonWithBowLefttDeath_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 4

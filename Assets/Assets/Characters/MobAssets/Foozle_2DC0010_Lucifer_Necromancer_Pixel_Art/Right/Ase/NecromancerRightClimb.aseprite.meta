@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: NecromancerRightClimb_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: 2d21a3589f09f304890ddfe9b7ef6754
     - name: NecromancerRightClimb_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 5
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: 57176696e0860314987e401798583a67
     - name: NecromancerRightClimb_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: 285c3465046143245be19916e9428f16
     - name: NecromancerRightClimb_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: 40085c44d8718904caa3cdbd9801f014
     - name: NecromancerRightClimb_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: 28cf492361888ad4f839cef311ae8e70
     - name: NecromancerRightClimb_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6

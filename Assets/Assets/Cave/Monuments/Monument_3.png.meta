@@ -1,0 +1,489 @@
+fileFormatVersion: 2
+guid: 452f8ed73e923344c97a94c07e9c9019
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5612421489805011139
+    second: Monument_3_0
+  - first:
+      213: 4590173783343028403
+    second: Monument_3_1
+  - first:
+      213: -4430227610586508318
+    second: Monument_3_2
+  - first:
+      213: 1213364184515982846
+    second: Monument_3_3
+  - first:
+      213: 7991880036913783382
+    second: Monument_3_4
+  - first:
+      213: -709239138010460416
+    second: Monument_3_5
+  - first:
+      213: -8308292420783370814
+    second: Monument_3_6
+  - first:
+      213: -5466488063355314064
+    second: Monument_3_7
+  - first:
+      213: 7811275628309718888
+    second: Monument_3_8
+  - first:
+      213: 5491717999470943217
+    second: Monument_3_9
+  - first:
+      213: -2536130549220302101
+    second: Monument_3_10
+  - first:
+      213: -8438579013736675124
+    second: Monument_3_11
+  - first:
+      213: 3017202896949735485
+    second: Monument_3_12
+  - first:
+      213: -1660963729215317006
+    second: Monument_3_13
+  - first:
+      213: -8766403556192596008
+    second: Monument_3_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monument_3_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d375762146cac12b0800000000000000
+      internalID: -5612421489805011139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8d8757cb293bf30800000000000000
+      internalID: 4590173783343028403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e31dd4e57ba482c0800000000000000
+      internalID: -4430227610586508318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5b1411c4cb6d010800000000000000
+      internalID: 1213364184515982846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65228cffc8cd8ee60800000000000000
+      internalID: 7991880036913783382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f051ef2c64826f0800000000000000
+      internalID: -709239138010460416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd0321001403bc80800000000000000
+      internalID: -8308292420783370814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0702bcea1122324b0800000000000000
+      internalID: -5466488063355314064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867211c4cc9376c60800000000000000
+      internalID: 7811275628309718888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_9
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb95159c60863c40800000000000000
+      internalID: 5491717999470943217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_10
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be225b5d3baddccd0800000000000000
+      internalID: -2536130549220302101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_11
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8c825b81524ea80800000000000000
+      internalID: -8438579013736675124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_12
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30f7f78c024fd920800000000000000
+      internalID: 3017202896949735485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_13
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb1057d94213f8e0800000000000000
+      internalID: -1660963729215317006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monument_3_14
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df4b6b796a775680800000000000000
+      internalID: -8766403556192596008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Monument_3_0: -5612421489805011139
+      Monument_3_1: 4590173783343028403
+      Monument_3_10: -2536130549220302101
+      Monument_3_11: -8438579013736675124
+      Monument_3_12: 3017202896949735485
+      Monument_3_13: -1660963729215317006
+      Monument_3_14: -8766403556192596008
+      Monument_3_2: -4430227610586508318
+      Monument_3_3: 1213364184515982846
+      Monument_3_4: 7991880036913783382
+      Monument_3_5: -709239138010460416
+      Monument_3_6: -8308292420783370814
+      Monument_3_7: -5466488063355314064
+      Monument_3_8: 7811275628309718888
+      Monument_3_9: 5491717999470943217
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

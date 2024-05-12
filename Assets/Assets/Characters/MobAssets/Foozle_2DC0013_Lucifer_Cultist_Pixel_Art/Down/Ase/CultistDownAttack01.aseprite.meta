@@ -352,6 +352,7 @@ ScriptedImporter:
     cells:
     - name: CultistDownAttack01_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 10
@@ -360,6 +361,7 @@ ScriptedImporter:
       spriteId: 302ebc62cf0039745829ee4ab62d1f9e
     - name: CultistDownAttack01_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 13
@@ -368,6 +370,7 @@ ScriptedImporter:
       spriteId: a0fbabed5c85e884e95a6fa6d16aadf8
     - name: CultistDownAttack01_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 15
@@ -376,6 +379,7 @@ ScriptedImporter:
       spriteId: 5b1ed3b30b987084abf79149ece734b8
     - name: CultistDownAttack01_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 15
@@ -384,6 +388,7 @@ ScriptedImporter:
       spriteId: ba9aa5aef22c1ba43a9c6e96d42d5690
     - name: CultistDownAttack01_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 15
@@ -392,6 +397,7 @@ ScriptedImporter:
       spriteId: 33fe92eaab139244ca3daac004a27542
     - name: CultistDownAttack01_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 15
@@ -400,6 +406,7 @@ ScriptedImporter:
       spriteId: 0e7bdf9bdc6d89f4ea9f286248b5f8ad
     - name: CultistDownAttack01_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 15
@@ -408,6 +415,7 @@ ScriptedImporter:
       spriteId: f8b435c4dabab604a99800133cb2c647
     - name: CultistDownAttack01_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 15
@@ -416,6 +424,7 @@ ScriptedImporter:
       spriteId: 8bb701202a23b104288ec3d83a1575cb
     - name: CultistDownAttack01_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -424,6 +433,7 @@ ScriptedImporter:
       spriteId: af7b1dfe88bddf14ca8b80eab0628963
     - name: CultistDownAttack01_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -432,6 +442,7 @@ ScriptedImporter:
       spriteId: 8ac26ad6d5fbfde4ba5a39ab9760bdbd
     - name: CultistDownAttack01_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 15

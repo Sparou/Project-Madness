@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: PossesedLeftWalk_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 7
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: bffad2511017e3a4cad6baa5c680ee3f
     - name: PossesedLeftWalk_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 10
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: 91e55d10e928fd842bc1ddb1c1eddbde
     - name: PossesedLeftWalk_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 6
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: 270bef5b46cb63c41ad8044ba327afe3
     - name: PossesedLeftWalk_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 6
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: 8d9480e4600cd6e4a9010164c17b91df
     - name: PossesedLeftWalk_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 7
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: ef302992a1cc3684eb68e23400fa85fc
     - name: PossesedLeftWalk_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 8

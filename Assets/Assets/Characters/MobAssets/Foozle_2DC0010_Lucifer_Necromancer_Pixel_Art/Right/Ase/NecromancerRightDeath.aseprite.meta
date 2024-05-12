@@ -352,6 +352,7 @@ ScriptedImporter:
     cells:
     - name: NecromancerRightDeath_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -360,6 +361,7 @@ ScriptedImporter:
       spriteId: f1d672206c459f648ac03fdf5bce0853
     - name: NecromancerRightDeath_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 8
@@ -368,6 +370,7 @@ ScriptedImporter:
       spriteId: f25976c9997e7a149967bbcd2cd70717
     - name: NecromancerRightDeath_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 9
@@ -376,6 +379,7 @@ ScriptedImporter:
       spriteId: ed52ce30fc169c44b895eb1aeeb45deb
     - name: NecromancerRightDeath_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 9
@@ -384,6 +388,7 @@ ScriptedImporter:
       spriteId: a67a71a0437045343918be0b93ed4c37
     - name: NecromancerRightDeath_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 16
@@ -392,6 +397,7 @@ ScriptedImporter:
       spriteId: 7d191db1adc8f4944955be8632cf7054
     - name: NecromancerRightDeath_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 12
@@ -400,6 +406,7 @@ ScriptedImporter:
       spriteId: 9f10ca665b89cf140a5800ac31cdcec0
     - name: NecromancerRightDeath_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 8
@@ -408,6 +415,7 @@ ScriptedImporter:
       spriteId: 64dda21821009724f85ecc88e5f540e1
     - name: NecromancerRightDeath_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 5
@@ -416,6 +424,7 @@ ScriptedImporter:
       spriteId: 5153013fa82f0eb4e8dd50d81baadfd3
     - name: NecromancerRightDeath_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
@@ -424,6 +433,7 @@ ScriptedImporter:
       spriteId: 2a1b75c727830a8499bd75bd14bcd9c9
     - name: NecromancerRightDeath_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 5
@@ -432,6 +442,7 @@ ScriptedImporter:
       spriteId: 36a9a60d2660be246a8b61d7a515c69c
     - name: NecromancerRightDeath_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 5

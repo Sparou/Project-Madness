@@ -292,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: SorceressDownDeath_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 30
@@ -300,6 +301,7 @@ ScriptedImporter:
       spriteId: f05db0db5fe24d846a25a9bac4a62a2a
     - name: SorceressDownDeath_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 35
@@ -308,6 +310,7 @@ ScriptedImporter:
       spriteId: 5344b92788442bd489a7cd23d39f32af
     - name: SorceressDownDeath_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 37
@@ -316,6 +319,7 @@ ScriptedImporter:
       spriteId: 60f33d1c98eb5a04c9189ca29b091c52
     - name: SorceressDownDeath_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -324,6 +328,7 @@ ScriptedImporter:
       spriteId: 9c868877a71b553418c279e46297ab16
     - name: SorceressDownDeath_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 11
@@ -332,6 +337,7 @@ ScriptedImporter:
       spriteId: 0336abde5f890cf438168898a5e77572
     - name: SorceressDownDeath_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 11
@@ -340,6 +346,7 @@ ScriptedImporter:
       spriteId: 9d9df0e3d48bc024e813fb3a238b8706
     - name: SorceressDownDeath_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 18
@@ -348,6 +355,7 @@ ScriptedImporter:
       spriteId: 5ad06ac242684d94d8cbcc1e26f919fb
     - name: SorceressDownDeath_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 27

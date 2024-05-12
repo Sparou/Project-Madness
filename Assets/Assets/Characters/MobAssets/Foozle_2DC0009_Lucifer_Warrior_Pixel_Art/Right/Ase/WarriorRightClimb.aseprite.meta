@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: WarriorRightClimb_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 7
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: caebb2c823f38d441a1abc996eccf456
     - name: WarriorRightClimb_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 7
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: d7691edb508c03048a7fb63983c63fbc
     - name: WarriorRightClimb_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 6
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: 3e52bffc7de94e34bb2566c3327bbdfd
     - name: WarriorRightClimb_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 7
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: 57a6bced0b5c5c8418e5afbfd099abfa
     - name: WarriorRightClimb_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: cbf0d81ba8a83274bbbb6b5f8addfeb8
     - name: WarriorRightClimb_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 6

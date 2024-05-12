@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: GoblinSlingerUpRun_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: 5222c935015b7e64f9e6f2661d1ab171
     - name: GoblinSlingerUpRun_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 8
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: 8bb3257eccc598e478d7a5eb6132cabb
     - name: GoblinSlingerUpRun_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 8
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: 0f0ed533a1bb6fd499a6f898d5232fe7
     - name: GoblinSlingerUpRun_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: 5d8b185fa68eaf949bd9755e557c3048
     - name: GoblinSlingerUpRun_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 8
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: 72f08d26c0e848644a0a6dd7fc33be42
     - name: GoblinSlingerUpRun_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 8

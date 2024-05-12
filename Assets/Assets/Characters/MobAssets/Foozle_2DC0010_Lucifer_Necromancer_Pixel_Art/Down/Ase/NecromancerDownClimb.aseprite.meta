@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: NecromancerDownClimb_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: cb090752e70f0924fa35f3ab48f0265e
     - name: NecromancerDownClimb_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 7
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: e759619c2d198db41a6cd78b625c0a0c
     - name: NecromancerDownClimb_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 7
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: ca87d1309c217494ead6e909026e3348
     - name: NecromancerDownClimb_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: d303416b53545534f8299d3d1e4ea452
     - name: NecromancerDownClimb_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: bdf69d3be98801e4c8ad1eb4d6e0875d
     - name: NecromancerDownClimb_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7

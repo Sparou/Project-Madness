@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: PossesedDownHurt_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 7
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: 6a28aa6f4a83d114582903d6359870f8
     - name: PossesedDownHurt_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 8
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: ec43f573735a0ee498501ccfe440793e
     - name: PossesedDownHurt_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 9
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: 7048fe92788ad9d48b0adedf451189ac
     - name: PossesedDownHurt_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 9

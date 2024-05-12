@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonKingUpAttack02_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 32
         y: 32
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: b35da2da886fd4342bca1d47c8fe2ebb
     - name: SkeletonKingUpAttack02_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 32
         y: 48
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: ff009da5e78e7cc4b8ff1be3f88cfca5
     - name: SkeletonKingUpAttack02_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 49
         y: 33
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: 26bb053e74a777c4ab46c8d94d858ae1
     - name: SkeletonKingUpAttack02_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 33
         y: 32

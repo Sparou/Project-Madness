@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: GoblinRightHurt_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: 259224d8dc1e9074b8d7218a2b6a66e2
     - name: GoblinRightHurt_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 8
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: e6f7742c88aafc441ac9d9a89dfd3504
     - name: GoblinRightHurt_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 9
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: 4cb01290448149348944632564467ef4
     - name: GoblinRightHurt_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 10

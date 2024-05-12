@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: PossesedRightLand_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 10
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: 7bc9418f3750e3e4099a3eec438eeaad
     - name: PossesedRightLand_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 5
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: 64a30a39536434b45b91c0d74f381eac
     - name: PossesedRightLand_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 5
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: 33a108db3ed918a4a8b652be071ebc11
     - name: PossesedRightLand_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6

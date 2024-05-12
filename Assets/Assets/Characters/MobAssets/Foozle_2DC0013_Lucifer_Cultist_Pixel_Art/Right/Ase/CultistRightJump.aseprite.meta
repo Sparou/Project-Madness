@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: CultistRightJump_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 10
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: 66a1db003485d4847a629daea3ea6173
     - name: CultistRightJump_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 15
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: 9ea85fab67d25544d8bdec4c68e3c5e9
     - name: CultistRightJump_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 16
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: e83ab323475a26f40979625e634056e7
     - name: CultistRightJump_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 16

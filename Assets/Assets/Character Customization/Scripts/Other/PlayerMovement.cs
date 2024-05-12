@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         if (playerMovement != Vector3.zero)
         {
             MoveCharacter();
+            speed = 4f;
             animator.SetFloat("moveX", playerMovement.x);
             animator.SetBool("moving", true);
         }
@@ -37,12 +38,21 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("moving", false);
         }
-        if (Input.GetKey(KeyCode.LeftControl))
+        if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             Roll();
         }
+        if (Input.GetMouseButtonDown(0))
+        {
+            Atack();
+        }
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            Death();
+        }
         if (Input.GetKey(KeyCode.LeftShift) && playerMovement != Vector3.zero)
         {
+            speed = 5f;
             animator.SetBool("Run", true);
         }
         else
@@ -53,6 +63,14 @@ public class PlayerMovement : MonoBehaviour
     private void Roll()
     {
         animator.SetTrigger("Roll");
+    }
+    private void Atack()
+    {
+        animator.SetTrigger("Attack");
+    }
+    private void Death()
+    {
+        animator.SetTrigger("Death");
     }
     private void Run()
     {

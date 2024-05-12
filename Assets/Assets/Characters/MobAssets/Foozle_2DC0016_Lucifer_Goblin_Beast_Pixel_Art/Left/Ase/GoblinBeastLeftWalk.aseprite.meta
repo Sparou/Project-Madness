@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: GoblinBeastLeftWalk_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: c327147e18f73a84ea90dfe076d98a32
     - name: GoblinBeastLeftWalk_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: a98f36326f831b44585f9dc3f1932b32
     - name: GoblinBeastLeftWalk_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 11
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: 4f1de2e82bdee974280023a1eca55f87
     - name: GoblinBeastLeftWalk_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: 9a34fceebbf58aa4ea8cb5b01f3a9229
     - name: GoblinBeastLeftWalk_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 7
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: 9c593db7121a8e14aac7804c6882c4f1
     - name: GoblinBeastLeftWalk_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 10

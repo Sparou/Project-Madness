@@ -292,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithSwordDownAttack01_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7
@@ -300,6 +301,7 @@ ScriptedImporter:
       spriteId: 5135d06cf9197e448bd0075dde517d1d
     - name: SkeletonWithSwordDownAttack01_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7
@@ -308,6 +310,7 @@ ScriptedImporter:
       spriteId: dd958b41abd79144bb5dc6be794601fb
     - name: SkeletonWithSwordDownAttack01_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7
@@ -316,6 +319,7 @@ ScriptedImporter:
       spriteId: f93acb8ec170b7a40bced0d0d585d30b
     - name: SkeletonWithSwordDownAttack01_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7
@@ -324,6 +328,7 @@ ScriptedImporter:
       spriteId: 5babf0b813e23504c8e726d9330023a8
     - name: SkeletonWithSwordDownAttack01_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7
@@ -332,6 +337,7 @@ ScriptedImporter:
       spriteId: 3a09abe2483410545917008d9b3b60eb
     - name: SkeletonWithSwordDownAttack01_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7
@@ -340,6 +346,7 @@ ScriptedImporter:
       spriteId: 5edb9c83e138e9841a6429601016533d
     - name: SkeletonWithSwordDownAttack01_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 4
@@ -348,6 +355,7 @@ ScriptedImporter:
       spriteId: c71a886887fe85b4cba744ccca19ca1f
     - name: SkeletonWithSwordDownAttack01_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 19
         y: 4

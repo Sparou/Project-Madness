@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithSwordUpIdle_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: 94cca3bdeb81f514c91f6d1a21aaf83a
     - name: SkeletonWithSwordUpIdle_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: 397935aba0391ab4bb72c0efaa86904c
     - name: SkeletonWithSwordUpIdle_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: b1d6737d2a6c0794a953cc5f8c67b7df
     - name: SkeletonWithSwordUpIdle_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: d9f558049e744644694484bb113fb5e4
     - name: SkeletonWithSwordUpIdle_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: 319e0c7439e19be408ba5994dda39c77
     - name: SkeletonWithSwordUpIdle_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7

@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: NecromancerUpIdle_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: 0696d6720fed1a5418c6eab5619f08fa
     - name: NecromancerUpIdle_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: 9147617e0bf6fae4a978196bb0820ca8
     - name: NecromancerUpIdle_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: 8020d3cc1604e434086a64a59f845350
     - name: NecromancerUpIdle_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 7
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: 05147a0441abeea439985e956015619f
     - name: NecromancerUpIdle_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 7
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: 53288cf97763aca46bd0b8af06c8cb44
     - name: NecromancerUpIdle_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
