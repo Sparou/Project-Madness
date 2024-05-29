@@ -37,6 +37,19 @@ public class HealthController : MonoBehaviour
         }
     }
 
+    public void TakeSlightDamage(float damage)
+    {
+        if (!invincible && damage > 0)
+        {
+            currentHealth -= damage;
+
+            if (currentHealth <= 0)
+            {
+                Die();
+            }
+        }
+    }
+
     public void TakeHeal(float heal)
     {
         if (currentHealth + heal > maxHealth) currentHealth = maxHealth;

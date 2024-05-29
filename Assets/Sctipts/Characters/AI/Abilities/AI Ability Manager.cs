@@ -54,9 +54,9 @@ public class AIAbilityManager : MonoBehaviour
 
     private void ResetAllAbilities()
     {
+        lastUsesTime = new float[abilities.Length];
         for (int i = 0; i < abilities.Length; i++) 
         {
-            lastUsesTime = new float[abilities.Length];
             lastUsesTime[i] = 0f;
         }
     }

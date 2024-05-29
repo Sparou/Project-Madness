@@ -31,7 +31,6 @@ public class AILongRangeAttackAbility : AIAbility
 
     public override void Activate(AIAbilityManager am)
     {
-        Debug.Log(am.gameObject.ToString() + "activate " + abilityName);
         Animator animator = am.gameObject.GetComponent<Animator>();
         animator.SetTrigger(animationTriggerName);
         am.StartCoroutine(AttackTargetWithDelay(am));
