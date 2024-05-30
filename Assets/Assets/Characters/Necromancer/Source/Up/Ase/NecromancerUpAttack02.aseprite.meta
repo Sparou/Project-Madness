@@ -272,6 +272,7 @@ ScriptedImporter:
     cells:
     - name: NecromancerUpAttack02_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -280,6 +281,7 @@ ScriptedImporter:
       spriteId: 74d5a79bf5256b840b9f8a67770999cb
     - name: NecromancerUpAttack02_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 7
@@ -288,6 +290,7 @@ ScriptedImporter:
       spriteId: d4e1db8a2afce6e408e30b04f5acac11
     - name: NecromancerUpAttack02_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 7
@@ -296,6 +299,7 @@ ScriptedImporter:
       spriteId: 948f01375228d0947b6a65005cc02e2a
     - name: NecromancerUpAttack02_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 7
@@ -304,6 +308,7 @@ ScriptedImporter:
       spriteId: 97b081eccd1e9534f8c40ba2a347ce20
     - name: NecromancerUpAttack02_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -312,6 +317,7 @@ ScriptedImporter:
       spriteId: 478636b68ec18f947be552e4e4fc9e90
     - name: NecromancerUpAttack02_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -320,6 +326,7 @@ ScriptedImporter:
       spriteId: 479e2c27786565b4aacb4169dfa5a3df
     - name: NecromancerUpAttack02_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7

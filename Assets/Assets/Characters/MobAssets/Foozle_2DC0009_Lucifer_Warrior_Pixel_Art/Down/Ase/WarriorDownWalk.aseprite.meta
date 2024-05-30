@@ -292,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: WarriorDownWalk_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -64
@@ -300,6 +301,7 @@ ScriptedImporter:
       spriteId: 011d1a32064b092438ccfb1cb8cfb79f
     - name: WarriorDownWalk_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: -63
@@ -308,6 +310,7 @@ ScriptedImporter:
       spriteId: 4232a590c8de7344fac72ab7559c8015
     - name: WarriorDownWalk_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: -63
@@ -316,6 +319,7 @@ ScriptedImporter:
       spriteId: 923a672e900b57e4695db721d08fd496
     - name: WarriorDownWalk_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: -63
@@ -324,6 +328,7 @@ ScriptedImporter:
       spriteId: 0f2c5ea487d9c8348a41ebb5c0bdc952
     - name: WarriorDownWalk_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -64
@@ -332,6 +337,7 @@ ScriptedImporter:
       spriteId: 0be64dfd482709b4493017fa053ab10e
     - name: WarriorDownWalk_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: -63
@@ -340,6 +346,7 @@ ScriptedImporter:
       spriteId: 6ca1cac17c1287840b203e02ee76eedf
     - name: WarriorDownWalk_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: -63
@@ -348,6 +355,7 @@ ScriptedImporter:
       spriteId: 1a92a503912ca024bb53a8b0d5a9d43f
     - name: WarriorDownWalk_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: -63

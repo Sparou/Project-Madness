@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithSwordUpHurt_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: 5572f1c528e2230408a497b3bbc8c7ef
     - name: SkeletonWithSwordUpHurt_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 9
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: 9f6a40e530e80fb43b56eee04a6e5192
     - name: SkeletonWithSwordUpHurt_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 10
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: a2b8838403a508e4da506b117280c83a
     - name: SkeletonWithSwordUpHurt_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 11

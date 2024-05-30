@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: PossesedUpLand_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 12
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: 7e580bdae1f009a4dac78c0e1e7e92c1
     - name: PossesedUpLand_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: 84c8f6bf54445ec419c8f65bc26cea98
     - name: PossesedUpLand_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: 4062177509c44454eacad5baf2c3381c
     - name: PossesedUpLand_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7

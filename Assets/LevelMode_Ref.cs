@@ -7,14 +7,12 @@ using UnityEngine;
 public class LevelMode_Ref : MonoBehaviour
 {
     public int sceneBuildIndex;
+    public LevelLoader levelLoader;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        print("Trigger Entered");
-        if(other.tag=="Player")
-        {
-            print("Switching Scene to " + sceneBuildIndex);
-            SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
-        }
+        levelLoader.LoadNextLevel(sceneBuildIndex);
+        //print("Switching Scene to " + sceneBuildIndex);
+        //SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
 
     }
 }

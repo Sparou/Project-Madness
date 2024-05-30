@@ -232,6 +232,7 @@ ScriptedImporter:
     cells:
     - name: NecromancerLeftLand_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 6
@@ -240,6 +241,7 @@ ScriptedImporter:
       spriteId: 703bf0e57f7c86d409f57d445d59cffa
     - name: NecromancerLeftLand_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 6
@@ -248,6 +250,7 @@ ScriptedImporter:
       spriteId: fbcb2c5ca47150b45b744aba08948315
     - name: NecromancerLeftLand_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 14
@@ -256,6 +259,7 @@ ScriptedImporter:
       spriteId: c321f36112070d64d91b53be650b2b45
     - name: NecromancerLeftLand_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 7
@@ -264,6 +268,7 @@ ScriptedImporter:
       spriteId: dfd0a4a565b5ca64cbeae00047c327bc
     - name: NecromancerLeftLand_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 7

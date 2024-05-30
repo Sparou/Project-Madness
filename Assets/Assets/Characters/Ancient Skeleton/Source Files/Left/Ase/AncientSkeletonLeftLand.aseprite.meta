@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: AncientSkeletonLeftLand_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 23
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: 385befbd223f7b14e9c0483cfd0d35ab
     - name: AncientSkeletonLeftLand_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 8
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: 10420c798a6da6b46a22ec72eda02778
     - name: AncientSkeletonLeftLand_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 8
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: f2ee511fd297baf4b9affc6bf5f9d0bf
     - name: AncientSkeletonLeftLand_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 15

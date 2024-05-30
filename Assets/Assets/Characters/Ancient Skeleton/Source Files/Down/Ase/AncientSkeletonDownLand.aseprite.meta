@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: AncientSkeletonDownLand_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 25
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: def0899ed9de5814cade6b5df51bd55e
     - name: AncientSkeletonDownLand_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 11
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: 1d7b5e4a454f91049a5b32597eef5928
     - name: AncientSkeletonDownLand_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 10
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: d041beab22f8951439710914dbeb9fd0
     - name: AncientSkeletonDownLand_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 17

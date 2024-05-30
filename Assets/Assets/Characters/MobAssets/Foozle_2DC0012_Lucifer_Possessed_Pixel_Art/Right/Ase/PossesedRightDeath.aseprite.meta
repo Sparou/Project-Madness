@@ -332,6 +332,7 @@ ScriptedImporter:
     cells:
     - name: PossesedRightDeath_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6
@@ -340,6 +341,7 @@ ScriptedImporter:
       spriteId: a52750e2ca1718f488106686b3ae377d
     - name: PossesedRightDeath_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 1
@@ -348,6 +350,7 @@ ScriptedImporter:
       spriteId: dbe8ae91f9469b942ae04aed2bb0e27e
     - name: PossesedRightDeath_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 2
@@ -356,6 +359,7 @@ ScriptedImporter:
       spriteId: 4efdd9e72e10c2c4f976b385b0596e65
     - name: PossesedRightDeath_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 1
@@ -364,6 +368,7 @@ ScriptedImporter:
       spriteId: 12f7789131b3dd641b9cf4d0b9c782fc
     - name: PossesedRightDeath_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 1
@@ -372,6 +377,7 @@ ScriptedImporter:
       spriteId: 7a2d0e6d9cc494f4296e150a086a771c
     - name: PossesedRightDeath_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 1
@@ -380,6 +386,7 @@ ScriptedImporter:
       spriteId: 279c710685774d34aa09e610bd0a6d2d
     - name: PossesedRightDeath_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 1
@@ -388,6 +395,7 @@ ScriptedImporter:
       spriteId: 9153b1160f2e8a64daf991bf6a2debd0
     - name: PossesedRightDeath_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 1
@@ -396,6 +404,7 @@ ScriptedImporter:
       spriteId: 1585522796c373c46960faf4396ae326
     - name: PossesedRightDeath_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 1
@@ -404,6 +413,7 @@ ScriptedImporter:
       spriteId: 7523b175b52a6fd4ea3142664ba9e9c1
     - name: PossesedRightDeath_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 1

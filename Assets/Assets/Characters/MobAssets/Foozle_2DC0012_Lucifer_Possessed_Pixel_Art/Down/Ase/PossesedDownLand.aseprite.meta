@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: PossesedDownLand_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 11
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: bd594ea651afa234f835ff5a8aeb9f7f
     - name: PossesedDownLand_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 7
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: 5e8ce9ddbd94b58499a4cb3b5703b778
     - name: PossesedDownLand_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 7
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: 0d251564240f0f148ad967c2db378a6a
     - name: PossesedDownLand_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 7

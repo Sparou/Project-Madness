@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: PossesedUpJump_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: d2b058ecccd928c469a45a4d2aec0bb9
     - name: PossesedUpJump_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 11
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: d9b98f1c97fe38c4fb588d972d33781b
     - name: PossesedUpJump_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 12
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: b320c7ec81b145f45bc1096be993a3d5
     - name: PossesedUpJump_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 12

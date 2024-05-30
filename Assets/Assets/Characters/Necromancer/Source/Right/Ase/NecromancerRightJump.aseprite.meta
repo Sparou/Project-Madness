@@ -232,6 +232,7 @@ ScriptedImporter:
     cells:
     - name: NecromancerRightJump_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -240,6 +241,7 @@ ScriptedImporter:
       spriteId: 3cd4aab84ec4ca74eb166aa8bec54432
     - name: NecromancerRightJump_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 11
@@ -248,6 +250,7 @@ ScriptedImporter:
       spriteId: e9eabf3e323cd534a82811ec7b2d870d
     - name: NecromancerRightJump_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 13
@@ -256,6 +259,7 @@ ScriptedImporter:
       spriteId: d76898199a6020e41b9f6b9531595793
     - name: NecromancerRightJump_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 14
@@ -264,6 +268,7 @@ ScriptedImporter:
       spriteId: 19268b59f22dd88438b9096aa9bc4b4a
     - name: NecromancerRightJump_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 14

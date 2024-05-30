@@ -392,6 +392,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonKingLeftDeath_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8
@@ -400,6 +401,7 @@ ScriptedImporter:
       spriteId: 572972b72b7423b4b9e879ef042e3756
     - name: SkeletonKingLeftDeath_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8
@@ -408,6 +410,7 @@ ScriptedImporter:
       spriteId: e324ccc47510b6440be0d48c33e2b695
     - name: SkeletonKingLeftDeath_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8
@@ -416,6 +419,7 @@ ScriptedImporter:
       spriteId: a7854973894e4ca45b7b725b1c6c8383
     - name: SkeletonKingLeftDeath_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 8
@@ -424,6 +428,7 @@ ScriptedImporter:
       spriteId: 1829505fe2f44534b9b8330b9f58500f
     - name: SkeletonKingLeftDeath_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 21
@@ -432,6 +437,7 @@ ScriptedImporter:
       spriteId: 1df31800f7621b44f9f149e6b094c695
     - name: SkeletonKingLeftDeath_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 8
@@ -440,6 +446,7 @@ ScriptedImporter:
       spriteId: b8d6f9a38eeaf184e8629cbbec1f2da4
     - name: SkeletonKingLeftDeath_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 10
@@ -448,6 +455,7 @@ ScriptedImporter:
       spriteId: 588c711c007ae634f839d5424b086f20
     - name: SkeletonKingLeftDeath_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 8
@@ -456,6 +464,7 @@ ScriptedImporter:
       spriteId: 1f6a9fea373d4b54b95efee284d714e5
     - name: SkeletonKingLeftDeath_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 9
@@ -464,6 +473,7 @@ ScriptedImporter:
       spriteId: 2f79ac909cb973b489f199784a843c1e
     - name: SkeletonKingLeftDeath_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 8
@@ -472,6 +482,7 @@ ScriptedImporter:
       spriteId: e8e5d217fd633cb4dac76d60438136e9
     - name: SkeletonKingLeftDeath_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 8
@@ -480,6 +491,7 @@ ScriptedImporter:
       spriteId: 88db709a396c16640a0f6f09e3bd4a93
     - name: SkeletonKingLeftDeath_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 8
@@ -488,6 +500,7 @@ ScriptedImporter:
       spriteId: 03131a1e6ee49b745bd5f03bdeec6c97
     - name: SkeletonKingLeftDeath_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 8

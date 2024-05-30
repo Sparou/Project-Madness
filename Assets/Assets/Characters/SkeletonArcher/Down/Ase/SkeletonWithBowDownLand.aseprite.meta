@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithBowDownLand_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 10
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: 1416ea79692baa043b2c5bc34d44ba84
     - name: SkeletonWithBowDownLand_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 6
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: 8f146aab02416fc45bae61f402c0599c
     - name: SkeletonWithBowDownLand_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 6
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: 4b6b0cf9e4338c647a8a282cd9a421b1
     - name: SkeletonWithBowDownLand_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7

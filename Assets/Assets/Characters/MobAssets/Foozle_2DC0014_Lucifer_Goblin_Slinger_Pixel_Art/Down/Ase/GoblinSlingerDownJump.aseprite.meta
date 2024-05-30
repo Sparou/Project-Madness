@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: GoblinSlingerDownJump_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: 03e70be0f2fa5fa468332b1280c68285
     - name: GoblinSlingerDownJump_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 9
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: e78dc2a228cf91c4d85781aaa4fa58ec
     - name: GoblinSlingerDownJump_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 11
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: 5abc0b027d4bbf546b4aeb0213a16772
     - name: GoblinSlingerDownJump_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 11

@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: WarriorUpDeath_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 9
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: 4a9fb053e8cf0d34c9a938189cc04b1e
     - name: WarriorUpDeath_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 9
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: f33227aeff3390347a6ddd958645b101
     - name: WarriorUpDeath_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 9
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: a14b077ff6b2070479e4a741c14e1db2
     - name: WarriorUpDeath_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 8
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: c95724151be9ad2408c5f0e518bfcc4b
     - name: WarriorUpDeath_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 8
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: aa1e462b025e0474eb10528f35b5e4c7
     - name: WarriorUpDeath_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 8

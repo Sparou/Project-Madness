@@ -232,6 +232,7 @@ ScriptedImporter:
     cells:
     - name: WarriorUpJump_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 9
@@ -240,6 +241,7 @@ ScriptedImporter:
       spriteId: 7fae11e7375b23a42afee248c17e485d
     - name: WarriorUpJump_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: -63
@@ -248,6 +250,7 @@ ScriptedImporter:
       spriteId: b23df248ce7ef414d87037aec4c7c15f
     - name: WarriorUpJump_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: -62
@@ -256,6 +259,7 @@ ScriptedImporter:
       spriteId: 1051190b52a184446a33b7171560a386
     - name: WarriorUpJump_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: -62
@@ -264,6 +268,7 @@ ScriptedImporter:
       spriteId: 1a166bbf13530da4083308fd000e8678
     - name: WarriorUpJump_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: -62

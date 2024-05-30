@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonKingLeftIdle_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: bf9ef2d1fafe3a54fa7ddd6526f64dd5
     - name: SkeletonKingLeftIdle_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: 7247868a9378bd4468605a80f67e6ab4
     - name: SkeletonKingLeftIdle_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: c623f16164a92df42b240653e51435c0
     - name: SkeletonKingLeftIdle_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: fe934caa71d100e4caaee252445def4a
     - name: SkeletonKingLeftIdle_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: 2a0173b0631d78c469bc7a4878b17b45
     - name: SkeletonKingLeftIdle_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8

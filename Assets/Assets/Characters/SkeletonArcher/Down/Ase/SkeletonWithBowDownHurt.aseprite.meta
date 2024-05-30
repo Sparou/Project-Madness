@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithBowDownHurt_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: 9220136b70aa00c48a4f1b5b5f34f473
     - name: SkeletonWithBowDownHurt_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 9
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: e3c756764fd09b64f958ae02aeff2a0a
     - name: SkeletonWithBowDownHurt_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 10
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: ad98dcc13e1e0ce4c9678cf98684d2bd
     - name: SkeletonWithBowDownHurt_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 11

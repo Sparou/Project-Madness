@@ -372,6 +372,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithBowRightAttack01_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -380,6 +381,7 @@ ScriptedImporter:
       spriteId: cb94d74d79383144aaaea059e1ed9fca
     - name: SkeletonWithBowRightAttack01_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6
@@ -388,6 +390,7 @@ ScriptedImporter:
       spriteId: 39e9ed934f663244da3d20082c10018e
     - name: SkeletonWithBowRightAttack01_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6
@@ -396,6 +399,7 @@ ScriptedImporter:
       spriteId: 792574e3694e26947bc68afb7057f13c
     - name: SkeletonWithBowRightAttack01_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6
@@ -404,6 +408,7 @@ ScriptedImporter:
       spriteId: bc01e4e2f2bdecf4d87530bfc69e8556
     - name: SkeletonWithBowRightAttack01_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6
@@ -412,6 +417,7 @@ ScriptedImporter:
       spriteId: 6318565464e87e241993cc47d45fc3a1
     - name: SkeletonWithBowRightAttack01_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6
@@ -420,6 +426,7 @@ ScriptedImporter:
       spriteId: f467272a58dd9d244a67b4ec8c02a9a3
     - name: SkeletonWithBowRightAttack01_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6
@@ -428,6 +435,7 @@ ScriptedImporter:
       spriteId: a7486b07829636947bfbb76edb6c0351
     - name: SkeletonWithBowRightAttack01_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6
@@ -436,6 +444,7 @@ ScriptedImporter:
       spriteId: 5852deb76b09deb44993ec88ab3d0223
     - name: SkeletonWithBowRightAttack01_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6
@@ -444,6 +453,7 @@ ScriptedImporter:
       spriteId: 42fc5baed5174f3499ae034bba6ad470
     - name: SkeletonWithBowRightAttack01_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6
@@ -452,6 +462,7 @@ ScriptedImporter:
       spriteId: f0fe9508c8941e64ba446be1d3c44bf1
     - name: SkeletonWithBowRightAttack01_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6
@@ -460,6 +471,7 @@ ScriptedImporter:
       spriteId: 9d8f136ace7f13741a14d89066744844
     - name: SkeletonWithBowRightAttack01_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6

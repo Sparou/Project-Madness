@@ -232,6 +232,7 @@ ScriptedImporter:
     cells:
     - name: WarriorUpAttack03_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -240,6 +241,7 @@ ScriptedImporter:
       spriteId: 0053a7720d676d046a8c3d2c3e4a1647
     - name: WarriorUpAttack03_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -63
@@ -248,6 +250,7 @@ ScriptedImporter:
       spriteId: 25c511b148d18a94d8c4df6b982cde9e
     - name: WarriorUpAttack03_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -62
@@ -256,6 +259,7 @@ ScriptedImporter:
       spriteId: 77a07e35933072a41af29d319e0ba465
     - name: WarriorUpAttack03_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -62
@@ -264,6 +268,7 @@ ScriptedImporter:
       spriteId: 769e419092b03014481b9d19bcf9d09f
     - name: WarriorUpAttack03_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -63

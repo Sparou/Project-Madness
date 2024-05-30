@@ -332,6 +332,7 @@ ScriptedImporter:
     cells:
     - name: GoblinRightAttack01_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 12
@@ -340,6 +341,7 @@ ScriptedImporter:
       spriteId: b242b81a03f88d6478afc5efdbdc491b
     - name: GoblinRightAttack01_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 13
@@ -348,6 +350,7 @@ ScriptedImporter:
       spriteId: 287a7eebf944bab45a5b5adbe038136a
     - name: GoblinRightAttack01_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 14
@@ -356,6 +359,7 @@ ScriptedImporter:
       spriteId: 3ec92d7b9b6f0fd45acb620a73ae588e
     - name: GoblinRightAttack01_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -364,6 +368,7 @@ ScriptedImporter:
       spriteId: 6cab0985edc8b8c4194b7defc1879a22
     - name: GoblinRightAttack01_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 7
@@ -372,6 +377,7 @@ ScriptedImporter:
       spriteId: 7fd11774576404d46a69a890f0c10477
     - name: GoblinRightAttack01_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 7
@@ -380,6 +386,7 @@ ScriptedImporter:
       spriteId: d352aa9583d414f409f845663cd275c7
     - name: GoblinRightAttack01_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 7
@@ -388,6 +395,7 @@ ScriptedImporter:
       spriteId: 9b866e1592e3b494595bf1a134cef24d
     - name: GoblinRightAttack01_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 7
@@ -396,6 +404,7 @@ ScriptedImporter:
       spriteId: 7d282739f10226048b58846e685f62e3
     - name: GoblinRightAttack01_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 7
@@ -404,6 +413,7 @@ ScriptedImporter:
       spriteId: ee51485495187304ca6fade6ad581b26
     - name: GoblinRightAttack01_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 7

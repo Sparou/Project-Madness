@@ -212,6 +212,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonKingLeftLand_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8
@@ -220,6 +221,7 @@ ScriptedImporter:
       spriteId: 89784f1e39098d64082355ac598d13a4
     - name: SkeletonKingLeftLand_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 4
@@ -228,6 +230,7 @@ ScriptedImporter:
       spriteId: c5d5df09fbafcdf4f832f5033716c3db
     - name: SkeletonKingLeftLand_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 7
@@ -236,6 +239,7 @@ ScriptedImporter:
       spriteId: 899bdbb574ac78640bb10bcaeb878a30
     - name: SkeletonKingLeftLand_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8

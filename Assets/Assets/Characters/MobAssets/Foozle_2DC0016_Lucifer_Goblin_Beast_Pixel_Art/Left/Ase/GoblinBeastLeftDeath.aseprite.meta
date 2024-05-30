@@ -332,6 +332,7 @@ ScriptedImporter:
     cells:
     - name: GoblinBeastLeftDeath_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7
@@ -340,6 +341,7 @@ ScriptedImporter:
       spriteId: 9a41450fc4fcc62469b48fe49e7bb95d
     - name: GoblinBeastLeftDeath_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -348,6 +350,7 @@ ScriptedImporter:
       spriteId: 95d9bde38fd16b742921f5e146fb0421
     - name: GoblinBeastLeftDeath_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -356,6 +359,7 @@ ScriptedImporter:
       spriteId: 70577d41026040b4eb244f26e7578711
     - name: GoblinBeastLeftDeath_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 4
@@ -364,6 +368,7 @@ ScriptedImporter:
       spriteId: e762eb3acb615f9439cdc991b62a7d34
     - name: GoblinBeastLeftDeath_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 4
@@ -372,6 +377,7 @@ ScriptedImporter:
       spriteId: 6888794442377f54f8e070db2a633ff4
     - name: GoblinBeastLeftDeath_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -1
         y: 4
@@ -380,6 +386,7 @@ ScriptedImporter:
       spriteId: 7d1ea2c2166e07a4bbea90adbb17e895
     - name: GoblinBeastLeftDeath_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -5
         y: 4
@@ -388,6 +395,7 @@ ScriptedImporter:
       spriteId: eaa4edab4e3d5624ba81d60ebe6d5e7c
     - name: GoblinBeastLeftDeath_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 4
@@ -396,6 +404,7 @@ ScriptedImporter:
       spriteId: f5123de0fc6e7db4da35320779316412
     - name: GoblinBeastLeftDeath_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 4
@@ -404,6 +413,7 @@ ScriptedImporter:
       spriteId: 0a9ccf035d27efc4f8d9d6b5df2942c4
     - name: GoblinBeastLeftDeath_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 4

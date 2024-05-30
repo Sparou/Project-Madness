@@ -332,6 +332,7 @@ ScriptedImporter:
     cells:
     - name: SkeletonKingDownAttack01_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 16
@@ -340,6 +341,7 @@ ScriptedImporter:
       spriteId: 03cd06b05baa2ef4da2debebc71be7ce
     - name: SkeletonKingDownAttack01_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 16
@@ -348,6 +350,7 @@ ScriptedImporter:
       spriteId: 0d6709ef014302e49a056359203d7e7d
     - name: SkeletonKingDownAttack01_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 16
@@ -356,6 +359,7 @@ ScriptedImporter:
       spriteId: f26110b3dd7c6434f859f44b8a703fd7
     - name: SkeletonKingDownAttack01_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -364,6 +368,7 @@ ScriptedImporter:
       spriteId: 5a3fae179bfa61d46a425169e553acbe
     - name: SkeletonKingDownAttack01_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 5
@@ -372,6 +377,7 @@ ScriptedImporter:
       spriteId: 8362f057e9ccf384898b76d977c36ab7
     - name: SkeletonKingDownAttack01_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 16
@@ -380,6 +386,7 @@ ScriptedImporter:
       spriteId: 48ca00da7353629428d5015891f16326
     - name: SkeletonKingDownAttack01_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 16
@@ -388,6 +395,7 @@ ScriptedImporter:
       spriteId: 8dcf83e3aed490e449f992cb06de0c8f
     - name: SkeletonKingDownAttack01_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 22
         y: 16
@@ -396,6 +404,7 @@ ScriptedImporter:
       spriteId: c323589f56259d34ebe990f79a031e79
     - name: SkeletonKingDownAttack01_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -404,6 +413,7 @@ ScriptedImporter:
       spriteId: abdfedc95a7f9cb49b2e84f9efae04fc
     - name: SkeletonKingDownAttack01_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 5

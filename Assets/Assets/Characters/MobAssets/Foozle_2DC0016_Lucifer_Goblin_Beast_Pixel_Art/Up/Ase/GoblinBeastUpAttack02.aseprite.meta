@@ -312,6 +312,7 @@ ScriptedImporter:
     cells:
     - name: GoblinBeastUpAttack02_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 16
@@ -320,6 +321,7 @@ ScriptedImporter:
       spriteId: 1e0172387feea55439f1ff27a7d95dca
     - name: GoblinBeastUpAttack02_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 12
@@ -328,6 +330,7 @@ ScriptedImporter:
       spriteId: 874c535b0c801c54ab8cf557060387e2
     - name: GoblinBeastUpAttack02_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 12
@@ -336,6 +339,7 @@ ScriptedImporter:
       spriteId: 6294ff51140416141b81906f20c11aa5
     - name: GoblinBeastUpAttack02_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 12
@@ -344,6 +348,7 @@ ScriptedImporter:
       spriteId: c98d281e51461534c9b86682dda8acb0
     - name: GoblinBeastUpAttack02_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 12
@@ -352,6 +357,7 @@ ScriptedImporter:
       spriteId: 48612972556b37c4ea68088730dc8f6c
     - name: GoblinBeastUpAttack02_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 12
@@ -360,6 +366,7 @@ ScriptedImporter:
       spriteId: 429114d5ad6508947a5f6822e96a6684
     - name: GoblinBeastUpAttack02_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 12
@@ -368,6 +375,7 @@ ScriptedImporter:
       spriteId: 3cda409d86840b6408c531fdc4e7d96f
     - name: GoblinBeastUpAttack02_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 16
@@ -376,6 +384,7 @@ ScriptedImporter:
       spriteId: 40dd93f6b501b4b4393ce1cb87793140
     - name: GoblinBeastUpAttack02_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 16

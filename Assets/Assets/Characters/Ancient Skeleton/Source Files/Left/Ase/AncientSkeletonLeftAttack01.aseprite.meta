@@ -272,6 +272,7 @@ ScriptedImporter:
     cells:
     - name: AncientSkeletonLeftAttack01_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 17
@@ -280,6 +281,7 @@ ScriptedImporter:
       spriteId: 90c5b6fac0c7e144296ce07bf00ecd9f
     - name: AncientSkeletonLeftAttack01_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 18
@@ -288,6 +290,7 @@ ScriptedImporter:
       spriteId: 7cce00f9043352e42859b1e0fb804bda
     - name: AncientSkeletonLeftAttack01_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 19
@@ -296,6 +299,7 @@ ScriptedImporter:
       spriteId: 483561eee92685144a2f2b14fc5decc5
     - name: AncientSkeletonLeftAttack01_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 15
@@ -304,6 +308,7 @@ ScriptedImporter:
       spriteId: 4c183eae093e66947a195659b031ea43
     - name: AncientSkeletonLeftAttack01_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 16
@@ -312,6 +317,7 @@ ScriptedImporter:
       spriteId: 585341d86d9bc9340925511844b70cdf
     - name: AncientSkeletonLeftAttack01_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -320,6 +326,7 @@ ScriptedImporter:
       spriteId: 7ae0c275fe3edfb4d855d0ff795b3ab7
     - name: AncientSkeletonLeftAttack01_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

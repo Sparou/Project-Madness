@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: CultistDownIdle_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 10
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: d78698efc5a777243bfa58ff23f1399d
     - name: CultistDownIdle_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 10
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: 0476015a05b7a8b47b4d4e2bf20a1bb7
     - name: CultistDownIdle_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 10
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: fc8706a67a596d44b98183760aee6a5a
     - name: CultistDownIdle_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 10
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: f1f0c9b53c5930c45a951b382fc54311
     - name: CultistDownIdle_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 10
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: 2b389a5b13d7a9248951293dc61a6c82
     - name: CultistDownIdle_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 10
