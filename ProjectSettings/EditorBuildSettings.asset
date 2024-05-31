@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/UI/Menu.unity
+    guid: 27a79d83fc6b1a344b25ff7884377ddb
+  - enabled: 1
+    path: Assets/Scenes/Inventory/Cave for inv.unity
+    guid: c75d2d59dc4c63d4f816e19d9f600ff2
+  - enabled: 1
     path: Assets/Assets/Character Customization/Scenes/CharacterCreator.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -24,3 +30,4 @@ EditorBuildSettings:
     path: Assets/Scenes/House.unity
     guid: 9ba3f033a7642c04cbe17a753cb9b605
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

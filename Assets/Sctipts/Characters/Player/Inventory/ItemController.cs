@@ -4,17 +4,35 @@ using UnityEngine;
 
 public class ItemController : MonoBehaviour
 {
+    [SerializeField] Transform Player;
     public ItemInventory Item;
     public int count = 1;
 
+    public float TriggerDistance = 1;
+
     void Pickup()
     {
-        Inventory.Instance.Add(Item);
-        Destroy(gameObject);
+        if (Inventory.Instance.Add(Item, Inventory.Instance.InventoryItem)) {
+            Destroy(gameObject);
+        }
     }
 
-    private void OnMouseDown()
+    private bool CheckDistance()
     {
-        Pickup();
+        var distance = Vector3.Distance(transform.position, Player.position);
+        return distance < TriggerDistance;
+    }
+
+    void Update()
+    {
+        if (CheckDistance())
+        {
+            Hints.Instance.TurnOnWarning($"Поднять {Item.name} (Е)", 1f);
+
+            if (Input.GetKeyUp(KeyCode.E))
+            {
+                Pickup();
+            }
+        }
     }
 }

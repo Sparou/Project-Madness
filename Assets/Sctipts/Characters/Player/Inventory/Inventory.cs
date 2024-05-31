@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEditor.Progress;
 
 public class Inventory : MonoBehaviour
 {
@@ -10,19 +11,25 @@ public class Inventory : MonoBehaviour
 
     public Player player;
     public bool InventoryOpened = false;
+    public bool ChestOpened = false;
 
     [SerializeField]  public int InventorySize = 10;
+    [SerializeField] public int CountCoins = 10;
 
     [SerializeField]  private List<ItemInventory> Items = new List<ItemInventory>();
 
     public static Inventory Instance;
     public Transform ItemContent;
     public GameObject InventoryItem;
+    public GameObject ChestItem;
     // public InventoryItemController[] InventoryItems;
 
     public GameObject ItemPref;
     public Transform LocationPlayer;
     public HealthController HealthPlayer;
+    public TMP_Text CointsState;
+
+    public ChestInventory Chest;
 
 
     private void Awake()
@@ -30,14 +37,14 @@ public class Inventory : MonoBehaviour
         Instance = this;
     }
 
-    public void ListItems()
+    public void ListItems(GameObject FromItem)
     {
         CleanItemsContent(); 
 
         // Update items list
         foreach (var item in Items)
         {
-            GameObject obj = Instantiate(InventoryItem, ItemContent);
+            GameObject obj = Instantiate(FromItem, ItemContent);
             var itemName = obj.transform.Find("ItemName").GetComponent<TMP_Text>();
             var itemIcon = obj.transform.Find("ItemIcon").GetComponent<Image>();
             var itemRef = obj.GetComponent<InventoryItemController>();
@@ -52,20 +59,23 @@ public class Inventory : MonoBehaviour
     {
         InventoryRef = GameObject.Find("Inventory");
         InventoryRef.SetActive(false);
-        ListItems();
+        ListItems(InventoryItem);
+        UpdateCoins();
     }
 
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.I))
+        if (Input.GetKeyUp(KeyCode.I) && !ChestOpened)
         {
             if (!InventoryOpened)
             {
                 OpenedInventory();
+                InventoryOpened = true;
             }
             else
             {
                 ClosedInventory();
+                InventoryOpened = false;
             }
         }
     }
@@ -73,13 +83,24 @@ public class Inventory : MonoBehaviour
     public void OpenedInventory ()
     {
         InventoryRef.SetActive(true);
-        InventoryOpened = true;
+    }
+
+    public void OpenedInventoryChest(ChestInventory InstChest)
+    {
+        InventoryRef.SetActive(true);
+        ListItems(ChestItem);
+        Chest = InstChest;
     }
 
     public void ClosedInventory()
     {
         InventoryRef.SetActive(false);
-        InventoryOpened = false;
+    }
+
+    public void ClosedInventoryChest()
+    {
+        InventoryRef.SetActive(false);
+        ListItems(InventoryItem);
     }
 
     public void CleanItemsContent()
@@ -90,17 +111,18 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void Add(ItemInventory item)
+    public bool Add(ItemInventory item, GameObject FromItem)
     {
         if (Items.Count < InventorySize)
         {
             Items.Add(item);
-            ListItems();
-            // Debug.Log($"Предмет {item.Name} добавлен в инвентарь.");
+            ListItems(FromItem);
+            return true;
         }
         else
         {
-            Debug.Log("Инвентарь полон. Нельзя добавить больше предметов.");
+            Hints.Instance.TurnOnWarning("Инвентарь полон. Нельзя добавить больше предметов.", 1f);
+            return false;
         }
     }
 
@@ -109,7 +131,7 @@ public class Inventory : MonoBehaviour
         if (Items.Contains(item))
         {
             Items.Remove(item);
-            ListItems();
+            ListItems(InventoryItem);
 
             var DropObj = Instantiate(ItemPref);
             DropObj.transform.position = LocationPlayer.position;
@@ -127,17 +149,51 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void Remove(ItemInventory item)
+    public bool Remove(ItemInventory item)
     {
         if (Items.Contains(item))
         {
             Items.Remove(item);
-            ListItems();
+            ListItems(InventoryItem);
             Debug.Log($"Предмет удален");
+            return true;
         }
         else
         {
             Debug.Log($"Предмет не удален");
+            return false;
+        }
+    }
+
+    public bool RemoveForChest(ItemInventory item)
+    {
+        if (Items.Contains(item))
+        {
+            Items.Remove(item);
+            ListItems(ChestItem);
+            Debug.Log($"Предмет удален");
+            return true;
+        }
+        else
+        {
+            Debug.Log($"Предмет не удален");
+            return false;
+        }
+    }
+
+    public void MoveToChest(ItemInventory item)
+    {
+        if (RemoveForChest(item))
+        {
+            Chest.Add(item);
+        }
+    }
+
+    public void MoveToInventoryFromChest(ItemInventory item)
+    {
+        if (Add(item, ChestItem))
+        {
+            Chest.Remove(item);
         }
     }
 
@@ -148,6 +204,17 @@ public class Inventory : MonoBehaviour
             Debug.Log(ItemInventory.Name);
 
         }
+    }
+
+    public void GetCoins(int Coins)
+    {
+        CountCoins += Coins;
+        UpdateCoins();
+    }
+
+    private void UpdateCoins()
+    {
+        CointsState.text = $"{CountCoins}";
     }
 
     //public void SetInventoryItems()

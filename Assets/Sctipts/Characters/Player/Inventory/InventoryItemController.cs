@@ -25,7 +25,21 @@ public class InventoryItemController : MonoBehaviour
 
     public void UseItem()
     {
-        item.UseItem();
-        RemoveItem();
+        if (item.UseItem())
+        {
+            RemoveItem();
+        }
     }
+
+    public void MoveToInventory()
+    {
+        Inventory.Instance.MoveToInventoryFromChest(item);
+    }
+
+    public void MoveToChest()
+    {
+        Inventory.Instance.MoveToChest(item);
+        Debug.Log("MoveToChest");
+    }
+
 }

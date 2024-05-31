@@ -9,14 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52928f7f113e9b54d8a379c221a67325, type: 3}
-  m_Name: Sword
+  m_Script: {fileID: 11500000, guid: f5f44ab6f42f92147886cd41db624090, type: 3}
+  m_Name: Bag of coins
   m_EditorClassIdentifier: 
-  Name: Sword
-  Id: 0
-  Count: 1
-  icon: {fileID: -2872409368766515237, guid: 07423312bf9bdb84f921c1ce4e6c42ce, type: 3}
+  Name: Bag coins
+  icon: {fileID: -6009198046271197863, guid: 2245f035790c47d40ac110e0a486e617, type: 3}
   IconPatch: 
   Description: 
-  Type: 0
-  Damage: 0
+  CountCoins: 10

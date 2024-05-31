@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 538825216971157146}
   - component: {fileID: 642112217474705551}
   - component: {fileID: 3602494370613046096}
-  - component: {fileID: 5798754720943725282}
+  - component: {fileID: -4620390543423710252}
   m_Layer: 0
   m_Name: ItemPref
   m_TagString: Untagged
@@ -162,7 +162,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5798754720943725282
+--- !u!114 &-4620390543423710252
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,5 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1748b24abf0aab9438d6f81b99f456a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
   Item: {fileID: 0}
   count: 1
+  TriggerDistance: 2

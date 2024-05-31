@@ -2,6 +2,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(AnimationController))]
 [RequireComponent (typeof(Character))]
@@ -11,7 +12,9 @@ public class HealthController : MonoBehaviour
 
     private AnimationController animationController;
     public float currentHealth;
-    public TMP_Text HealthText; 
+
+    public TMP_Text HealthText;
+    public Image HealthBar;
 
     public bool invincible = false;
 
@@ -41,10 +44,15 @@ public class HealthController : MonoBehaviour
         }
     }
 
-    public void TakeHeal(float heal)
+    public bool TakeHeal(float heal)
     {
-        currentHealth = Mathf.Min(currentHealth + heal, maxHealth);
-        UpdateHealth();
+        if (currentHealth < maxHealth)
+        {
+            currentHealth = Mathf.Min(currentHealth + heal, maxHealth);
+            UpdateHealth();
+            return true;
+        }
+        return false;
     }
 
     private void Die()
@@ -72,6 +80,7 @@ public class HealthController : MonoBehaviour
     private void UpdateHealth()
     {
         HealthText.text = $"HP: {currentHealth}";
+        HealthBar.fillAmount = currentHealth / 100;
     }
 
     //IEnumerator DisableAnimator()

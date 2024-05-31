@@ -13,12 +13,9 @@ public enum TypeInventory
 {
 
     [SerializeField] public string Name;
-    [SerializeField] public int Id;
-    [SerializeField] public int Count;
     [SerializeField] public Sprite icon;
     [SerializeField]  public string IconPatch;  
     [SerializeField]  [Multiline] public string Description;    
-    [SerializeField] public TypeInventory Type;
 
-    public abstract void UseItem();
+    public abstract bool UseItem();
 }

@@ -8,9 +8,10 @@ public class ItemHealth : ItemInventory
 
     [SerializeField] public int HealthRecovery = 100;
 
-    public override void UseItem()
+    public override bool UseItem()
     {
-        Inventory.Instance.HealthPlayer.TakeHeal(HealthRecovery);
-        Debug.Log(HealthRecovery);
+        if (Inventory.Instance.HealthPlayer.TakeHeal(HealthRecovery))
+            return true;
+        return false;
     }
 }

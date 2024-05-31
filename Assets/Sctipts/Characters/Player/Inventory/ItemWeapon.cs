@@ -6,10 +6,10 @@ using UnityEngine;
 public class ItemWeapon : ItemInventory
 {
 
-    [SerializeField] public int Damage;
+    [SerializeField] public int Damage = 0;
 
-    public override void UseItem()
+    public override bool UseItem()
     {
-        return;
+        return false;
     }
 }

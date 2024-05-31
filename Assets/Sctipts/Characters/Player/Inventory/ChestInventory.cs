@@ -9,7 +9,7 @@ public class ChestInventory : MonoBehaviour
     [SerializeField] private ChestAnimated chest;
     [SerializeField] Transform Player;
 
-    public float TriggerDistance = 2;
+    public float TriggerDistance = 1;
     public Transform ChestItemContent;
     public GameObject ChestInventoryItem;
 
@@ -52,19 +52,27 @@ public class ChestInventory : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.E) && CheckDistance())
+        if (Input.GetKeyUp(KeyCode.E))
         {
-            if (!InventoryOpened)
+            if (!InventoryOpened && CheckDistance())
             {
-                OpenedChest();
                 chest.OpenChest();
+                OpenedChest();
+                StartCoroutine(WaitChestAnimation(0.3f));
             }
-            else
+            else if (InventoryOpened)
             {
+                Time.timeScale = 1.0f;
                 ClosedChest();
                 chest.CloseChest();
             }
         }
+    }
+
+    private IEnumerator WaitChestAnimation(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Time.timeScale = 0.0f;
     }
 
     public void OpenedChest()
@@ -73,7 +81,8 @@ public class ChestInventory : MonoBehaviour
         InventoryOpened = true;
         ListItems();
 
-        Inventory.Instance.OpenedInventory();
+        Inventory.Instance.ChestOpened = true;
+        Inventory.Instance.OpenedInventoryChest(this);
     }
 
     public void ClosedChest()
@@ -81,7 +90,9 @@ public class ChestInventory : MonoBehaviour
         InventoryRef.SetActive(false);
         InventoryOpened = false;
         CleanItemsContent();
-        Inventory.Instance.ClosedInventory();
+
+        Inventory.Instance.ChestOpened = false;
+        Inventory.Instance.ClosedInventoryChest();
     }
 
     public void CleanItemsContent()
@@ -98,13 +109,15 @@ public class ChestInventory : MonoBehaviour
         ListItems();
     }
 
-    public void Remove(ItemInventory item)
+    public bool Remove(ItemInventory item)
     {
         if (Items.Contains(item))
         {
             Items.Remove(item);
             ListItems();
+            return true;
         }
+        return false;
     }
 
     public void Get()
