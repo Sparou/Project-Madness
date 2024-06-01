@@ -22,7 +22,11 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -8670638114945428140, guid: 5705c4f3dff0d024aae2a960ba33bcca, type: 3}
+<<<<<<< Updated upstream
     - time: 0.46666667
+=======
+    - time: 0.93333334
+>>>>>>> Stashed changes
       value: {fileID: -8670638114945428140, guid: 5705c4f3dff0d024aae2a960ba33bcca, type: 3}
     attribute: m_Sprite
     path: Hair
@@ -53,7 +57,11 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
+<<<<<<< Updated upstream
     m_StopTime: 0.48333335
+=======
+    m_StopTime: 0.95
+>>>>>>> Stashed changes
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

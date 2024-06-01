@@ -9662,6 +9662,11 @@ MonoBehaviour:
   - walk
   - roll
   - run
+<<<<<<< Updated upstream
+=======
+  - death
+  - atack1
+>>>>>>> Stashed changes
   characterDirections:
   - right
   - left
@@ -9674,7 +9679,11 @@ Transform:
   m_GameObject: {fileID: 1446493054}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -12.67, y: 9.93, z: 0}
+=======
+  m_LocalPosition: {x: 0.01, y: -4.73, z: 0}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
