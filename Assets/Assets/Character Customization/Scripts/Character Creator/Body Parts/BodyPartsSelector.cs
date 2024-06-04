@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -52,12 +53,22 @@ public class BodyPartsSelector : MonoBehaviour
             UpdateCurrentPart(partIndex);
         }    
     }
-
+    public void ChangeBodyPart(int partIndex, int newOptionIndex)
+    {
+        if (ValidateIndexValue(partIndex))
+        {
+            if (newOptionIndex >= 0 && newOptionIndex < bodyPartSelections[partIndex].bodyPartOptions.Length)
+            {
+                bodyPartSelections[partIndex].bodyPartCurrentIndex = newOptionIndex;
+                UpdateCurrentPart(partIndex);
+            }
+        }
+    }
     private bool ValidateIndexValue(int partIndex)
     {
         if (partIndex > bodyPartSelections.Length || partIndex < 0)
         {
-            Debug.Log("Index value does not match any body parts!");
+            UnityEngine.Debug.Log("Index value does not match any body parts!");
             return false;
         }
         else

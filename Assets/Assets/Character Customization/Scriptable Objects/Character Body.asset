@@ -14,10 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterBodyParts:
   - bodyPartName: Body
-    bodyPart: {fileID: 11400000, guid: 48cdaf5d95f59d94a8fa889ff85dcc07, type: 2}
+    bodyPart: {fileID: 11400000, guid: 04184ccc187ebeb4898134b291bec24b, type: 2}
   - bodyPartName: Hair
-    bodyPart: {fileID: 11400000, guid: 6cbe392ad638a864daa283f1419d4412, type: 2}
+    bodyPart: {fileID: 11400000, guid: 7a2a182ab3c50ce44a5e03b296084fb5, type: 2}
   - bodyPartName: Legs
-    bodyPart: {fileID: 11400000, guid: b3ead6aab80d99e4e944fd391f2caa61, type: 2}
+    bodyPart: {fileID: 11400000, guid: 02a9f17c14064f14d88296bd3db41c44, type: 2}
   - bodyPartName: Shirt
     bodyPart: {fileID: 11400000, guid: 21d08f3f508eab14383a308e5ad9a4bf, type: 2}
+  - bodyPartName: Weapon
+    bodyPart: {fileID: 11400000, guid: 03e8b6e282fa0ea449859f422a86989e, type: 2}
+  - bodyPartName: Pants
+    bodyPart: {fileID: 11400000, guid: 8e1b4f6c37113a14e9830dca638742db, type: 2}
+  - bodyPartName: Boots
+    bodyPart: {fileID: 11400000, guid: cb21fcfff90fa934f9f9b0af718954fb, type: 2}
