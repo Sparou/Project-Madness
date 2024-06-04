@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: PossesedRightHurt_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 194f6aeb9bfba7e4891e1c34acbdced0
     - name: PossesedRightHurt_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: bc81b590641e176479d6800ff0dbc81e
     - name: PossesedRightHurt_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 8
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: 6d32b30cd148cf045a27db953fc626f8
     - name: PossesedRightHurt_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 9

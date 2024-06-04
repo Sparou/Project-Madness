@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: SorceressUpJump_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: da9d3f95bd6bbeb468d600ae6fcd5cdf
     - name: SorceressUpJump_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 9
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: 1dd41de9c0a7fce46890cbc8a86af076
     - name: SorceressUpJump_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 11
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: ab3e1cdc79816ca489e87bb457c3a8d1
     - name: SorceressUpJump_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 11

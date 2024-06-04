@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: SorceressDownLand_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 11
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 02583201d70d49a4d995ce09e810de90
     - name: SorceressDownLand_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 5
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: ef1a1bd1700903947a819d3560d3956a
     - name: SorceressDownLand_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 5
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: 8a95b2e5260ded04f9a9f66e26c8ee98
     - name: SorceressDownLand_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7

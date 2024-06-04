@@ -232,7 +232,6 @@ ScriptedImporter:
     cells:
     - name: CultistDownDeath_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 10
@@ -241,7 +240,6 @@ ScriptedImporter:
       spriteId: 0ce6a2013fe91e048b0ac69ddf01f7bc
     - name: CultistDownDeath_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 15
@@ -250,7 +248,6 @@ ScriptedImporter:
       spriteId: 836300c8f310178418d37d2f5c448084
     - name: CultistDownDeath_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 20
@@ -259,7 +256,6 @@ ScriptedImporter:
       spriteId: 9a64d79f6428eea43b763f96a3312633
     - name: CultistDownDeath_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 23
@@ -268,7 +264,6 @@ ScriptedImporter:
       spriteId: b5a12e4647b0fa64fabd45fa91d278f1
     - name: CultistDownDeath_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 39

@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: SorceressLeftLand_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 12
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 67035d277c32962499375087efe7046a
     - name: SorceressLeftLand_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 5
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: 83ca7f90b88e3f54db615c80d54a9a46
     - name: SorceressLeftLand_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 5
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: 39a5549a7f53f1c49a14f7a9f6f3b707
     - name: SorceressLeftLand_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6

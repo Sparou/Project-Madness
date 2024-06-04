@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: PossesedLeftLand_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 10
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 0133753347bc73a4fa1b2ad292ab3ba7
     - name: PossesedLeftLand_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 6
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: a841db87bb292854da1eedf2aec71e8f
     - name: PossesedLeftLand_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 6
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: defeab0c2a4a99942afb02108b11048d
     - name: PossesedLeftLand_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 6
