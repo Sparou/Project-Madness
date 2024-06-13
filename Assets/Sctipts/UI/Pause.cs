@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Menu : MonoBehaviour
+public class Pause : MonoBehaviour
 {
-    public GameObject menuPanel;
+    // Start is called before the first frame update
+    public GameObject pausePanel;
     public GameObject settingsPanel;
 
     public Toggle ToggleMusic;
@@ -70,26 +70,15 @@ public class Menu : MonoBehaviour
         SliderVolumeMusic.value = volume;
         if (volume == 0) { ToggleMusic.isOn = false; } else { ToggleMusic.isOn = true; }
     }
-
-    public void Play()
+    public void ExitToMenu()
     {
-        SceneManager.LoadScene("Cave for inv");
-    }
-
-    public void ExitApp()
-    {
-        Application.Quit();
+        SceneManager.LoadScene("Menu");
     }
 
     public void SettingsPanale()
     {
-        menuPanel.SetActive(false);
+        pausePanel.SetActive(false);
         settingsPanel.SetActive(true);
-    }
-
-    public void ExitSets()
-    {
-        settingsPanel.SetActive(false);
     }
 
     public void SetFulScreen(bool isFullScreen)
@@ -108,10 +97,10 @@ public class Menu : MonoBehaviour
         QualitySettings.SetQualityLevel(qualityIndex);
     }
 
-    public void SettingsToMenu()
+    public void SettingsToPause()
     {
         settingsPanel.SetActive(false);
-        menuPanel.SetActive(true);
+        pausePanel.SetActive(true);
     }
 
     public void SaveSettings()

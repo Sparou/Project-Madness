@@ -1,31 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.UI;
+using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
+using TMPro;
 
-public class Menu : MonoBehaviour
+public class Settings : MonoBehaviour
 {
-    public GameObject menuPanel;
-    public GameObject settingsPanel;
-
-    public Toggle ToggleMusic;
-    public Slider SliderVolumeMusic;
-    public float volume;
-
     public TMPro.TMP_Dropdown ResolutionDropdown;
     public TMPro.TMP_Dropdown QualityDropdown;
 
     Resolution[] resolutions;
 
-    private void Start()
-    {
-        settingsPanel.SetActive(false);
-        LoadSetStart();
-    }
-
-    public void LoadSetStart()
+    void Start()
     {
         ResolutionDropdown.ClearOptions();
         List<string> options = new List<string>();
@@ -33,7 +21,7 @@ public class Menu : MonoBehaviour
 
         int CurrentResoltionIndex = 0;
 
-        for (int i = 0; i < resolutions.Length; i++)
+        for (int i = 0; i<resolutions.Length; i++)
         {
             string option = resolutions[i].width + "x" + resolutions[i].height;
             options.Add(option);
@@ -44,57 +32,12 @@ public class Menu : MonoBehaviour
         ResolutionDropdown.AddOptions(options);
         ResolutionDropdown.RefreshShownValue();
         LoadSettings(CurrentResoltionIndex);
-
-        ValueMusic();
     }
 
-    public void SliderMusic()
-    {
-        volume = SliderVolumeMusic.value;
-        SaveSettings();
-        ValueMusic();
-    }
-
-    public void TogMusic(bool isOn)
-    {
-        if (isOn == true)
-            volume = 1;
-        else
-            volume = 0;
-        SaveSettings();
-        ValueMusic();
-    }
-
-    private void ValueMusic()
-    {
-        SliderVolumeMusic.value = volume;
-        if (volume == 0) { ToggleMusic.isOn = false; } else { ToggleMusic.isOn = true; }
-    }
-
-    public void Play()
-    {
-        SceneManager.LoadScene("Cave for inv");
-    }
-
-    public void ExitApp()
-    {
-        Application.Quit();
-    }
-
-    public void SettingsPanale()
-    {
-        menuPanel.SetActive(false);
-        settingsPanel.SetActive(true);
-    }
-
-    public void ExitSets()
-    {
-        settingsPanel.SetActive(false);
-    }
 
     public void SetFulScreen(bool isFullScreen)
     {
-        Screen.SetResolution(Screen.width, Screen.height, isFullScreen);
+        Screen.fullScreen = isFullScreen;
     }
 
     public void SetResolution(int resolutionIndex)
@@ -103,23 +46,21 @@ public class Menu : MonoBehaviour
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
 
-    public void SetQuality(int qualityIndex)
+    public void SetQuality(int  qualityIndex)
     {
         QualitySettings.SetQualityLevel(qualityIndex);
     }
 
     public void SettingsToMenu()
     {
-        settingsPanel.SetActive(false);
-        menuPanel.SetActive(true);
+        return;
     }
 
     public void SaveSettings()
     {
         PlayerPrefs.SetInt("QualitySettingPreference", QualityDropdown.value);
         PlayerPrefs.SetInt("ResolutionPreference", ResolutionDropdown.value);
-        PlayerPrefs.SetInt("FullScreenPreference", System.Convert.ToInt32(Screen.fullScreen));
-        PlayerPrefs.SetFloat("Volume", volume);
+        PlayerPrefs.SetInt("FullScreenPreference",System.Convert.ToInt32(Screen.fullScreen));
     }
 
     public void LoadSettings(int currentResolutionIndex)
@@ -138,8 +79,6 @@ public class Menu : MonoBehaviour
             Screen.fullScreen = System.Convert.ToBoolean(PlayerPrefs.GetInt("FullScreenPreference"));
         else
             Screen.fullScreen = true;
-
-        if (PlayerPrefs.HasKey("Volume"))
-            volume = PlayerPrefs.GetFloat("Volume", volume);
     }
 }
+    
