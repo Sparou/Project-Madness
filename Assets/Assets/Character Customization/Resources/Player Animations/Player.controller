@@ -1,7 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< Updated upstream
-=======
 --- !u!1101 &-9121315212676992009
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -27,7 +25,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
->>>>>>> Stashed changes
 --- !u!1101 &-9038331862561518771
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -214,9 +211,6 @@ BlendTree:
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
-<<<<<<< Updated upstream
---- !u!206 &-8691921634950097284
-=======
 --- !u!1102 &-8731084247186892789
 AnimatorState:
   serializedVersion: 6
@@ -245,7 +239,6 @@ AnimatorState:
   m_CycleOffsetParameter: 
   m_TimeParameter: Blend
 --- !u!206 &-8702191232392287957
->>>>>>> Stashed changes
 BlendTree:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -254,11 +247,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-<<<<<<< Updated upstream
-    m_Motion: {fileID: 7400000, guid: 3761967d88244d04381b7af8e0bce685, type: 2}
-=======
     m_Motion: {fileID: 7400000, guid: 8e31b08bba70fc74ebf2e93e89148f23, type: 2}
->>>>>>> Stashed changes
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -266,9 +255,6 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-<<<<<<< Updated upstream
-    m_Motion: {fileID: 7400000, guid: 5b53325e1ee70c54289fff8fe086f2b4, type: 2}
-=======
     m_Motion: {fileID: 7400000, guid: 987cf76dc7dd27d4bb64d1047dc5188d, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
@@ -301,7 +287,6 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 74421f2600ecdc147ac431cd834af717, type: 2}
->>>>>>> Stashed changes
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -356,11 +341,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
-<<<<<<< Updated upstream
-  m_ExitTime: 0.7368421
-=======
   m_ExitTime: 0.85
->>>>>>> Stashed changes
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -428,11 +409,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
-<<<<<<< Updated upstream
-  m_ExitTime: 0.5833333
-=======
   m_ExitTime: 0.85
->>>>>>> Stashed changes
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -459,8 +436,6 @@ AnimatorStateTransition:
   m_TransitionOffset: 0
   m_ExitTime: 0.7
   m_HasExitTime: 0
-<<<<<<< Updated upstream
-=======
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -517,7 +492,6 @@ AnimatorStateTransition:
   m_TransitionOffset: 0
   m_ExitTime: 0.75
   m_HasExitTime: 0
->>>>>>> Stashed changes
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -1022,11 +996,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-<<<<<<< Updated upstream
-    m_Motion: {fileID: 7400000, guid: 05d2cb12ce8c4da41843888aac0b2378, type: 2}
-=======
     m_Motion: {fileID: 7400000, guid: e728562e5a2fbdb47a3263c3a02a391a, type: 2}
->>>>>>> Stashed changes
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -1034,11 +1004,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-<<<<<<< Updated upstream
-    m_Motion: {fileID: 7400000, guid: cda326226c1eb8c42aad5859af6492cc, type: 2}
-=======
     m_Motion: {fileID: 7400000, guid: 631458bb54b94834b99ae0fd931a10d6, type: 2}
->>>>>>> Stashed changes
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -1195,8 +1161,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
-<<<<<<< Updated upstream
-=======
 --- !u!1101 &-5208432296949182598
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1247,7 +1211,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
->>>>>>> Stashed changes
 --- !u!1101 &-5069975074424478499
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1351,8 +1314,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
-<<<<<<< Updated upstream
-=======
 --- !u!206 &-4482247490095278063
 BlendTree:
   m_ObjectHideFlags: 1
@@ -1384,7 +1345,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
->>>>>>> Stashed changes
 --- !u!1102 &-4360515159847468545
 AnimatorState:
   serializedVersion: 6
@@ -1412,8 +1372,6 @@ AnimatorState:
   m_MirrorParameter: moving
   m_CycleOffsetParameter: 
   m_TimeParameter: Blend
-<<<<<<< Updated upstream
-=======
 --- !u!1101 &-4313617754437719060
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1517,7 +1475,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
->>>>>>> Stashed changes
 --- !u!1101 &-3653082939298231648
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1622,8 +1579,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
-<<<<<<< Updated upstream
-=======
 --- !u!1102 &-3294909027632808999
 AnimatorState:
   serializedVersion: 6
@@ -1722,7 +1677,6 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -1295936119585967376}
->>>>>>> Stashed changes
 --- !u!1101 &-3173306675038228816
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1853,12 +1807,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -2569560908939068763}
     m_Position: {x: -360, y: 300, z: 0}
-<<<<<<< Updated upstream
-=======
   - serializedVersion: 1
     m_State: {fileID: -1489738389683347688}
     m_Position: {x: -325, y: 365, z: 0}
->>>>>>> Stashed changes
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 3825503671407687033}
@@ -1872,8 +1823,6 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 360, y: 210, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 2068922348440909928}
-<<<<<<< Updated upstream
-=======
 --- !u!1101 &-2706616345801574204
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1927,7 +1876,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
->>>>>>> Stashed changes
 --- !u!206 &-2641115271054667639
 BlendTree:
   m_ObjectHideFlags: 1
@@ -2044,11 +1992,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-<<<<<<< Updated upstream
-    m_Motion: {fileID: 7400000, guid: 4eee776d72e191144b4cb41adee959a0, type: 2}
-=======
     m_Motion: {fileID: 7400000, guid: 8caa97888e1e19646bababe24b542b7e, type: 2}
->>>>>>> Stashed changes
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -2056,11 +2000,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-<<<<<<< Updated upstream
-    m_Motion: {fileID: 7400000, guid: 917f6c1032c7e78489a6dfb332d74760, type: 2}
-=======
     m_Motion: {fileID: 7400000, guid: 00c9c1eafe10ba14d8a9bd60b1baf877, type: 2}
->>>>>>> Stashed changes
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -2111,29 +2051,13 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
-<<<<<<< Updated upstream
---- !u!206 &-2171836295593115168
-BlendTree:
-=======
 --- !u!1102 &-2140814466793891805
 AnimatorState:
   serializedVersion: 6
->>>>>>> Stashed changes
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_Name: Blend Tree
-  m_Childs: []
-  m_BlendParameter: Blend
-  m_BlendParameterY: Blend
-  m_MinThreshold: 0
-  m_MaxThreshold: 1
-  m_UseAutomaticThresholds: 1
-  m_NormalizedBlendValues: 0
-  m_BlendType: 0
-=======
   m_Name: Death
   m_Speed: 1
   m_CycleOffset: 0
@@ -2154,7 +2078,6 @@ AnimatorState:
   m_MirrorParameter: moving
   m_CycleOffsetParameter: 
   m_TimeParameter: Blend
->>>>>>> Stashed changes
 --- !u!1101 &-2094804134156130719
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -2180,8 +2103,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1101 &-2067430271593895343
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -2256,7 +2177,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
->>>>>>> Stashed changes
 --- !u!1101 &-1817811978800453926
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -2273,11 +2193,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
-<<<<<<< Updated upstream
-  m_ExitTime: 0.5833333
-=======
   m_ExitTime: 1
->>>>>>> Stashed changes
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -2361,8 +2277,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1102 &-1489738389683347688
 AnimatorState:
   serializedVersion: 6
@@ -2389,7 +2303,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
->>>>>>> Stashed changes
 --- !u!1101 &-1472683997880424418
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -2406,11 +2319,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
-<<<<<<< Updated upstream
-  m_ExitTime: 0.765625
-=======
   m_ExitTime: 1
->>>>>>> Stashed changes
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -2638,8 +2547,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1102 &-1158933041675453840
 AnimatorState:
   serializedVersion: 6
@@ -2741,7 +2648,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
->>>>>>> Stashed changes
 --- !u!206 &-955408250842712242
 BlendTree:
   m_ObjectHideFlags: 1
@@ -2820,8 +2726,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
-<<<<<<< Updated upstream
-=======
 --- !u!206 &-927492055348294140
 BlendTree:
   m_ObjectHideFlags: 1
@@ -2853,7 +2757,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
->>>>>>> Stashed changes
 --- !u!1101 &-885325325642081456
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -2879,8 +2782,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1102 &-810095790827676429
 AnimatorState:
   serializedVersion: 6
@@ -2909,7 +2810,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
->>>>>>> Stashed changes
 --- !u!1101 &-760661327278989584
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -2932,8 +2832,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1102 &-741358815982502089
 AnimatorState:
   serializedVersion: 6
@@ -2961,7 +2859,6 @@ AnimatorState:
   m_MirrorParameter: moving
   m_CycleOffsetParameter: 
   m_TimeParameter: Blend
->>>>>>> Stashed changes
 --- !u!1101 &-720184562686850587
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -2984,8 +2881,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1101 &-436286343049417530
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -3011,7 +2906,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
->>>>>>> Stashed changes
 --- !u!1101 &-376492090275916760
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -3215,29 +3109,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-<<<<<<< Updated upstream
-  - m_Name: Roll
-    m_Type: 9
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: Attack
-    m_Type: 9
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-=======
->>>>>>> Stashed changes
   - m_Name: Run
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-<<<<<<< Updated upstream
-=======
   - m_Name: Roll
     m_Type: 9
     m_DefaultFloat: 0
@@ -3250,7 +3127,6 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
->>>>>>> Stashed changes
   - m_Name: Death
     m_Type: 9
     m_DefaultFloat: 0
@@ -3315,8 +3191,6 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
-<<<<<<< Updated upstream
-=======
   - serializedVersion: 5
     m_Name: Weapon
     m_StateMachine: {fileID: -7422002312076453377}
@@ -3353,7 +3227,6 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
->>>>>>> Stashed changes
 --- !u!1107 &31806522329283286
 AnimatorStateMachine:
   serializedVersion: 6
@@ -3431,8 +3304,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1101 &380536204173147573
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -3458,7 +3329,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
->>>>>>> Stashed changes
 --- !u!1102 &497161071299587085
 AnimatorState:
   serializedVersion: 6
@@ -3660,11 +3530,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
-<<<<<<< Updated upstream
-  m_ExitTime: 0.765625
-=======
   m_ExitTime: 1
->>>>>>> Stashed changes
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -3692,8 +3558,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!206 &1483749655605540714
 BlendTree:
   m_ObjectHideFlags: 1
@@ -3752,7 +3616,6 @@ AnimatorState:
   m_MirrorParameter: moving
   m_CycleOffsetParameter: 
   m_TimeParameter: Blend
->>>>>>> Stashed changes
 --- !u!1107 &1811543913267724451
 AnimatorStateMachine:
   serializedVersion: 6
@@ -3880,8 +3743,6 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 2361961767978930236}
-<<<<<<< Updated upstream
-=======
 --- !u!1102 &1976496861901448201
 AnimatorState:
   serializedVersion: 6
@@ -3909,7 +3770,6 @@ AnimatorState:
   m_MirrorParameter: moving
   m_CycleOffsetParameter: 
   m_TimeParameter: Blend
->>>>>>> Stashed changes
 --- !u!206 &2031145623525625839
 BlendTree:
   m_ObjectHideFlags: 1
@@ -3919,11 +3779,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-<<<<<<< Updated upstream
-    m_Motion: {fileID: 7400000, guid: 4eee776d72e191144b4cb41adee959a0, type: 2}
-=======
     m_Motion: {fileID: 7400000, guid: 9241728cfcb8e56419aa0ec33e8ccc15, type: 2}
->>>>>>> Stashed changes
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -3931,11 +3787,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-<<<<<<< Updated upstream
-    m_Motion: {fileID: 7400000, guid: 917f6c1032c7e78489a6dfb332d74760, type: 2}
-=======
     m_Motion: {fileID: 7400000, guid: 76d783eb6f1318d4889a26799d4c9e4e, type: 2}
->>>>>>> Stashed changes
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -3976,8 +3828,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
-<<<<<<< Updated upstream
-=======
 --- !u!1107 &2098281690821719832
 AnimatorStateMachine:
   serializedVersion: 6
@@ -4018,7 +3868,6 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -335222353858986110}
->>>>>>> Stashed changes
 --- !u!1102 &2105798883066228971
 AnimatorState:
   serializedVersion: 6
@@ -4098,8 +3947,6 @@ BlendTree:
   m_BlendParameter: moveX
   m_BlendParameterY: moveY
   m_MinThreshold: 0
-<<<<<<< Updated upstream
-=======
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
@@ -4184,40 +4031,8 @@ BlendTree:
   m_BlendParameter: moveX
   m_BlendParameterY: moveY
   m_MinThreshold: 0
->>>>>>> Stashed changes
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 0
-  m_NormalizedBlendValues: 0
-  m_BlendType: 0
---- !u!206 &2236323528453271988
-BlendTree:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Blend Tree
-  m_Childs:
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 8e4b60c1bd529804a8215ed4f839dcbf, type: 2}
-    m_Threshold: 0
-    m_Position: {x: -1, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: Blend
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: d34754a94afef7443a9c161d99cde7b0, type: 2}
-    m_Threshold: 1
-    m_Position: {x: 1, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: moveX
-    m_Mirror: 0
-  m_BlendParameter: moveX
-  m_BlendParameterY: moveY
-  m_MinThreshold: 0
-  m_MaxThreshold: 1
-  m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
 --- !u!1102 &2361961767978930236
@@ -4247,8 +4062,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
-<<<<<<< Updated upstream
-=======
 --- !u!1101 &2367370301746914347
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -4271,7 +4084,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
->>>>>>> Stashed changes
 --- !u!1101 &2630380869021051481
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -4297,8 +4109,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!206 &2909620145427039084
 BlendTree:
   m_ObjectHideFlags: 1
@@ -4330,7 +4140,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
->>>>>>> Stashed changes
 --- !u!206 &2984541188371977646
 BlendTree:
   m_ObjectHideFlags: 1
@@ -4529,36 +4338,7 @@ AnimatorState:
   m_MirrorParameter: moving
   m_CycleOffsetParameter: 
   m_TimeParameter: Blend
-<<<<<<< Updated upstream
---- !u!1101 &4009603590220812796
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: Run
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 4042972392289163736}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.7
-  m_HasExitTime: 0
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
---- !u!1102 &4042972392289163736
-=======
 --- !u!1102 &3950292395469644617
->>>>>>> Stashed changes
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -4569,13 +4349,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-<<<<<<< Updated upstream
-  - {fileID: -5041167070717423883}
-  - {fileID: 5915034061577404137}
-=======
   - {fileID: -7697663251694982276}
   - {fileID: -436286343049417530}
->>>>>>> Stashed changes
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -4585,18 +4360,12 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-<<<<<<< Updated upstream
-  m_Motion: {fileID: -2641115271054667639}
-=======
   m_Motion: {fileID: -1314976735734528455}
->>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
-<<<<<<< Updated upstream
-=======
 --- !u!1101 &4009603590220812796
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -4650,7 +4419,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
->>>>>>> Stashed changes
 --- !u!206 &4057643798397532056
 BlendTree:
   m_ObjectHideFlags: 1
@@ -4660,11 +4428,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-<<<<<<< Updated upstream
-    m_Motion: {fileID: 7400000, guid: 4eee776d72e191144b4cb41adee959a0, type: 2}
-=======
     m_Motion: {fileID: 7400000, guid: 3e6efe076f2143e40898d7252e66bf55, type: 2}
->>>>>>> Stashed changes
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -4672,11 +4436,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-<<<<<<< Updated upstream
-    m_Motion: {fileID: 7400000, guid: 917f6c1032c7e78489a6dfb332d74760, type: 2}
-=======
     m_Motion: {fileID: 7400000, guid: bd9fb6fde1264df49a6a8f50bb4a10c5, type: 2}
->>>>>>> Stashed changes
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -4915,11 +4675,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-<<<<<<< Updated upstream
-    m_Motion: {fileID: 7400000, guid: 3761967d88244d04381b7af8e0bce685, type: 2}
-=======
     m_Motion: {fileID: 7400000, guid: aa845c8022441d848abafd6aacc19038, type: 2}
->>>>>>> Stashed changes
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -4927,11 +4683,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-<<<<<<< Updated upstream
-    m_Motion: {fileID: 7400000, guid: 5b53325e1ee70c54289fff8fe086f2b4, type: 2}
-=======
     m_Motion: {fileID: 7400000, guid: 80914b1ea694835458bff243df7fc2bc, type: 2}
->>>>>>> Stashed changes
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -5178,8 +4930,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1101 &6145672511175577261
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -5205,7 +4955,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
->>>>>>> Stashed changes
 --- !u!206 &6183569190838601421
 BlendTree:
   m_ObjectHideFlags: 1
@@ -5259,8 +5008,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1102 &6419652054967762001
 AnimatorState:
   serializedVersion: 6
@@ -5289,7 +5036,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
->>>>>>> Stashed changes
 --- !u!1102 &6713195847928046775
 AnimatorState:
   serializedVersion: 6
@@ -5365,8 +5111,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1102 &7232464116616035480
 AnimatorState:
   serializedVersion: 6
@@ -5394,7 +5138,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
->>>>>>> Stashed changes
 --- !u!1101 &7258583332522960111
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -5411,11 +5154,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
-<<<<<<< Updated upstream
-  m_ExitTime: 0.5833333
-=======
   m_ExitTime: 0.85
->>>>>>> Stashed changes
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -5613,8 +5352,6 @@ BlendTree:
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 0
-<<<<<<< Updated upstream
-=======
 --- !u!1101 &8150693961568423326
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -5665,7 +5402,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
->>>>>>> Stashed changes
 --- !u!1101 &8393082536692782688
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -5688,8 +5424,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1102 &8580075347765906295
 AnimatorState:
   serializedVersion: 6
@@ -5717,7 +5451,6 @@ AnimatorState:
   m_MirrorParameter: moving
   m_CycleOffsetParameter: 
   m_TimeParameter: Blend
->>>>>>> Stashed changes
 --- !u!1101 &8620674828957650319
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
