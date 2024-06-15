@@ -232,7 +232,6 @@ ScriptedImporter:
     cells:
     - name: PossesedDownIdle_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 7
@@ -241,7 +240,6 @@ ScriptedImporter:
       spriteId: 4f9d49277446c004d9a55811f3ae4ed0
     - name: PossesedDownIdle_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 7
@@ -250,7 +248,6 @@ ScriptedImporter:
       spriteId: 97ace7dc64529344d89a27e68a64421c
     - name: PossesedDownIdle_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 7
@@ -259,7 +256,6 @@ ScriptedImporter:
       spriteId: df1d4ccbc20d7b040b1d097f743ec859
     - name: PossesedDownIdle_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 7
@@ -268,7 +264,6 @@ ScriptedImporter:
       spriteId: 2c6880a8f551dd94d819e3bf58288253
     - name: PossesedDownIdle_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 7

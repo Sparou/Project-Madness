@@ -105,6 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4248713f586740c4fba4d19162255d5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  conditions: []
 --- !u!1 &3548582001501172559
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,6 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4248713f586740c4fba4d19162255d5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  conditions: []
 --- !u!1 &6014179383799502084
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,6 +229,7 @@ GameObject:
   - component: {fileID: 2133418970020472609}
   - component: {fileID: 1852369957046001940}
   - component: {fileID: 5441132625414129531}
+  - component: {fileID: 1584301964583919636}
   m_Layer: 3
   m_Name: Skeleton_Warrior
   m_TagString: Untagged
@@ -355,12 +358,15 @@ MonoBehaviour:
   characterName: Skeleton
   characterLayerMask:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   _humanPoints: 0
   healthController: {fileID: 0}
   relationshipStatus: 2
   target: {fileID: 0}
-  agressiveRadius: 10
+  visionRadius: 0
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &152575782546331174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,6 +402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chasingMoveSpeed: 4
   endReachedDistance: 2
+  patrolingMoveSpeed: 0
 --- !u!114 &1093483878454095951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,6 +518,21 @@ MonoBehaviour:
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
+--- !u!114 &1584301964583919636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014179383799502084}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e6c29e32504465faa943c537d8029b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  targets: []
+  delay: 0
 --- !u!1 &7268031364698407895
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,6 +721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4248713f586740c4fba4d19162255d5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  conditions: []
 --- !u!1 &8134309993054756912
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,3 +826,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4248713f586740c4fba4d19162255d5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  conditions: []

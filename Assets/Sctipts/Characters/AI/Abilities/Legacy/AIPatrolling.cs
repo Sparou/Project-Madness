@@ -31,7 +31,7 @@ public class AIPatrolling : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (enemy.DistanceToTarget > enemy.AgressiveRadius)
+        if (enemy.DistanceToTarget > enemy.VisionRadius)
         {
             aiPath.endReachedDistance = 0;
             aiPath.maxSpeed = patrollingSpeed;

@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: GoblinDownLand_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 11
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: f59ecca3224d68b428130d5f27b8a24d
     - name: GoblinDownLand_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: 35331ea079c70e34abfad2ff4b008917
     - name: GoblinDownLand_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: 6c2b12e3dd4a4ff40aa89742a5ec0789
     - name: GoblinDownLand_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 7

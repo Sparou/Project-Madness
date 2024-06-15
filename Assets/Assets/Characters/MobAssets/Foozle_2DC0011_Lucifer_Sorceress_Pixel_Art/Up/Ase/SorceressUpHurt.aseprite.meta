@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: SorceressUpHurt_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 7210b3ac42cc247479556b6b2c884823
     - name: SorceressUpHurt_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 8
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: a50cc5a1f9e7643408af2e43314019a4
     - name: SorceressUpHurt_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 9
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: b21827958aadbf549bbe239b86acbc63
     - name: SorceressUpHurt_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 10

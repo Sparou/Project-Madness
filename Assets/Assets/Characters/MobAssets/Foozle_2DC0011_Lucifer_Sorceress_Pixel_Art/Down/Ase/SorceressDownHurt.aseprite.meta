@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: SorceressDownHurt_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 6f94f03ee2e99f242bf99bde4675550c
     - name: SorceressDownHurt_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 8
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: b1854a8930cedae45a91e04710d64836
     - name: SorceressDownHurt_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 9
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: 34251daa14e645347a9c2bbf8f03edc1
     - name: SorceressDownHurt_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 10

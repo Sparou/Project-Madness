@@ -252,7 +252,6 @@ ScriptedImporter:
     cells:
     - name: WarriorDownAttack01_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: -11
         y: 12
@@ -261,7 +260,6 @@ ScriptedImporter:
       spriteId: 7c88b223410c0c044bf16459f14662ba
     - name: WarriorDownAttack01_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: -11
         y: 13
@@ -270,7 +268,6 @@ ScriptedImporter:
       spriteId: ec7568da0c0b9fb46a76cd8ed906dd9e
     - name: WarriorDownAttack01_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: -11
         y: 12
@@ -279,7 +276,6 @@ ScriptedImporter:
       spriteId: 603e0e9cb88c43e4d8cdcca060d64c55
     - name: WarriorDownAttack01_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: -124
@@ -288,7 +284,6 @@ ScriptedImporter:
       spriteId: 7e7abddf982aea64b8993ce0152df5f7
     - name: WarriorDownAttack01_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: -124
@@ -297,7 +292,6 @@ ScriptedImporter:
       spriteId: dacc78c54e7a9f0419902d5c301751a6
     - name: WarriorDownAttack01_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: -124

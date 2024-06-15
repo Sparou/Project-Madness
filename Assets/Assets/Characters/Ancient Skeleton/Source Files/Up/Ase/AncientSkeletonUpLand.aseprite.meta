@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: AncientSkeletonUpLand_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 25
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 0f1c20f491e32ab45917fbc0a6050da1
     - name: AncientSkeletonUpLand_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 24
         y: 11
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: b2e67812c2df13d42b271db2e01ffe2b
     - name: AncientSkeletonUpLand_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 24
         y: 10
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: 2a0e85602c0a64d4b82380ffb72ad2fb
     - name: AncientSkeletonUpLand_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 17

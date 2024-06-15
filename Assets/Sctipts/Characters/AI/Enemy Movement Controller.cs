@@ -13,10 +13,14 @@ public class EnemyMovementController : MonoBehaviour
     public float chasingMoveSpeed;
     public float endReachedDistance;
 
+    [Header("Patroling")]
+    public float patrolingMoveSpeed;
+
     private Enemy owner;
     private AIPath aiPath;
     private AIDestinationSetter ds;
     private AIAbilityManager am;
+    private Patrol patrol;
 
     void Start()
     {
@@ -24,23 +28,47 @@ public class EnemyMovementController : MonoBehaviour
         ds = GetComponent<AIDestinationSetter>();
         owner = GetComponent<Enemy>();
         am = GetComponent<AIAbilityManager>();
+        patrol = GetComponent<Patrol>();
 
         aiPath.endReachedDistance = endReachedDistance;
         aiPath.maxSpeed = chasingMoveSpeed;
         ds.enabled = false;
+        patrol.enabled = false;
         ds.target = owner.Target.transform;
     }
 
     void FixedUpdate()
     {
-        if (!am.characterIsBusy && owner.DistanceToTarget <= owner.AgressiveRadius)
+        if (!am.characterIsBusy && owner.IsTargetVisible)
         {
-            ds.enabled = true;
+            if (patrol.enabled == true) DisablePatroling();
+            else ds.enabled = true;
         } 
-        else
+        else if (am.characterIsBusy && owner.IsTargetVisible)
         {
             ds.enabled = false;
         }
+        else if (!owner.IsTargetVisible && patrol.targets.Length > 0)
+        {
+            EnablePatroling();
+        }
+        
+    }
+
+    private void EnablePatroling()
+    {
+        ds.enabled = false;
+        patrol.enabled = true;
+        aiPath.maxSpeed = patrolingMoveSpeed;
+        aiPath.endReachedDistance = 0.25f;
+    }
+
+    private void DisablePatroling()
+    {
+        patrol.enabled = false;
+        ds.enabled = true;
+        aiPath.maxSpeed = chasingMoveSpeed;
+        aiPath.endReachedDistance = 2f;
     }
 
     public void DisableAIMovement(AIAbilityManager am)

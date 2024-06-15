@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithBowDownJump_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 7
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 70c760e3d5687474587b0aac2e3b7a82
     - name: SkeletonWithBowDownJump_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 9
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: d0689baf49f4a0941b534d91053fb0fb
     - name: SkeletonWithBowDownJump_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 10
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: 0752d0bc8703e964fa03479cf7dc6323
     - name: SkeletonWithBowDownJump_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 10

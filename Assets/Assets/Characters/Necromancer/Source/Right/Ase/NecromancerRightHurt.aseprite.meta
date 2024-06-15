@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: NecromancerRightHurt_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 9d0edeb330e9e7d4185e5774bbcabcc9
     - name: NecromancerRightHurt_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 8
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: e309dd20adbf5f948be939f8285145f8
     - name: NecromancerRightHurt_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 9
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: 00d856bbef2c1854fb31c803a45db4b0
     - name: NecromancerRightHurt_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 10

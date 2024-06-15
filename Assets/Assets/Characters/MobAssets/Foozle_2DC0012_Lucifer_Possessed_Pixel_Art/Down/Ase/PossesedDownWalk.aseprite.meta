@@ -252,7 +252,6 @@ ScriptedImporter:
     cells:
     - name: PossesedDownWalk_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 7
@@ -261,7 +260,6 @@ ScriptedImporter:
       spriteId: 46c8cde9c47931b4ba3f4dce55bc0296
     - name: PossesedDownWalk_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 8
@@ -270,7 +268,6 @@ ScriptedImporter:
       spriteId: 54f0410af219e634bb480efe87ac04a9
     - name: PossesedDownWalk_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -279,7 +276,6 @@ ScriptedImporter:
       spriteId: 1b035f7abdfe67c4b8544f9e5759eb60
     - name: PossesedDownWalk_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 7
@@ -288,7 +284,6 @@ ScriptedImporter:
       spriteId: 99d5555f881a28642b438c2854b48ddb
     - name: PossesedDownWalk_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 8
@@ -297,7 +292,6 @@ ScriptedImporter:
       spriteId: a434dfd9f81f46a4988b2a8bb21cecfd
     - name: PossesedDownWalk_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7

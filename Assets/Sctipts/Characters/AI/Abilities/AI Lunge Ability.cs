@@ -19,7 +19,8 @@ public class AILungeAbility : AIAttackAbility
     public override bool CheckActivationCondition(AIAbilityManager am)
     {
         float distanceToTarget = am.GetComponent<Enemy>().DistanceToTarget;
-        if (distanceToTarget <= triggerDistance)
+        bool isTargetVisible = am.GetComponent<Enemy>().IsTargetVisible;
+        if (isTargetVisible && distanceToTarget <= triggerDistance)
         {
             Activate(am);
             return true;

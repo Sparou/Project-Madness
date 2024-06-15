@@ -252,7 +252,6 @@ ScriptedImporter:
     cells:
     - name: SorceressLeftIdle_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 6
@@ -261,7 +260,6 @@ ScriptedImporter:
       spriteId: c9939caa37acdcf42bbf40befbf92593
     - name: SorceressLeftIdle_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 6
@@ -270,7 +268,6 @@ ScriptedImporter:
       spriteId: 8157e70752a0b844d91e9da2fc3a1382
     - name: SorceressLeftIdle_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 6
@@ -279,7 +276,6 @@ ScriptedImporter:
       spriteId: 2474c97e7b1c4c94399a4ef974281590
     - name: SorceressLeftIdle_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 6
@@ -288,7 +284,6 @@ ScriptedImporter:
       spriteId: 4b8c58c40b3a52a499159586f8861baf
     - name: SorceressLeftIdle_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 6
@@ -297,7 +292,6 @@ ScriptedImporter:
       spriteId: bf27baf923c1b7d4aae3609d719e03a4
     - name: SorceressLeftIdle_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 6

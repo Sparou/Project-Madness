@@ -252,7 +252,6 @@ ScriptedImporter:
     cells:
     - name: WarriorRightAttack02_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7
@@ -261,7 +260,6 @@ ScriptedImporter:
       spriteId: 650112aed1c0d3b4c87f782b4073c59e
     - name: WarriorRightAttack02_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 10
@@ -270,7 +268,6 @@ ScriptedImporter:
       spriteId: 10b8a37c23774ea4ca765942dd33a0e4
     - name: WarriorRightAttack02_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 13
@@ -279,7 +276,6 @@ ScriptedImporter:
       spriteId: c4dd2f76a8e5b6849bbf354c01c43f68
     - name: WarriorRightAttack02_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 5
@@ -288,7 +284,6 @@ ScriptedImporter:
       spriteId: 4932ddc381a0b58479eb9a4a25e4f37b
     - name: WarriorRightAttack02_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 5
@@ -297,7 +292,6 @@ ScriptedImporter:
       spriteId: c1e657c5357c3264da1f57697fa60205
     - name: WarriorRightAttack02_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 3

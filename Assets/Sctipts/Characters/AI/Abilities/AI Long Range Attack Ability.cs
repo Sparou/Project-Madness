@@ -21,7 +21,8 @@ public class AILongRangeAttackAbility : AIAbility
     public override bool CheckActivationCondition(AIAbilityManager am)
     {
         float distanceToTarget = am.GetComponent<Enemy>().DistanceToTarget;
-        if (distanceToTarget >= minRange && distanceToTarget <= maxRange)
+        bool isTargetVisible = am.GetComponent<Enemy>().IsTargetVisible;
+        if (isTargetVisible && distanceToTarget >= minRange && distanceToTarget <= maxRange)
         {
             Activate(am);
             return true;

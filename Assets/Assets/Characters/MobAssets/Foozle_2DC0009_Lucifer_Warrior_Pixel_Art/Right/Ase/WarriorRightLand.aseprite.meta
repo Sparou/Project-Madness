@@ -232,7 +232,6 @@ ScriptedImporter:
     cells:
     - name: WarriorRightLand_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 9
@@ -241,7 +240,6 @@ ScriptedImporter:
       spriteId: 3ad38a501a175514eb64d48dd623c99b
     - name: WarriorRightLand_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 4
@@ -250,7 +248,6 @@ ScriptedImporter:
       spriteId: 79914078e2a8de74fbbaa0c87a24b686
     - name: WarriorRightLand_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 4
@@ -259,7 +256,6 @@ ScriptedImporter:
       spriteId: 4ee1f29e3106c674d94fd7889ccdd9cf
     - name: WarriorRightLand_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 6
@@ -268,7 +264,6 @@ ScriptedImporter:
       spriteId: 7401689cdc240274da8a1a12e2d5ce32
     - name: WarriorRightLand_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7

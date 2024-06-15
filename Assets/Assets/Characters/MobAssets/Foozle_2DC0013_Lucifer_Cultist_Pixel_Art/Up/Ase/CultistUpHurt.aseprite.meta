@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: CultistUpHurt_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 9
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: c6c311b21e11b1840b0514d1ce631b0a
     - name: CultistUpHurt_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 10
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: e07c076a8e5b0be4e8c70b1ac56e17bd
     - name: CultistUpHurt_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 11
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: b88bd25c40148b9468216818705aae28
     - name: CultistUpHurt_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 12

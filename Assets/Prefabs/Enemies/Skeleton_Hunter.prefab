@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: -2844282367812754801}
   - component: {fileID: 1022422006250824123}
   - component: {fileID: 6244837463475779687}
+  - component: {fileID: -4288161612744010819}
   m_Layer: 3
   m_Name: Skeleton_Hunter
   m_TagString: Untagged
@@ -308,12 +309,15 @@ MonoBehaviour:
   characterName: SkeletonHunter
   characterLayerMask:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   _humanPoints: 0
   healthController: {fileID: 6167817095267307867}
   relationshipStatus: 2
   target: {fileID: 0}
-  agressiveRadius: 10
+  visionRadius: 0
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &5750478926157231120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,6 +353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chasingMoveSpeed: 3
   endReachedDistance: 8
+  patrolingMoveSpeed: 0
 --- !u!114 &2815138358428605275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,6 +397,7 @@ MonoBehaviour:
   abilities:
   - {fileID: 11400000, guid: 59c2c6dbe87507f4b81cab37e3ffc360, type: 2}
   characterIsBusy: 0
+  currentAbility: 0
 --- !u!114 &1022422006250824123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,6 +454,21 @@ MonoBehaviour:
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
+--- !u!114 &-4288161612744010819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3101325034860898366}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e6c29e32504465faa943c537d8029b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  targets: []
+  delay: 0
 --- !u!1 &6532973437200986418
 GameObject:
   m_ObjectHideFlags: 0

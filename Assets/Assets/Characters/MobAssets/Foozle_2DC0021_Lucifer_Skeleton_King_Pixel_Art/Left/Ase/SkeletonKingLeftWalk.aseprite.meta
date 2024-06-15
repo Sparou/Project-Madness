@@ -332,7 +332,6 @@ ScriptedImporter:
     cells:
     - name: SkeletonKingLeftWalk_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8
@@ -341,7 +340,6 @@ ScriptedImporter:
       spriteId: 2d3ba562ebc11694fa52d121e8aa7424
     - name: SkeletonKingLeftWalk_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 8
@@ -350,7 +348,6 @@ ScriptedImporter:
       spriteId: e704482f72eb060438cfea1fa5defa3d
     - name: SkeletonKingLeftWalk_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 6
@@ -359,7 +356,6 @@ ScriptedImporter:
       spriteId: 4c8ec3ae1c190634ca654a4b25d0e433
     - name: SkeletonKingLeftWalk_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 5
@@ -368,7 +364,6 @@ ScriptedImporter:
       spriteId: 74e852e6ec4b30049abd4b6de5589117
     - name: SkeletonKingLeftWalk_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 6
@@ -377,7 +372,6 @@ ScriptedImporter:
       spriteId: 30e4e705c52b4174fa406acc20e6c6f7
     - name: SkeletonKingLeftWalk_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 8
@@ -386,7 +380,6 @@ ScriptedImporter:
       spriteId: d0dbfa819e2092e478e2f356c4103dc2
     - name: SkeletonKingLeftWalk_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 7
@@ -395,7 +388,6 @@ ScriptedImporter:
       spriteId: 55bebe5f3e748d5428066ca46d72b103
     - name: SkeletonKingLeftWalk_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 6
@@ -404,7 +396,6 @@ ScriptedImporter:
       spriteId: 82b2311c388c1af4194cc097c2cf40f4
     - name: SkeletonKingLeftWalk_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 4
@@ -413,7 +404,6 @@ ScriptedImporter:
       spriteId: fbb4778c92993744bae78c2da9b1365a
     - name: SkeletonKingLeftWalk_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 6

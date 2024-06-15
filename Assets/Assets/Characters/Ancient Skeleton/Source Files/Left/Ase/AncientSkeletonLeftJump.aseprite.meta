@@ -232,7 +232,6 @@ ScriptedImporter:
     cells:
     - name: AncientSkeletonLeftJump_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 14
@@ -241,7 +240,6 @@ ScriptedImporter:
       spriteId: 3f65482acf344dc4fa8fc42d674d51ce
     - name: AncientSkeletonLeftJump_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 15
@@ -250,7 +248,6 @@ ScriptedImporter:
       spriteId: 65f8afdaf1951f3438af0c7ac5609c8b
     - name: AncientSkeletonLeftJump_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 8
@@ -259,7 +256,6 @@ ScriptedImporter:
       spriteId: dd3dabb010187424db14e01409fa5ece
     - name: AncientSkeletonLeftJump_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 8
@@ -268,7 +264,6 @@ ScriptedImporter:
       spriteId: fc50f40d208a1114f9a2ea9c4749794f
     - name: AncientSkeletonLeftJump_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 23

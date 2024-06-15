@@ -312,7 +312,6 @@ ScriptedImporter:
     cells:
     - name: GoblinUpDeath_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 7
@@ -321,7 +320,6 @@ ScriptedImporter:
       spriteId: 730635c0444c89a41b0b1e528b28efc6
     - name: GoblinUpDeath_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7
@@ -330,7 +328,6 @@ ScriptedImporter:
       spriteId: 4644c7e6db10f1c49b62eae268e3e362
     - name: GoblinUpDeath_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7
@@ -339,7 +336,6 @@ ScriptedImporter:
       spriteId: fa8ae382ceb3c744cadbf5881f514087
     - name: GoblinUpDeath_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 6
@@ -348,7 +344,6 @@ ScriptedImporter:
       spriteId: 9cfed10e2e175d743ab869fcbd87c20f
     - name: GoblinUpDeath_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 6
@@ -357,7 +352,6 @@ ScriptedImporter:
       spriteId: 9a03a44706f2ac74da46a3dc534f8e88
     - name: GoblinUpDeath_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 6
@@ -366,7 +360,6 @@ ScriptedImporter:
       spriteId: dd2acbb24998cb146b6094fe81e7fb84
     - name: GoblinUpDeath_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 6
@@ -375,7 +368,6 @@ ScriptedImporter:
       spriteId: 186f4c3e576370d49977328d46f23983
     - name: GoblinUpDeath_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 6
@@ -384,7 +376,6 @@ ScriptedImporter:
       spriteId: e4d57ce366d6091448463bccbdd05ece
     - name: GoblinUpDeath_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 6
