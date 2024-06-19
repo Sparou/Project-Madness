@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: SkeletonKingRightHurt_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 8
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 3ed9b75b41dfb034d844c775a5069823
     - name: SkeletonKingRightHurt_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 8
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: 38c2eba9d4024c94dba22664843dc274
     - name: SkeletonKingRightHurt_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 8
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: 014aef1bc72238a4bbc64fa723d7e119
     - name: SkeletonKingRightHurt_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 8

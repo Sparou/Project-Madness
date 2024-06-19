@@ -332,7 +332,6 @@ ScriptedImporter:
     cells:
     - name: SkeletonKingDownWalk_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 8
@@ -341,7 +340,6 @@ ScriptedImporter:
       spriteId: 7f9e85cf07df3a64eb1bbb0f599dffb4
     - name: SkeletonKingDownWalk_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 8
@@ -350,7 +348,6 @@ ScriptedImporter:
       spriteId: ade55395cfc629b4d8c2228a2846d249
     - name: SkeletonKingDownWalk_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 6
@@ -359,7 +356,6 @@ ScriptedImporter:
       spriteId: 376e4684d2206bc4d98417c5b5778e99
     - name: SkeletonKingDownWalk_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 5
@@ -368,7 +364,6 @@ ScriptedImporter:
       spriteId: f79c69444f4d62747b7fbca1eded9661
     - name: SkeletonKingDownWalk_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 6
@@ -377,7 +372,6 @@ ScriptedImporter:
       spriteId: 92e5c1130693be5418c13d7c68eb733a
     - name: SkeletonKingDownWalk_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 8
@@ -386,7 +380,6 @@ ScriptedImporter:
       spriteId: e548426a24529ac4c98873f9f883fdb6
     - name: SkeletonKingDownWalk_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7
@@ -395,7 +388,6 @@ ScriptedImporter:
       spriteId: f43c5504b9e2dd8408ccdd48fdf03887
     - name: SkeletonKingDownWalk_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 6
@@ -404,7 +396,6 @@ ScriptedImporter:
       spriteId: 69e412b9f334074468e2b5e24ca386d8
     - name: SkeletonKingDownWalk_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 4
@@ -413,7 +404,6 @@ ScriptedImporter:
       spriteId: cca5e8d0ff2a18844b901caf90f0a825
     - name: SkeletonKingDownWalk_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 6

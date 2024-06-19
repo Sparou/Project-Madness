@@ -232,7 +232,6 @@ ScriptedImporter:
     cells:
     - name: WarriorDownLand_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: -62
@@ -241,7 +240,6 @@ ScriptedImporter:
       spriteId: 5dac098467625384a9973f55b461a849
     - name: WarriorDownLand_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -67
@@ -250,7 +248,6 @@ ScriptedImporter:
       spriteId: db2e55a0f18ee804dbef6f3055d8d4d8
     - name: WarriorDownLand_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -67
@@ -259,7 +256,6 @@ ScriptedImporter:
       spriteId: d4713a5ec2705f847accf405c5d5b87b
     - name: WarriorDownLand_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -66
@@ -268,7 +264,6 @@ ScriptedImporter:
       spriteId: ddec40ffc502ffa46b3c41a1aa24b789
     - name: WarriorDownLand_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -64

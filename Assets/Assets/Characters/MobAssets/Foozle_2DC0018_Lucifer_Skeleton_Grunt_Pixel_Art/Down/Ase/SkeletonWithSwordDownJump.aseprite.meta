@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithSwordDownJump_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 7
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: e1e8a9f5e6dfdc14ba43300002aedeef
     - name: SkeletonWithSwordDownJump_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 9
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: adab929469f0fbb4685ce01cdc305186
     - name: SkeletonWithSwordDownJump_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 10
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: d2e8aace38fef504ab8e9236b9d80f42
     - name: SkeletonWithSwordDownJump_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 10

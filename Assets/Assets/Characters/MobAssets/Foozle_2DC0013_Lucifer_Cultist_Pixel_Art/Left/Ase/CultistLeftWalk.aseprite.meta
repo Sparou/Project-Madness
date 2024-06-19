@@ -292,7 +292,6 @@ ScriptedImporter:
     cells:
     - name: CultistLeftWalk_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 10
@@ -301,7 +300,6 @@ ScriptedImporter:
       spriteId: 4426f1ebe14d16c4098c4e2990d6933c
     - name: CultistLeftWalk_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 10
@@ -310,7 +308,6 @@ ScriptedImporter:
       spriteId: ff5e1bedd550a3a4da0fc0a3273de618
     - name: CultistLeftWalk_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 10
@@ -319,7 +316,6 @@ ScriptedImporter:
       spriteId: 64cf5202f03871e4ead87bc52988067a
     - name: CultistLeftWalk_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 10
@@ -328,7 +324,6 @@ ScriptedImporter:
       spriteId: 9c4b3e7fa5a23a944a053a2455a39c37
     - name: CultistLeftWalk_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 10
@@ -337,7 +332,6 @@ ScriptedImporter:
       spriteId: eca3b44ba5473d34c9388b896308edd8
     - name: CultistLeftWalk_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 11
@@ -346,7 +340,6 @@ ScriptedImporter:
       spriteId: 991fd54bcbbb6204fb109c615cd30c2e
     - name: CultistLeftWalk_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 11
@@ -355,7 +348,6 @@ ScriptedImporter:
       spriteId: 3322f0ecb3be4b14cb4886d6af0a92bb
     - name: CultistLeftWalk_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 11

@@ -232,7 +232,6 @@ ScriptedImporter:
     cells:
     - name: SorceressRighAttack01_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 6
@@ -241,7 +240,6 @@ ScriptedImporter:
       spriteId: 69b18d5b94e56c443bd26621525bda37
     - name: SorceressRighAttack01_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 5
@@ -250,7 +248,6 @@ ScriptedImporter:
       spriteId: c347b9912bda7294b8fcc95d3200aafa
     - name: SorceressRighAttack01_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 19
         y: 6
@@ -259,7 +256,6 @@ ScriptedImporter:
       spriteId: 79b9a769e67620e47bd93412a2465f02
     - name: SorceressRighAttack01_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 19
         y: 6
@@ -268,7 +264,6 @@ ScriptedImporter:
       spriteId: 8a2ff3da388621744aab8fb4d5801f0e
     - name: SorceressRighAttack01_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 19
         y: 6

@@ -252,7 +252,6 @@ ScriptedImporter:
     cells:
     - name: GoblinDownRun_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 7
@@ -261,7 +260,6 @@ ScriptedImporter:
       spriteId: b007b2e8e6da74d49a13b688ffefa7a8
     - name: GoblinDownRun_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 8
@@ -270,7 +268,6 @@ ScriptedImporter:
       spriteId: 32314e63289e079418d160925c789748
     - name: GoblinDownRun_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 8
@@ -279,7 +276,6 @@ ScriptedImporter:
       spriteId: e92e8de63854c1543aa825a3a61bb330
     - name: GoblinDownRun_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 7
@@ -288,7 +284,6 @@ ScriptedImporter:
       spriteId: 912b139316cfb9e448c2623d098b3dcf
     - name: GoblinDownRun_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 8
@@ -297,7 +292,6 @@ ScriptedImporter:
       spriteId: 130cddd02b65b7c47b5929db6c35939d
     - name: GoblinDownRun_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 8

@@ -292,7 +292,6 @@ ScriptedImporter:
     cells:
     - name: WarriorRightWalk_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7
@@ -301,7 +300,6 @@ ScriptedImporter:
       spriteId: dcc887f131c537847b0c62586a5c7ec5
     - name: WarriorRightWalk_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 8
@@ -310,7 +308,6 @@ ScriptedImporter:
       spriteId: 25bdf3b24183ebb45b689ff5f11746ba
     - name: WarriorRightWalk_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 8
@@ -319,7 +316,6 @@ ScriptedImporter:
       spriteId: 64de304fe799c74449e2b7b148d36d72
     - name: WarriorRightWalk_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 8
@@ -328,7 +324,6 @@ ScriptedImporter:
       spriteId: c71e58875c6b3234bbab1a44f47a5e7e
     - name: WarriorRightWalk_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7
@@ -337,7 +332,6 @@ ScriptedImporter:
       spriteId: b114e6749be1e6444adf31d9bae50c3f
     - name: WarriorRightWalk_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 8
@@ -346,7 +340,6 @@ ScriptedImporter:
       spriteId: a69c2f8582412884bb966e86d803f72d
     - name: WarriorRightWalk_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 8
@@ -355,7 +348,6 @@ ScriptedImporter:
       spriteId: 1dfee47691ecb604097cdeb6a49a51dc
     - name: WarriorRightWalk_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 8

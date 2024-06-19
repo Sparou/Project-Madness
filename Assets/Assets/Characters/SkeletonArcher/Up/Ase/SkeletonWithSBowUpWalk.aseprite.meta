@@ -252,7 +252,6 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithSBowUpWalk_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -261,7 +260,6 @@ ScriptedImporter:
       spriteId: f64baa98592f7334bafb719e6103b8bb
     - name: SkeletonWithSBowUpWalk_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 8
@@ -270,7 +268,6 @@ ScriptedImporter:
       spriteId: a8720da9612d3cc44881e245862c04b0
     - name: SkeletonWithSBowUpWalk_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 9
@@ -279,7 +276,6 @@ ScriptedImporter:
       spriteId: 3fa2196144b21324496c85f254b7c39e
     - name: SkeletonWithSBowUpWalk_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -288,7 +284,6 @@ ScriptedImporter:
       spriteId: b37e727c3d029a148896c0d96914dc82
     - name: SkeletonWithSBowUpWalk_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 8
@@ -297,7 +292,6 @@ ScriptedImporter:
       spriteId: 5648aa157e3f50f48833ef53f18a9ce0
     - name: SkeletonWithSBowUpWalk_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 9

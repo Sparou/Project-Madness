@@ -252,7 +252,6 @@ ScriptedImporter:
     cells:
     - name: GoblinBeastDownIdle_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7
@@ -261,7 +260,6 @@ ScriptedImporter:
       spriteId: 982a07db6d8019a489d8cceaf9cbab9b
     - name: GoblinBeastDownIdle_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7
@@ -270,7 +268,6 @@ ScriptedImporter:
       spriteId: a1c5b385ac01d4640a42425876f86cef
     - name: GoblinBeastDownIdle_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7
@@ -279,7 +276,6 @@ ScriptedImporter:
       spriteId: 27c918f170da2824baae87350b38c9e4
     - name: GoblinBeastDownIdle_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 7
@@ -288,7 +284,6 @@ ScriptedImporter:
       spriteId: c48fdbd0e5ede264ba3db86310df751d
     - name: GoblinBeastDownIdle_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 7
@@ -297,7 +292,6 @@ ScriptedImporter:
       spriteId: 67eb6366fdf686548b5402be675d7533
     - name: GoblinBeastDownIdle_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 7

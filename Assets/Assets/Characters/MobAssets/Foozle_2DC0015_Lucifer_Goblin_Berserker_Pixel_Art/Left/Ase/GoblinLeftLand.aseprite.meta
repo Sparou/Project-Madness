@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: GoblinLeftLand_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 10
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 58af7faf11d87da46b80c224cc31fb27
     - name: GoblinLeftLand_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 6
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: 17953da569eb3e24291633e2d2a28b72
     - name: GoblinLeftLand_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 6
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: 320637b6b4e216b4e9fea110efe0a524
     - name: GoblinLeftLand_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 7

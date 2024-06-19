@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithBowLefttLand_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 13
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 306cec4ad42624e42ae4a221d758728a
     - name: SkeletonWithBowLefttLand_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: 0d159702761f9774abcd0867fefdcb33
     - name: SkeletonWithBowLefttLand_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 7
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: 44e7bef2e6b3bc9488bd1a73b2d41fe8
     - name: SkeletonWithBowLefttLand_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 7

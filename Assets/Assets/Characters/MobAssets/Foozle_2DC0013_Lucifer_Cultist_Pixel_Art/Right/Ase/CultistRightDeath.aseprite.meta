@@ -232,7 +232,6 @@ ScriptedImporter:
     cells:
     - name: CultistRightDeath_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 10
@@ -241,7 +240,6 @@ ScriptedImporter:
       spriteId: b48ad32ec6293fa4e8cf3fe6ed8c4148
     - name: CultistRightDeath_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 15
@@ -250,7 +248,6 @@ ScriptedImporter:
       spriteId: 68b5856c637378c40952953e21ff3de9
     - name: CultistRightDeath_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 16
         y: 20
@@ -259,7 +256,6 @@ ScriptedImporter:
       spriteId: c60b3a71cfd2d7a4ebb909ac9c41d783
     - name: CultistRightDeath_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 23
@@ -268,7 +264,6 @@ ScriptedImporter:
       spriteId: 42e910731b769c04b8d63c046e18a455
     - name: CultistRightDeath_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 39

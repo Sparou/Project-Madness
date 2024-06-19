@@ -32,12 +32,12 @@ public class AIChasingTarget : MonoBehaviour
     {
         if (am != null && am.characterIsBusy)
         {
-            if (owner.DistanceToTarget <= owner.AgressiveRadius) ChaseTarget();
+            if (owner.DistanceToTarget <= owner.VisionRadius) ChaseTarget();
             else ds.enabled = false;
         }
         else
         {
-            if (owner.DistanceToTarget <= owner.AgressiveRadius) ChaseTarget();
+            if (owner.DistanceToTarget <= owner.VisionRadius) ChaseTarget();
             else ds.enabled = false;
         }
     }

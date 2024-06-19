@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: SkeletonWithSwordLefttHurt_Frame_0
     originalName: 
-    pivot: {x: 0.625, y: -0.2413793}
+    pivot: {x: 0.58758897, y: 0.006308457}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -143,7 +143,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 78}
   - name: SkeletonWithSwordLefttHurt_Frame_1
     originalName: 
-    pivot: {x: 0.6153846, y: -0.31034485}
+    pivot: {x: 0.61538476, y: -0.0007357433}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -163,7 +163,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: SkeletonWithSwordLefttHurt_Frame_2
     originalName: 
-    pivot: {x: 0.625, y: -0.3448276}
+    pivot: {x: 0.6100356, y: 0.0019352353}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -183,7 +183,7 @@ ScriptedImporter:
     uvTransform: {x: 36, y: 78}
   - name: SkeletonWithSwordLefttHurt_Frame_3
     originalName: 
-    pivot: {x: 0.6153846, y: -0.37931037}
+    pivot: {x: 0.62229127, y: -0.0015869141}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -212,7 +212,6 @@ ScriptedImporter:
     cells:
     - name: SkeletonWithSwordLefttHurt_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 7
@@ -221,7 +220,6 @@ ScriptedImporter:
       spriteId: 5adba7bc71522314ea21a09fcd934318
     - name: SkeletonWithSwordLefttHurt_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 9
@@ -230,7 +228,6 @@ ScriptedImporter:
       spriteId: 971137d198bd7d248bc02139549509d1
     - name: SkeletonWithSwordLefttHurt_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 10
@@ -239,7 +236,6 @@ ScriptedImporter:
       spriteId: d0c4f4efdcc90634fa7120ef268a49c8
     - name: SkeletonWithSwordLefttHurt_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 11

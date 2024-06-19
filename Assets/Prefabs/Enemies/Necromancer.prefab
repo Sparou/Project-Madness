@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 8725359905890886588}
   - component: {fileID: 7157407396934277055}
   - component: {fileID: 6051582979209597288}
+  - component: {fileID: -5594027937184794208}
   m_Layer: 3
   m_Name: Necromancer
   m_TagString: Untagged
@@ -144,12 +145,15 @@ MonoBehaviour:
   characterName: "\u041D\u0435\u043A\u0440\u043E\u043C\u0430\u043D\u0442"
   characterLayerMask:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   _humanPoints: 0
   healthController: {fileID: 3753495089743490484}
   relationshipStatus: 2
   target: {fileID: 0}
-  agressiveRadius: 100
+  visionRadius: 0
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &3753495089743490484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,6 +204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chasingMoveSpeed: 3
   endReachedDistance: 8
+  patrolingMoveSpeed: 0
 --- !u!114 &5901487671571471888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,6 +305,22 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c9d55986448ef404db527a1668a9f588, type: 2}
   - {fileID: 11400000, guid: 2fba4442800232b47bce24c5bbd7788a, type: 2}
   characterIsBusy: 0
+  currentAbility: 0
+--- !u!114 &-5594027937184794208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022024858173454937}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e6c29e32504465faa943c537d8029b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  targets: []
+  delay: 0
 --- !u!1 &7944596039121369817
 GameObject:
   m_ObjectHideFlags: 0

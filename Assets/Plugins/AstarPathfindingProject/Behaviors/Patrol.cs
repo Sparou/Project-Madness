@@ -23,6 +23,7 @@ namespace Pathfinding {
 
 		/// <summary>Current target index</summary>
 		int index;
+		public int Index => index;
 
 		IAstarAI agent;
 		float switchTime = float.PositiveInfinity;
@@ -55,5 +56,6 @@ namespace Pathfinding {
 
 			if (search) agent.SearchPath();
 		}
+
 	}
 }

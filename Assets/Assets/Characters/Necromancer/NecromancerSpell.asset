@@ -15,10 +15,10 @@ MonoBehaviour:
   abilityName: "\u041D\u0435\u043A\u0440\u043E\u0448\u0430\u0440"
   cooldownTime: 5
   duration: 4
-  lastUseTime: 35.108864
+  lastUseTime: 12.085508
   projectile: {fileID: 4198788743399610922, guid: d105f051846a8db4c8393043e2149e55, type: 3}
   minRange: 0
-  maxRange: 100
+  maxRange: 4
   delay: 1
   animationTriggerName: isCasting
   ShiftUp: {x: 0, y: 1.5, z: 0}

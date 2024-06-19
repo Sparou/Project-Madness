@@ -679,6 +679,7 @@ GameObject:
   - component: {fileID: 8825145883333998390}
   - component: {fileID: 7466163003686619985}
   - component: {fileID: 1308786085277003989}
+  - component: {fileID: 3446663866493471780}
   m_Layer: 3
   m_Name: Ancient Skeleton
   m_TagString: Untagged
@@ -809,7 +810,10 @@ MonoBehaviour:
   healthController: {fileID: 1850308850156382594}
   relationshipStatus: 2
   target: {fileID: 0}
-  agressiveRadius: 100
+  visionRadius: 0
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1850308850156382594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -860,6 +864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chasingMoveSpeed: 5
   endReachedDistance: 2
+  patrolingMoveSpeed: 0
 --- !u!114 &680376019437563981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -976,6 +981,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   conditions:
   - {fileID: 0}
+--- !u!114 &3446663866493471780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7007127787188471473}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e6c29e32504465faa943c537d8029b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  targets: []
+  delay: 0
 --- !u!1 &7010207399158861475
 GameObject:
   m_ObjectHideFlags: 0
