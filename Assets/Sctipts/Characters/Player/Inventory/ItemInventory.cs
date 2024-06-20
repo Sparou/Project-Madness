@@ -1,11 +1,4 @@
 using UnityEngine;
-public enum TypeInventory
-{
-    Gun,
-    health,
-    other
-}
-
 
 
 [CreateAssetMenu(fileName="New Item", menuName ="item/Create New Item")]

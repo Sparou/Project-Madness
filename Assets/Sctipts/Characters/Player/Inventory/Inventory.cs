@@ -216,12 +216,4 @@ public class Inventory : MonoBehaviour
         CointsState.text = $"{CountCoins}";
     }
 
-    //public void SetInventoryItems()
-    //{
-    //    InventoryItems = ItemContent.GetComponentsInChildren<InventoryItemController>();
-    //    for (int i = 0; i < Items.Count; i++)
-    //    {
-    //        InventoryItems[i].Set(Items[i]);
-    //    } 
-    //}
 }
