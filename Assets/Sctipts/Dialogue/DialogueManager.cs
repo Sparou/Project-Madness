@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
+using static UnityEngine.Rendering.DebugUI;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -19,9 +20,7 @@ public class DialogueManager : MonoBehaviour
     private Story currentStory;
     private TextMeshProUGUI[] textChoices;
     private DialogueVariables dialogueVariables;
-
-
-
+    private Dictionary<string, Ink.Runtime.Object> variables;
 
     private void Awake()
     {
@@ -56,7 +55,7 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("Entered!");
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         if (!dialogueIsPlaying)
         {
@@ -72,15 +71,27 @@ public class DialogueManager : MonoBehaviour
 
     public void EnterDialogue(TextAsset inkJSON, string NPCname)
     {
-        dialogueIsPlaying = true;
-        dialoguePanel.SetActive(true);
         currentStory = new Story(inkJSON.text);
 
         dialogueVariables.StartListening(currentStory);
 
-        actorName.text = NPCname;
+        bool result = true;
+        Ink.Runtime.Object dialogId = currentStory.variablesState.GetVariableWithName("dialogId");
 
-        ContinueStory();
+        if (dialogId != null)
+        {
+            result = dialogueVariables.CheckDialogue(((Ink.Runtime.StringValue)dialogId).value);
+        }
+
+        if (result)
+        {
+            dialogueIsPlaying = true;
+            dialoguePanel.SetActive(true);
+
+            actorName.text = NPCname;
+
+            ContinueStory();
+        }
 
     }
 
@@ -140,7 +151,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (choices.Length > 0)
         {
-            Debug.Log(choiceIndex);
+            Debug.Log("choice index is" + choiceIndex.ToString());
             currentStory.ChooseChoiceIndex(choiceIndex);
         }
     }

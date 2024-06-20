@@ -1,0 +1,3 @@
+INCLUDE globals.ink
+VAR dialogId = "talkedToShadow2"
+- There is no turning back now...
