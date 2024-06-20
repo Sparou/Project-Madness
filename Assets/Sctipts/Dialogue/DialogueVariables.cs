@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
 public class DialogueVariables : MonoBehaviour
 {
@@ -39,6 +40,11 @@ public class DialogueVariables : MonoBehaviour
     public void StopListening(Story story)
     {
         story.variablesState.variableChangedEvent -= VariableChanged;     
+    }
+
+    public bool CheckDialogue(string name)
+    {
+        return variables.ContainsKey(name) && ((Ink.Runtime.IntValue)variables[name]).value < 1;
     }
 
     private void VariableChanged(string name, Ink.Runtime.Object value)
