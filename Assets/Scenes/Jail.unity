@@ -10459,6 +10459,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4354517737556948658, guid: fa9ac0f9e56af3b45916ab5bd9097285, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354517737556948658, guid: fa9ac0f9e56af3b45916ab5bd9097285, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573944300392882639, guid: fa9ac0f9e56af3b45916ab5bd9097285, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573944300392882639, guid: fa9ac0f9e56af3b45916ab5bd9097285, type: 3}
+      propertyPath: m_PixelPerfect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573944300392882639, guid: fa9ac0f9e56af3b45916ab5bd9097285, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573944300392882639, guid: fa9ac0f9e56af3b45916ab5bd9097285, type: 3}
+      propertyPath: m_VertexColorAlwaysGammaSpace
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4710713200755423418, guid: fa9ac0f9e56af3b45916ab5bd9097285, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -10537,6 +10561,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4710713200755423418, guid: fa9ac0f9e56af3b45916ab5bd9097285, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835529733306878405, guid: fa9ac0f9e56af3b45916ab5bd9097285, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 4835529733306878405, guid: fa9ac0f9e56af3b45916ab5bd9097285, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6421413765811484818, guid: fa9ac0f9e56af3b45916ab5bd9097285, type: 3}
