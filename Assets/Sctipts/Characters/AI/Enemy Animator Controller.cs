@@ -37,4 +37,9 @@ public class EnemyAnimatorController : AnimationController
         animator.SetFloat("Vertical", direction.y);
         animator.SetFloat("Speed", velocity.magnitude);
     }
+
+    private void OnDisable()
+    {
+        animator.SetFloat("Speed", 0);   
+    }
 }

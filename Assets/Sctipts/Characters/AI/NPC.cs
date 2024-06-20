@@ -5,17 +5,6 @@ using UnityEngine;
 public class NPC : Character
 {
     [SerializeField] RelationshipStatus relationshipStatus;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
 
 enum RelationshipStatus

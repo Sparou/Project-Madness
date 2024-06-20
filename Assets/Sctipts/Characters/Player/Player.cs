@@ -36,6 +36,7 @@ public class Player : Character
         playerInputActions.Player.Fire.started += context => attackController.OnFire();
         #endregion
     }
+
     private void OnEnable()
     {
         playerInputActions.Enable();

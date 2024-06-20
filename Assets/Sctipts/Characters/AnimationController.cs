@@ -24,6 +24,11 @@ public class AnimationController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    private void OnDisable()
+    {
+        SetSpeed(0);
+    }
+
     public void FireAnimation(Attack attack)
     {
         animator.SetTrigger(attack == Attack.first ? animatorAttackTrigger : animatorSecondAttackTrigger);
