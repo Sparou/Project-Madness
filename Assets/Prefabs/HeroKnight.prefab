@@ -116,10 +116,13 @@ GameObject:
   - component: {fileID: 9117128348835321587}
   - component: {fileID: 2193636682934925890}
   - component: {fileID: 8056838727538346529}
-  - component: {fileID: 3137557568533541093}
   - component: {fileID: 4376354981840266143}
   - component: {fileID: 4238355259753395840}
   - component: {fileID: 5343242423879914796}
+  - component: {fileID: 5587078328849670882}
+  - component: {fileID: 1885145212967289102}
+  - component: {fileID: 2765911824039611729}
+  - component: {fileID: 8164684548301707246}
   m_Layer: 10
   m_Name: HeroKnight
   m_TagString: Player
@@ -326,28 +329,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97277d24c15ce6f4097188a885863a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
   dashSpeed: 20
   dashDuration: 0.5
   dashCooldown: 5
   dodgeSpeed: 30
   dodgeDuration: 0.2
   dodgeCooldown: 2
+  moveSpeed: 10
   rollSpeed: 10
   rollCooldown: 1
---- !u!114 &3137557568533541093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6323719953710832613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 598b8aa5edb726d42bea6d1ed2692ff4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weaponDamage: 5
 --- !u!114 &4376354981840266143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,8 +350,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 996817f5c71690d4db9bf92ef3f43973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPoint: {fileID: 0}
-  attackRange: 0.5
   nextAttackTimeLimit: 0.2
 --- !u!114 &4238355259753395840
 MonoBehaviour:
@@ -396,6 +384,62 @@ MonoBehaviour:
     m_Bits: 0
   _humanPoints: 0
   healthController: {fileID: 0}
+  animationController: {fileID: 0}
+  attackController: {fileID: 0}
+  movementController: {fileID: 0}
+  viewController: {fileID: 0}
+  isAttacking: 0
+  isRolling: 0
+  isDodging: 0
+--- !u!114 &5587078328849670882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323719953710832613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8858b22739e6724a8900370478f222e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponDamage: 5
+--- !u!114 &1885145212967289102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323719953710832613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a79028f44f54c42b14db42709763cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!210 &2765911824039611729
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323719953710832613}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 6
+  m_SortAtRoot: 0
+--- !u!114 &8164684548301707246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323719953710832613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 637671c7614d54a43b703af54058c7da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7879410473805941840
 GameObject:
   m_ObjectHideFlags: 0
